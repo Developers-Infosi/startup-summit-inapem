@@ -466,7 +466,7 @@
 
 
                                                                             </div>
-                                                                            @include('extra.modal._modalAplicativo .index')
+                                                                          
                                                                         </div>
                                                                     </div>
 
