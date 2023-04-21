@@ -61,8 +61,7 @@
                                                                                 href="#" target="_self"
                                                                                 data-ls="offsetxin:left;durationin:2200;delayin:30;easingin:easeInQuad;offsetyout:bottom;clipout:100% 0 0 0;hover:true;hoverbgcolor:#fbcf3b;hovercolor:#111111;position:relative;"><span
                                                                                     style="text-transform: uppercase;padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:40px;font-family:Roboto;font-size:32px;font-weight:700;color:#fad03b;border-radius:5px;border-bottom:2px solid #fad03b;top:668px;left:60px;border-right:2px solid #fad03b;border-top:2px solid #fad03b;border-left:2px solid #fad03b;"
-                                                                                    class="ls-button-layer">Book
-                                                                                    Your Ticket</span></a>
+                                                                                    class="ls-button-layer">Participar</span></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

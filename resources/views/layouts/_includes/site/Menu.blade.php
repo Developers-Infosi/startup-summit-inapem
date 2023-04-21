@@ -40,7 +40,7 @@
                                     alt="Eventalk - Event Conference WordPress Theme" loading="lazy" /></a>
                             <a class="light-logo" href="{{ route('site.home') }}"><img
                                     width="360" height="112"
-                                    src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/themes/eventalk/assets/img/logo-light.png"
+                                    src="site/images/logo/logoass.png"
                                     loading="lazy" /></a>
                         </div>
                     </div>
