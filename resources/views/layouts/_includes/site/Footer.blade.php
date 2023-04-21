@@ -6,9 +6,9 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div id="eventalk_about-2" class="widget widget_eventalk_about"><a
                                 class="footer-widget-logo"
-                                href="https://radiustheme.com/demo/wordpress/eventalk/"><img width="179"
+                                href="#"><img width="179"
                                     height="46"
-                                    src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/logo.png"
+                                    src="site/images/logo/logoass.png"
                                     class="attachment-full size-full" alt="" loading="lazy" /></a>
                             <div class="footer-widget-about">
                                 <p class="rtin-des">Fummy text of the printing antypesetting industry. Lorem
@@ -27,87 +27,32 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div id="nav_menu-2" class="widget widget_nav_menu">
-                            <h3 class="widgettitle">Need Help</h3>
+                            <h3 class="widgettitle">Links Úteis</h3>
                             <div class="menu-need-help-container">
                                 <ul id="menu-need-help" class="menu">
-                                    <li id="menu-item-22"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22">
-                                        <a
-                                            href="https://radiustheme.com/demo/wordpress/eventalk/24-7-client-support/">24/7
-                                            Client Support</a></li>
-                                    <li id="menu-item-23"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23">
-                                        <a
-                                            href="https://radiustheme.com/demo/wordpress/eventalk/faqs/">FAQ’s</a>
+                                    <li class="mb-1">
+                                        <a target="_blank" href="https://governo.gov.ao/" class="text-white">Governo
+                                            de Angola</a>
                                     </li>
-                                    <li id="menu-item-24"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-                                        <a
-                                            href="https://radiustheme.com/demo/wordpress/eventalk/online-chatting/">Online
-                                            Chatting</a></li>
-                                    <li id="menu-item-25"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
-                                        <a
-                                            href="https://radiustheme.com/demo/wordpress/eventalk/others/">Others</a>
+                                    <li class="mb-1"><a target="_blank" href="https://minttics.gov.ao"
+                                            class="text-white">MINTTICS</a>
                                     </li>
-                                    <li id="menu-item-2030"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2030">
-                                        <a href="https://radiustheme.com/demo/wordpress/eventalk/my-account/">My
-                                            account</a></li>
+                                    <li class="mb-1"><a target="_blank"
+                                            href="https://mirex.gov.ao/PortalMIREX/#!/" class="text-white">MIREX</a>
+                                    </li>
+
+                                    <li class="mb-1"><a target="_blank" href="https://ciam.gov.ao/"
+                                            class="text-white">CIAM</a>
+                                    </li>
+                                    <li class="mb-5"><a target="_blank"
+                                            href="https://www.aipex.gov.ao/PortalAIPEX/#!/"
+                                            class="text-white">AIPEX</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div id="text-2" class="widget widget_text">
-                            <h3 class="widgettitle">Newsletter</h3>
-                            <div class="textwidget">
-                                <p>Rimply dummy text the printing and typesetting in sum has been the
-                                    industry&#8217;s standar.</p>
-                            </div>
-                        </div>
-                        <div id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget">
-                            <script>(function () {
-                                    window.mc4wp = window.mc4wp || {
-                                        listeners: [],
-                                        forms: {
-                                            on: function (evt, cb) {
-                                                window.mc4wp.listeners.push(
-                                                    {
-                                                        event: evt,
-                                                        callback: cb
-                                                    }
-                                                );
-                                            }
-                                        }
-                                    }
-                                })();
-                            </script><!-- Mailchimp for WordPress v4.9.3 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-26" method="post" data-id="26"
-                                data-name="Footer top">
-                                <div class="mc4wp-form-fields">
-                                    <div class="subscribe-layout1 zindex-up">
-                                        <h2>Sign Up For Our Newsletter</h2>
-                                        <div class="input-group subscribe-input-area">
-                                            <input type="email" class="form-control" name="EMAIL"
-                                                placeholder="E-mail address" required />
-                                            <span class="input-group-addon">
-                                                <input type="submit"
-                                                    class="btn-fill size-md border-radius-5 color-yellow gust"
-                                                    value="Subscribe" />
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div><label style="display: none !important;">Leave this field empty if you're
-                                    human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
-                                        autocomplete="off" /></label><input type="hidden"
-                                    name="_mc4wp_timestamp" value="1681737108" /><input type="hidden"
-                                    name="_mc4wp_form_id" value="26" /><input type="hidden"
-                                    name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-                                <div class="mc4wp-response"></div>
-                            </form><!-- / Mailchimp for WordPress Plugin -->
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

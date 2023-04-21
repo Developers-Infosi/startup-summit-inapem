@@ -998,7 +998,7 @@
                 self.showElemByRange(opt.ranges.link, self.links, opt.hiddenOpacity, opt.animDuration);
             }
 
-            // Call user callback
+            // Contactoer callback
             if (opt.afterShowRange) opt.afterShowRange();
         },
 
