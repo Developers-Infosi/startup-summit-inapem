@@ -95,7 +95,7 @@
             <div class="container-fluid">
                 <div class=" py-2">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15770.913813090965!2d13.2425289!3d-8.8115615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f389d2b7374f%3A0x2e60a5004490d28a!2sInterContinental%20Luanda%20Miramar%2C%20an%20IHG%20Hotel!5e0!3m2!1spt-PT!2sao!4v1681554545726!5m2!1spt-PT!2sao"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.0776885611212!2d13.181563961935689!3d-8.92385187438549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f530d995c9bd%3A0x304433a1f5b4e85a!2sInstituto%20Superior%20Polit%C3%A9cnico%20de%20Tecnologias%20e%20Ci%C3%AAncias%20ISPTEC!5e0!3m2!1spt-PT!2sao!4v1682167292528!5m2!1spt-PT!2sao"
                         width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
