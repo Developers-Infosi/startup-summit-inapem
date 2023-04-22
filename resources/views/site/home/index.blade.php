@@ -1286,62 +1286,90 @@
                                                         <div class="elementor-element elementor-element-5f8fe9f7 elementor-widget elementor-widget-rt-title"
                                                             data-id="5f8fe9f7" data-element_type="widget"
                                                             data-widget_type="rt-title.default">
-                                                            <div class="elementor-widget-container">
+
+                                                        </div>
+
+                                                        <div class="elementor-element elementor-element-31eeb272 elementor-widget elementor-widget-rt-logo-slider"
+                                                        data-id="31eeb272" data-element_type="widget"
+                                                        data-widget_type="rt-logo-slider.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="sponsonrs-layout1">
                                                                 <div
-                                                                    class="rt-el-title section-heading title-black color-light text-center style1">
-                                                                    <h2 class="rtin-title">Patrocinadores Oficiais</h2>
-                                                                    <div class="rtin-subtitle">
-                                                                        <p>Dorem ipsum dolor sitIncidunt laborum
-                                                                            beatae earum nihil onsequuntue</p>
+                                                                    class="rt-el-logo-slider owl-wrap rt-owl-nav slider-nav-enabled">
+                                                                    <div class="sponsonrs-type-title">
+                                                                        <h3>Iniciativa e Promoção</h3>
+                                                                    </div>
+                                                                    <div class="col-12">
+                                                                        <img src="/site/images/parceiros/logoMEP.png"
+                                                                            width="250">
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-50be4814 elementor-widget elementor-widget-rt-logo-slider"
-                                                            data-id="50be4814" data-element_type="widget"
+                                                    </div>
+
+
+
+                                                        <div class="elementor-element elementor-element-31eeb272 elementor-widget elementor-widget-rt-logo-slider"
+                                                            data-id="31eeb272" data-element_type="widget"
                                                             data-widget_type="rt-logo-slider.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="sponsonrs-layout1">
                                                                     <div
                                                                         class="rt-el-logo-slider owl-wrap rt-owl-nav slider-nav-enabled">
+                                                                        <div class="sponsonrs-type-title">
+                                                                            <h3>Organização</h3>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <img src="/site/images/parceiros/evento.ao.png"
+                                                                                width="120">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="elementor-element elementor-element-50be4814 elementor-widget elementor-widget-rt-logo-slider"
+                                                            data-id="50be4814" data-element_type="widget"
+                                                            data-widget_type="rt-logo-slider.default">
+                                                            <div class="rtin-subtitle">
+                                                                <h3 class="text-center">Parceiros</h3>
+                                                            </div>
+                                                            <div class="elementor-widget-container">
+                                                                <div class="sponsonrs-layout1">
+                                                                    <div
+                                                                        class=" owl-wrap rt-owl-nav slider-nav-enabled">
                                                                         <div class="owl-theme owl-carousel rt-owl-carousel"
-                                                                            data-carousel-options="{&quot;nav&quot;:true,&quot;dots&quot;:false,&quot;navText&quot;:[&quot;&lt;i class=&#039;fa fa-angle-left&#039;&gt;&lt;\/i&gt;&quot;,&quot;&lt;i class=&#039;fa fa-angle-right&#039;&gt;&lt;\/i&gt;&quot;],&quot;autoplay&quot;:false,&quot;autoplayTimeout&quot;:&quot;5000&quot;,&quot;autoplaySpeed&quot;:200,&quot;autoplayHoverPause&quot;:true,&quot;loop&quot;:true,&quot;margin&quot;:20,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:&quot;1&quot;},&quot;480&quot;:{&quot;items&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;items&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;items&quot;:&quot;4&quot;},&quot;1200&quot;:{&quot;items&quot;:&quot;4&quot;}}}">
+                                                                            data-carousel-options="{&quot;nav&quot;:false,&quot;dots&quot;:false,&quot;navText&quot;:[&quot;&lt;i class=&#039;fa fa-angle-left&#039;&gt;&lt;\/i&gt;&quot;,&quot;&lt;i class=&#039;fa fa-angle-right&#039;&gt;&lt;\/i&gt;&quot;],&quot;autoplay&quot;:false,&quot;autoplayTimeout&quot;:&quot;5000&quot;,&quot;autoplaySpeed&quot;:200,&quot;autoplayHoverPause&quot;:true,&quot;loop&quot;:true,&quot;margin&quot;:20,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:&quot;1&quot;},&quot;480&quot;:{&quot;items&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;items&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;items&quot;:&quot;4&quot;},&quot;1200&quot;:{&quot;items&quot;:&quot;4&quot;}}}">
                                                                             <div
-                                                                                class="rtin-item sponsonrs-box grey-scale-on">
+                                                                                class="rtin-item  grey-scale-on">
                                                                                 <a href="#" target="_blank"><img
                                                                                         width="285" height="61"
-                                                                                        src="https://startupsummit.gov.ao/gov.ao.png"
+                                                                                        src="/site/images/parceiros/logoisptec.png"
+                                                                                        class="attachment-full size-full"
+                                                                                        alt="" decoding="async"
+                                                                                        loading="lazy" /></a>
+                                                                            </div>
+
+
+                                                                            <div
+                                                                                class="rtin-item  grey-scale-on">
+                                                                                <a href="#" target="_blank"><img
+                                                                                        width="285" height="61"
+                                                                                        src="/site/images/parceiros/facra.png"
                                                                                         class="attachment-full size-full"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy" /></a>
                                                                             </div>
                                                                             <div
-                                                                                class="rtin-item sponsonrs-box grey-scale-on">
-                                                                                <a href="#" target="_blank"><img
-                                                                                        width="285" height="61"
-                                                                                        src="https://startupsummit.gov.ao/gov.ao.png"
-                                                                                        class="attachment-full size-full"
-                                                                                        alt="" decoding="async"
-                                                                                        loading="lazy" /></a>
-                                                                            </div>
-                                                                            <div
-                                                                                class="rtin-item sponsonrs-box grey-scale-on">
-                                                                                <a href="#" target="_blank"><img
-                                                                                        width="285" height="61"
-                                                                                        src="https://startupsummit.gov.ao/gov.ao.png"
-                                                                                        class="attachment-full size-full"
-                                                                                        alt="" decoding="async"
-                                                                                        loading="lazy" /></a>
-                                                                            </div>
-                                                                            <div
-                                                                                class="rtin-item sponsonrs-box grey-scale-on">
-                                                                                <a href="#" target="_blank"><img
-                                                                                        width="285" height="61"
-                                                                                        src="https://startupsummit.gov.ao/gov.ao.png"
-                                                                                        class="attachment-full size-full"
-                                                                                        alt="" decoding="async"
-                                                                                        loading="lazy" /></a>
-                                                                            </div>
+                                                                            class="rtin-item  grey-scale-on">
+                                                                            <a href="#" target="_blank"><img
+                                                                                    width="285" height="61"
+                                                                                    src="/site/images/parceiros/inapem.png"
+                                                                                    class="attachment-full size-full"
+                                                                                    alt="" decoding="async"
+                                                                                    loading="lazy" /></a>
+                                                                        </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>

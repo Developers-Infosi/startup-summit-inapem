@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div id="eventalk_about-2" class="widget widget_eventalk_about"><a class="footer-widget-logo"
-                                href="#"><img width="179" height="46" src="site/images/logo/logoass.png"
+                                href="#"><img width="230" height="46" src="site/images/logo/logoass.png"
                                     class="attachment-full size-full" alt="" loading="lazy" /></a>
                             <div class="footer-widget-about">
                                 <p class="rtin-des">A Inovação e Tecnologia como Vector de Imersão
@@ -30,7 +30,7 @@
                                                 href="tel:5647-345-2224"> startupsummit@mep.gov.ao</a>
                                         </li>
 
-                                        
+
                                 </ul>
                             </div>
                         </div>
