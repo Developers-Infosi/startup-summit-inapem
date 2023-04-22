@@ -466,7 +466,7 @@
 
 
                                                                             </div>
-                                                                          
+
                                                                         </div>
                                                                     </div>
 
@@ -1161,7 +1161,7 @@
                                                                             <a href="#" class="entry-title"
                                                                                 rel="bookmark">
                                                                                 <img width="570" height="380"
-                                                                                    src="/site/images/noticias/not1.JPG "
+                                                                                    src="/site/images/noticias/not1.JPG"
                                                                                     class="attachment-eventalk-size3 size-eventalk-size3 wp-post-image"
                                                                                     alt="" decoding="async"
                                                                                     loading="lazy" />
