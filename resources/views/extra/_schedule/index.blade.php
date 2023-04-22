@@ -45,8 +45,8 @@ data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;
                                                 <div class="schedule-time">
                                                     <i class="fa fa-clock-o"
                                                         aria-hidden="true"></i>
-                                                    {{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                    -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                    {{ date('H:i', strtotime($item->start)) }}
+                                                    -{{ date('H:i', strtotime($item->end)) }}
                                                 </div>
                                             </div>
 
@@ -58,8 +58,8 @@ data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;
                                                 class="col-lg-6 col-md-6 col-sm-12">
                                                 <div class="speaker-new-wrp">
                                                     <h3 class="schedule-title">
-                                                        <a href="#">
-                                                            {{ $item->activity }}</a>
+
+                                                            {{ $item->activity }}
 
                                                     </h3>
                                                     <ul
@@ -130,8 +130,8 @@ data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;
                                                 <div class="schedule-time">
                                                     <i class="fa fa-clock-o"
                                                         aria-hidden="true"></i>
-                                                    {{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                    -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                    {{ date('H:i', strtotime($item->start)) }}
+                                                    -{{ date('H:i', strtotime($item->end)) }}
                                                 </div>
                                             </div>
 
@@ -218,8 +218,8 @@ data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;
                                                 <div class="schedule-time">
                                                     <i class="fa fa-clock-o"
                                                         aria-hidden="true"></i>
-                                                    {{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                    -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                    {{ date('H:i', strtotime($item->start)) }}
+                                                    -{{ date('H:i', strtotime($item->start)) }}
                                                 </div>
                                             </div>
 
