@@ -8747,3 +8747,7 @@ div.wpcf7-validation-errors {
 body.slidemenuon{
   overflow:hidden;
 }
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 35px;
+}

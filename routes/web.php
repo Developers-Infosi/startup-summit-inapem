@@ -28,7 +28,13 @@ Route::get('/perguntas-frequentes', ['as' => 'site.faq', 'uses' => 'Site\FaqCont
 /* gallery */
 Route::get('/galerias/', ['as' => 'site.gallery', 'uses' => 'Site\GalleryController@index']);
 Route::get('/galeria/{name}', ['as' => 'site.gallery.show', 'uses' => 'Site\GalleryController@show']);
+/* Galeria de Videos */
+Route::get('/videos/', ['as' => 'site.videos', 'uses' => 'Site\VideoController@index']);
+Route::get('/video/{id}', ['as' => 'site.video.show', 'uses' => 'Site\VideoController@show']);
 
+/* noticias */
+Route::get('/noticias', ['as' => 'site.news', 'uses' => 'Site\NewsController@index']);
+Route::get('/noticia/{title}', ['as' => 'site.news.show', 'uses' => 'Site\NewsController@show']);
 /* contact */
 Route::get('/contactos', ['as' => 'site.contact', 'uses' => 'Site\ContactController@index']);
 route::post('site/help/email', ['as' => 'site.help.email', 'uses' => 'Site\Email\HelpController@send']);

@@ -100,26 +100,20 @@
                                                                 <div
                                                                     class="full-width-container countdown-layout1 rtin-light">
                                                                     <div class="container-fluid-wrp">
+
+
                                                                         <div data-countdown="2023/04/27 07:00:00"
                                                                             class="event-countdown row">
-                                                                            <div class="countdown-section">
-                                                                                <h2>251</h2>
-                                                                                <h3>Dias</h3>
+                                                                            <div class="countdown-layout1new  rtin-light">
+
                                                                             </div>
-                                                                            <div class="countdown-section cs2sd">
-                                                                                <h2>08</h2>
-                                                                                <h3>Horas</h3>
-                                                                            </div>
-                                                                            <div class="countdown-section">
-                                                                                <h2>51</h2>
-                                                                                <h3>Minutos</h3>
-                                                                            </div>
-                                                                            <div class="countdown-section">
-                                                                                <h2>47</h2>
-                                                                                <h3>Segundos</h3>
-                                                                            </div>
+
+
                                                                         </div>
+
                                                                     </div>
+
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -156,9 +150,28 @@
                                                             data-widget_type="rt-countdown.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="countdown-layout1new  rtin-light">
-                                                                    <div class="container-fluid-wrp">
-                                                                        <div data-countdown="2022/09/15 00:00:00"
-                                                                            class="event-countdown"></div>
+                                                                    <div class="countdown-layout1new  rtin-light">
+                                                                        <div class="container-fluid-wrp">
+                                                                            <div data-countdown="2022/09/15 00:00:00"
+                                                                                class="event-countdown">
+                                                                                <div class="countdown-section">
+                                                                                    <h2>04</h2>
+                                                                                    <h3>Dia</h3>
+                                                                                </div>
+                                                                                <div class="countdown-section cs2sd">
+                                                                                    <h2>19</h2>
+                                                                                    <h3>Hours</h3>
+                                                                                </div>
+                                                                                <div class="countdown-section">
+                                                                                    <h2>22</h2>
+                                                                                    <h3>Minutes</h3>
+                                                                                </div>
+                                                                                <div class="countdown-section">
+                                                                                    <h2>20</h2>
+                                                                                    <h3>Seconds</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -200,7 +213,7 @@
                                                                         <div class="video-area">
                                                                             <img decoding="async" width="599"
                                                                                 height="623"
-                                                                                src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/about-6.jpg"
+                                                                                src="/site/images/FUNDOS.JPG "
                                                                                 class="attachment-full size-full"
                                                                                 alt="" loading="lazy" />
 
@@ -559,21 +572,22 @@
                                                                                             <h3 class="schedule-title">
                                                                                                 <a
                                                                                                     href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">
-                                                                                                    Recepção dos Convidados</a>
+                                                                                                    Recepção dos
+                                                                                                    Convidados</a>
 
                                                                                             </h3>
                                                                                             <ul class="schedule-list-info">
                                                                                                 <li>
                                                                                                     <i class="fa fa-user"
                                                                                                         aria-hidden="true"></i>
-                                                                                                        Campus
+                                                                                                    Campus
 
                                                                                                 </li>
 
                                                                                                 <li>
                                                                                                     <i class="fa fa-map-marker"
                                                                                                         aria-hidden="true"></i>
-                                                                                                        Campus
+                                                                                                    Campus
                                                                                                 </li>
 
                                                                                             </ul>
@@ -663,7 +677,7 @@
                                                                                                 <li>
                                                                                                     <i class="fa fa-map-marker"
                                                                                                         aria-hidden="true"></i>
-                                                                                                        Campus
+                                                                                                    Campus
                                                                                                 </li>
 
                                                                                             </ul>
@@ -709,423 +723,425 @@
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
-                                                        data-id="609beca7" data-element_type="widget"
-                                                        data-widget_type="rt-event.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="schedule-layout-wrp">
-                                                                <div class="schedule-wrapper-8">
-                                                                    <div class="schedule-header">
-                                                                        <div class="schedule-date">
-                                                                            <div class="day-number"><span
-                                                                                    class="day-number-left">
-                                                                                    28/04/2023:
-                                                                                </span>
-                                                                                Dia 02
+                                                            data-id="609beca7" data-element_type="widget"
+                                                            data-widget_type="rt-event.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="schedule-layout-wrp">
+                                                                    <div class="schedule-wrapper-8">
+                                                                        <div class="schedule-header">
+                                                                            <div class="schedule-date">
+                                                                                <div class="day-number"><span
+                                                                                        class="day-number-left">
+                                                                                        28/04/2023:
+                                                                                    </span>
+                                                                                    Dia 02
+                                                                                </div>
                                                                             </div>
                                                                         </div>
-                                                                    </div>
-                                                                    <div class="schedule-item-8">
+                                                                        <div class="schedule-item-8">
 
 
-                                                                        <div class="schedule-contnet-mid">
-                                                                            <div class="row">
-                                                                                <div
-                                                                                    class="col-lg-2 col-md-3 col-sm-12">
-                                                                                    <div class="schedule-time">
-                                                                                        <i class="fa fa-clock-o"
-                                                                                            aria-hidden="true"></i>00:00
-                                                                                        - 01:00
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <div
-                                                                                    class="col-lg-2 col-md-2 col-sm-12 p0">
-                                                                                    <div class="speaker-new-wrp">
-                                                                                        <ul class="schedule-speaker">
-                                                                                            <li>
-                                                                                                <div class="speaker-img-tooltip"
-                                                                                                    data-tips="Michel Zozo">
-                                                                                                    <a
-                                                                                                        href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
-                                                                                                        <img width="150"
-                                                                                                            height="150"
-                                                                                                            src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
-                                                                                                            class="rounded-circle wp-post-image"
-                                                                                                            alt=""
-                                                                                                            decoding="async"
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
-                                                                                                            sizes="(max-width: 150px) 100vw, 150px" /></a>
-                                                                                                </div>
-
-                                                                                        </ul>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-6 col-sm-12">
-                                                                                    <div class="speaker-new-wrp">
-                                                                                        <h3 class="schedule-title">
-                                                                                            <a
-                                                                                                href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">
-                                                                                                Recepção dos Convidados</a>
-
-                                                                                        </h3>
-                                                                                        <ul class="schedule-list-info">
-                                                                                            <li>
-                                                                                                <i class="fa fa-user"
-                                                                                                    aria-hidden="true"></i>
-                                                                                                    Campus
-
-                                                                                            </li>
-
-                                                                                            <li>
-                                                                                                <i class="fa fa-map-marker"
-                                                                                                    aria-hidden="true"></i>
-                                                                                                    Campus
-                                                                                            </li>
-
-                                                                                        </ul>
-
-                                                                                        <div class="details-txt">
-                                                                                            <p>Event imply dummy
-                                                                                                text of the
-                                                                                                printing and
-                                                                                                typesetting
-                                                                                                industr m Ipsum
-                                                                                                has been theare
-                                                                                                industry&#039;s
-                                                                                                standard ever
-                                                                                                since the when
-                                                                                                an unknown
-                                                                                                printer took.
-                                                                                            </p>
-                                                                                        </div>
-
-
-
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="col-lg-2 col-md-2 col-sm-12">
+                                                                            <div class="schedule-contnet-mid">
+                                                                                <div class="row">
                                                                                     <div
-                                                                                        class="speaker-details-wrp details-info">
-
-                                                                                        <a class="details-down"
-                                                                                            href="#">Detalhes</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="schedule-contnet-mid">
-                                                                            <div class="row">
-                                                                                <div
-                                                                                    class="col-lg-2 col-md-3 col-sm-12">
-                                                                                    <div class="schedule-time">
-                                                                                        <i class="fa fa-clock-o"
-                                                                                            aria-hidden="true"></i>00:00
-                                                                                        - 01:00
-                                                                                    </div>
-                                                                                </div>
-
-                                                                                <div
-                                                                                    class="col-lg-2 col-md-2 col-sm-12 p0">
-                                                                                    <div class="speaker-new-wrp">
-                                                                                        <ul class="schedule-speaker">
-                                                                                            <li>
-                                                                                                <div class="speaker-img-tooltip"
-                                                                                                    data-tips="Michel Zozo">
-                                                                                                    <a
-                                                                                                        href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
-                                                                                                        <img width="150"
-                                                                                                            height="150"
-                                                                                                            src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
-                                                                                                            class="rounded-circle wp-post-image"
-                                                                                                            alt=""
-                                                                                                            decoding="async"
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
-                                                                                                            sizes="(max-width: 150px) 100vw, 150px" /></a>
-                                                                                                </div>
-
-
-                                                                                        </ul>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="col-lg-6 col-md-6 col-sm-12">
-                                                                                    <div class="speaker-new-wrp">
-                                                                                        <h3 class="schedule-title">
-                                                                                            <a
-                                                                                                href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">Recepção
-                                                                                                dos Convidados</a>
-
-                                                                                        </h3>
-                                                                                        <ul class="schedule-list-info">
-                                                                                            <li>
-                                                                                                <i class="fa fa-user"
-                                                                                                    aria-hidden="true"></i>
-                                                                                                Recepção dos Convidados
-
-                                                                                            </li>
-
-                                                                                            <li>
-                                                                                                <i class="fa fa-map-marker"
-                                                                                                    aria-hidden="true"></i>
-                                                                                                    Campus
-                                                                                            </li>
-
-                                                                                        </ul>
-
-                                                                                        <div class="details-txt">
-                                                                                            <p>Event imply dummy
-                                                                                                text of the
-                                                                                                printing and
-                                                                                                typesetting
-                                                                                                industr m Ipsum
-                                                                                                has been theare
-                                                                                                industry&#039;s
-                                                                                                standard ever
-                                                                                                since the when
-                                                                                                an unknown
-                                                                                                printer took.
-                                                                                            </p>
+                                                                                        class="col-lg-2 col-md-3 col-sm-12">
+                                                                                        <div class="schedule-time">
+                                                                                            <i class="fa fa-clock-o"
+                                                                                                aria-hidden="true"></i>00:00
+                                                                                            - 01:00
                                                                                         </div>
+                                                                                    </div>
+
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12 p0">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <ul class="schedule-speaker">
+                                                                                                <li>
+                                                                                                    <div class="speaker-img-tooltip"
+                                                                                                        data-tips="Michel Zozo">
+                                                                                                        <a
+                                                                                                            href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
+                                                                                                            <img width="150"
+                                                                                                                height="150"
+                                                                                                                src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
+                                                                                                                class="rounded-circle wp-post-image"
+                                                                                                                alt=""
+                                                                                                                decoding="async"
+                                                                                                                loading="lazy"
+                                                                                                                srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
+                                                                                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                                                                    </div>
+
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-6 col-md-6 col-sm-12">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <h3 class="schedule-title">
+                                                                                                <a
+                                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">
+                                                                                                    Recepção dos
+                                                                                                    Convidados</a>
+
+                                                                                            </h3>
+                                                                                            <ul class="schedule-list-info">
+                                                                                                <li>
+                                                                                                    <i class="fa fa-user"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Campus
+
+                                                                                                </li>
+
+                                                                                                <li>
+                                                                                                    <i class="fa fa-map-marker"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Campus
+                                                                                                </li>
+
+                                                                                            </ul>
+
+                                                                                            <div class="details-txt">
+                                                                                                <p>Event imply dummy
+                                                                                                    text of the
+                                                                                                    printing and
+                                                                                                    typesetting
+                                                                                                    industr m Ipsum
+                                                                                                    has been theare
+                                                                                                    industry&#039;s
+                                                                                                    standard ever
+                                                                                                    since the when
+                                                                                                    an unknown
+                                                                                                    printer took.
+                                                                                                </p>
+                                                                                            </div>
 
 
 
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12">
+                                                                                        <div
+                                                                                            class="speaker-details-wrp details-info">
+
+                                                                                            <a class="details-down"
+                                                                                                href="#">Detalhes</a>
+                                                                                        </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div
-                                                                                    class="col-lg-2 col-md-2 col-sm-12">
+                                                                            </div>
+                                                                            <div class="schedule-contnet-mid">
+                                                                                <div class="row">
                                                                                     <div
-                                                                                        class="speaker-details-wrp details-info">
+                                                                                        class="col-lg-2 col-md-3 col-sm-12">
+                                                                                        <div class="schedule-time">
+                                                                                            <i class="fa fa-clock-o"
+                                                                                                aria-hidden="true"></i>00:00
+                                                                                            - 01:00
+                                                                                        </div>
+                                                                                    </div>
 
-                                                                                        <a class="details-down"
-                                                                                            href="#">Detalhes</a>
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12 p0">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <ul class="schedule-speaker">
+                                                                                                <li>
+                                                                                                    <div class="speaker-img-tooltip"
+                                                                                                        data-tips="Michel Zozo">
+                                                                                                        <a
+                                                                                                            href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
+                                                                                                            <img width="150"
+                                                                                                                height="150"
+                                                                                                                src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
+                                                                                                                class="rounded-circle wp-post-image"
+                                                                                                                alt=""
+                                                                                                                decoding="async"
+                                                                                                                loading="lazy"
+                                                                                                                srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
+                                                                                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                                                                    </div>
+
+
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-6 col-md-6 col-sm-12">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <h3 class="schedule-title">
+                                                                                                <a
+                                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">Recepção
+                                                                                                    dos Convidados</a>
+
+                                                                                            </h3>
+                                                                                            <ul class="schedule-list-info">
+                                                                                                <li>
+                                                                                                    <i class="fa fa-user"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Recepção dos Convidados
+
+                                                                                                </li>
+
+                                                                                                <li>
+                                                                                                    <i class="fa fa-map-marker"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Campus
+                                                                                                </li>
+
+                                                                                            </ul>
+
+                                                                                            <div class="details-txt">
+                                                                                                <p>Event imply dummy
+                                                                                                    text of the
+                                                                                                    printing and
+                                                                                                    typesetting
+                                                                                                    industr m Ipsum
+                                                                                                    has been theare
+                                                                                                    industry&#039;s
+                                                                                                    standard ever
+                                                                                                    since the when
+                                                                                                    an unknown
+                                                                                                    printer took.
+                                                                                                </p>
+                                                                                            </div>
+
+
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12">
+                                                                                        <div
+                                                                                            class="speaker-details-wrp details-info">
+
+                                                                                            <a class="details-down"
+                                                                                                href="#">Detalhes</a>
+                                                                                        </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
+
+
+
                                                                     </div>
-
-
 
                                                                 </div>
 
                                                             </div>
-
                                                         </div>
-                                                    </div>
 
 
-                                                    <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
-                                                    data-id="609beca7" data-element_type="widget"
-                                                    data-widget_type="rt-event.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="schedule-layout-wrp">
-                                                            <div class="schedule-wrapper-8">
-                                                                <div class="schedule-header">
-                                                                    <div class="schedule-date">
-                                                                        <div class="day-number"><span
-                                                                                class="day-number-left">
-                                                                                29/04/2023:
-                                                                            </span>
-                                                                            Dia 03
+                                                        <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
+                                                            data-id="609beca7" data-element_type="widget"
+                                                            data-widget_type="rt-event.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="schedule-layout-wrp">
+                                                                    <div class="schedule-wrapper-8">
+                                                                        <div class="schedule-header">
+                                                                            <div class="schedule-date">
+                                                                                <div class="day-number"><span
+                                                                                        class="day-number-left">
+                                                                                        29/04/2023:
+                                                                                    </span>
+                                                                                    Dia 03
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="schedule-item-8">
+                                                                        <div class="schedule-item-8">
 
 
-                                                                    <div class="schedule-contnet-mid">
-                                                                        <div class="row">
-                                                                            <div
-                                                                                class="col-lg-2 col-md-3 col-sm-12">
-                                                                                <div class="schedule-time">
-                                                                                    <i class="fa fa-clock-o"
-                                                                                        aria-hidden="true"></i>00:00
-                                                                                    - 01:00
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div
-                                                                                class="col-lg-2 col-md-2 col-sm-12 p0">
-                                                                                <div class="speaker-new-wrp">
-                                                                                    <ul class="schedule-speaker">
-                                                                                        <li>
-                                                                                            <div class="speaker-img-tooltip"
-                                                                                                data-tips="Michel Zozo">
-                                                                                                <a
-                                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
-                                                                                                    <img width="150"
-                                                                                                        height="150"
-                                                                                                        src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
-                                                                                                        class="rounded-circle wp-post-image"
-                                                                                                        alt=""
-                                                                                                        decoding="async"
-                                                                                                        loading="lazy"
-                                                                                                        srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
-                                                                                                        sizes="(max-width: 150px) 100vw, 150px" /></a>
-                                                                                            </div>
-
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="col-lg-6 col-md-6 col-sm-12">
-                                                                                <div class="speaker-new-wrp">
-                                                                                    <h3 class="schedule-title">
-                                                                                        <a
-                                                                                            href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">
-                                                                                            Recepção dos Convidados</a>
-
-                                                                                    </h3>
-                                                                                    <ul class="schedule-list-info">
-                                                                                        <li>
-                                                                                            <i class="fa fa-user"
-                                                                                                aria-hidden="true"></i>
-                                                                                                Campus
-
-                                                                                        </li>
-
-                                                                                        <li>
-                                                                                            <i class="fa fa-map-marker"
-                                                                                                aria-hidden="true"></i>
-                                                                                                Campus
-                                                                                        </li>
-
-                                                                                    </ul>
-
-                                                                                    <div class="details-txt">
-                                                                                        <p>Event imply dummy
-                                                                                            text of the
-                                                                                            printing and
-                                                                                            typesetting
-                                                                                            industr m Ipsum
-                                                                                            has been theare
-                                                                                            industry&#039;s
-                                                                                            standard ever
-                                                                                            since the when
-                                                                                            an unknown
-                                                                                            printer took.
-                                                                                        </p>
+                                                                            <div class="schedule-contnet-mid">
+                                                                                <div class="row">
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-3 col-sm-12">
+                                                                                        <div class="schedule-time">
+                                                                                            <i class="fa fa-clock-o"
+                                                                                                aria-hidden="true"></i>00:00
+                                                                                            - 01:00
+                                                                                        </div>
                                                                                     </div>
 
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12 p0">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <ul class="schedule-speaker">
+                                                                                                <li>
+                                                                                                    <div class="speaker-img-tooltip"
+                                                                                                        data-tips="Michel Zozo">
+                                                                                                        <a
+                                                                                                            href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
+                                                                                                            <img width="150"
+                                                                                                                height="150"
+                                                                                                                src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
+                                                                                                                class="rounded-circle wp-post-image"
+                                                                                                                alt=""
+                                                                                                                decoding="async"
+                                                                                                                loading="lazy"
+                                                                                                                srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
+                                                                                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                                                                    </div>
 
-
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="col-lg-2 col-md-2 col-sm-12">
-                                                                                <div
-                                                                                    class="speaker-details-wrp details-info">
-
-                                                                                    <a class="details-down"
-                                                                                        href="#">Detalhes</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="schedule-contnet-mid">
-                                                                        <div class="row">
-                                                                            <div
-                                                                                class="col-lg-2 col-md-3 col-sm-12">
-                                                                                <div class="schedule-time">
-                                                                                    <i class="fa fa-clock-o"
-                                                                                        aria-hidden="true"></i>00:00
-                                                                                    - 01:00
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div
-                                                                                class="col-lg-2 col-md-2 col-sm-12 p0">
-                                                                                <div class="speaker-new-wrp">
-                                                                                    <ul class="schedule-speaker">
-                                                                                        <li>
-                                                                                            <div class="speaker-img-tooltip"
-                                                                                                data-tips="Michel Zozo">
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-6 col-md-6 col-sm-12">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <h3 class="schedule-title">
                                                                                                 <a
-                                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
-                                                                                                    <img width="150"
-                                                                                                        height="150"
-                                                                                                        src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
-                                                                                                        class="rounded-circle wp-post-image"
-                                                                                                        alt=""
-                                                                                                        decoding="async"
-                                                                                                        loading="lazy"
-                                                                                                        srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
-                                                                                                        sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">
+                                                                                                    Recepção dos
+                                                                                                    Convidados</a>
+
+                                                                                            </h3>
+                                                                                            <ul class="schedule-list-info">
+                                                                                                <li>
+                                                                                                    <i class="fa fa-user"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Campus
+
+                                                                                                </li>
+
+                                                                                                <li>
+                                                                                                    <i class="fa fa-map-marker"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Campus
+                                                                                                </li>
+
+                                                                                            </ul>
+
+                                                                                            <div class="details-txt">
+                                                                                                <p>Event imply dummy
+                                                                                                    text of the
+                                                                                                    printing and
+                                                                                                    typesetting
+                                                                                                    industr m Ipsum
+                                                                                                    has been theare
+                                                                                                    industry&#039;s
+                                                                                                    standard ever
+                                                                                                    since the when
+                                                                                                    an unknown
+                                                                                                    printer took.
+                                                                                                </p>
                                                                                             </div>
 
 
-                                                                                    </ul>
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12">
+                                                                                        <div
+                                                                                            class="speaker-details-wrp details-info">
+
+                                                                                            <a class="details-down"
+                                                                                                href="#">Detalhes</a>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div
-                                                                                class="col-lg-6 col-md-6 col-sm-12">
-                                                                                <div class="speaker-new-wrp">
-                                                                                    <h3 class="schedule-title">
-                                                                                        <a
-                                                                                            href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">Recepção
-                                                                                            dos Convidados</a>
-
-                                                                                    </h3>
-                                                                                    <ul class="schedule-list-info">
-                                                                                        <li>
-                                                                                            <i class="fa fa-user"
-                                                                                                aria-hidden="true"></i>
-                                                                                            Recepção dos Convidados
-
-                                                                                        </li>
-
-                                                                                        <li>
-                                                                                            <i class="fa fa-map-marker"
-                                                                                                aria-hidden="true"></i>
-                                                                                                Campus
-                                                                                        </li>
-
-                                                                                    </ul>
-
-                                                                                    <div class="details-txt">
-                                                                                        <p>Event imply dummy
-                                                                                            text of the
-                                                                                            printing and
-                                                                                            typesetting
-                                                                                            industr m Ipsum
-                                                                                            has been theare
-                                                                                            industry&#039;s
-                                                                                            standard ever
-                                                                                            since the when
-                                                                                            an unknown
-                                                                                            printer took.
-                                                                                        </p>
+                                                                            <div class="schedule-contnet-mid">
+                                                                                <div class="row">
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-3 col-sm-12">
+                                                                                        <div class="schedule-time">
+                                                                                            <i class="fa fa-clock-o"
+                                                                                                aria-hidden="true"></i>00:00
+                                                                                            - 01:00
+                                                                                        </div>
                                                                                     </div>
 
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12 p0">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <ul class="schedule-speaker">
+                                                                                                <li>
+                                                                                                    <div class="speaker-img-tooltip"
+                                                                                                        data-tips="Michel Zozo">
+                                                                                                        <a
+                                                                                                            href="https://radiustheme.com/demo/wordpress/eventalk/speakers/michel-zozo/">
+                                                                                                            <img width="150"
+                                                                                                                height="150"
+                                                                                                                src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg"
+                                                                                                                class="rounded-circle wp-post-image"
+                                                                                                                alt=""
+                                                                                                                decoding="async"
+                                                                                                                loading="lazy"
+                                                                                                                srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-150x150.jpg 150w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-300x300.jpg 300w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-100x100.jpg 100w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2018/06/5-400x400.jpg 400w"
+                                                                                                                sizes="(max-width: 150px) 100vw, 150px" /></a>
+                                                                                                    </div>
 
 
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                class="col-lg-2 col-md-2 col-sm-12">
-                                                                                <div
-                                                                                    class="speaker-details-wrp details-info">
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-6 col-md-6 col-sm-12">
+                                                                                        <div class="speaker-new-wrp">
+                                                                                            <h3 class="schedule-title">
+                                                                                                <a
+                                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/event/digital-workshop-conferencee-2018/">Recepção
+                                                                                                    dos Convidados</a>
 
-                                                                                    <a class="details-down"
-                                                                                        href="#">Detalhes</a>
+                                                                                            </h3>
+                                                                                            <ul class="schedule-list-info">
+                                                                                                <li>
+                                                                                                    <i class="fa fa-user"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Recepção dos Convidados
+
+                                                                                                </li>
+
+                                                                                                <li>
+                                                                                                    <i class="fa fa-map-marker"
+                                                                                                        aria-hidden="true"></i>
+                                                                                                    Campus
+                                                                                                </li>
+
+                                                                                            </ul>
+
+                                                                                            <div class="details-txt">
+                                                                                                <p>Event imply dummy
+                                                                                                    text of the
+                                                                                                    printing and
+                                                                                                    typesetting
+                                                                                                    industr m Ipsum
+                                                                                                    has been theare
+                                                                                                    industry&#039;s
+                                                                                                    standard ever
+                                                                                                    since the when
+                                                                                                    an unknown
+                                                                                                    printer took.
+                                                                                                </p>
+                                                                                            </div>
+
+
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-lg-2 col-md-2 col-sm-12">
+                                                                                        <div
+                                                                                            class="speaker-details-wrp details-info">
+
+                                                                                            <a class="details-down"
+                                                                                                href="#">Detalhes</a>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
+
+
+
                                                                     </div>
+
                                                                 </div>
-
-
 
                                                             </div>
-
                                                         </div>
-
-                                                    </div>
-                                                </div>
 
                                                     </div>
                                                 </div>
@@ -1290,23 +1306,23 @@
                                                         </div>
 
                                                         <div class="elementor-element elementor-element-31eeb272 elementor-widget elementor-widget-rt-logo-slider"
-                                                        data-id="31eeb272" data-element_type="widget"
-                                                        data-widget_type="rt-logo-slider.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="sponsonrs-layout1">
-                                                                <div
-                                                                    class="rt-el-logo-slider owl-wrap rt-owl-nav slider-nav-enabled">
-                                                                    <div class="sponsonrs-type-title">
-                                                                        <h3>Iniciativa e Promoção</h3>
-                                                                    </div>
-                                                                    <div class="col-12">
-                                                                        <img src="/site/images/parceiros/logoMEP.png"
-                                                                            width="250">
+                                                            data-id="31eeb272" data-element_type="widget"
+                                                            data-widget_type="rt-logo-slider.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="sponsonrs-layout1">
+                                                                    <div
+                                                                        class="rt-el-logo-slider owl-wrap rt-owl-nav slider-nav-enabled">
+                                                                        <div class="sponsonrs-type-title">
+                                                                            <h3>Iniciativa e Promoção</h3>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <img src="/site/images/parceiros/logoMEP.png"
+                                                                                width="250">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
 
 
 
@@ -1337,12 +1353,10 @@
                                                             </div>
                                                             <div class="elementor-widget-container">
                                                                 <div class="sponsonrs-layout1">
-                                                                    <div
-                                                                        class=" owl-wrap rt-owl-nav slider-nav-enabled">
+                                                                    <div class=" owl-wrap rt-owl-nav slider-nav-enabled">
                                                                         <div class="owl-theme owl-carousel rt-owl-carousel"
                                                                             data-carousel-options="{&quot;nav&quot;:false,&quot;dots&quot;:false,&quot;navText&quot;:[&quot;&lt;i class=&#039;fa fa-angle-left&#039;&gt;&lt;\/i&gt;&quot;,&quot;&lt;i class=&#039;fa fa-angle-right&#039;&gt;&lt;\/i&gt;&quot;],&quot;autoplay&quot;:false,&quot;autoplayTimeout&quot;:&quot;5000&quot;,&quot;autoplaySpeed&quot;:200,&quot;autoplayHoverPause&quot;:true,&quot;loop&quot;:true,&quot;margin&quot;:20,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:&quot;1&quot;},&quot;480&quot;:{&quot;items&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;items&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;items&quot;:&quot;4&quot;},&quot;1200&quot;:{&quot;items&quot;:&quot;4&quot;}}}">
-                                                                            <div
-                                                                                class="rtin-item  grey-scale-on">
+                                                                            <div class="rtin-item  grey-scale-on">
                                                                                 <a href="#" target="_blank"><img
                                                                                         width="285" height="61"
                                                                                         src="/site/images/parceiros/logoisptec.png"
@@ -1352,8 +1366,7 @@
                                                                             </div>
 
 
-                                                                            <div
-                                                                                class="rtin-item  grey-scale-on">
+                                                                            <div class="rtin-item  grey-scale-on">
                                                                                 <a href="#" target="_blank"><img
                                                                                         width="285" height="61"
                                                                                         src="/site/images/parceiros/facra.png"
@@ -1361,15 +1374,14 @@
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy" /></a>
                                                                             </div>
-                                                                            <div
-                                                                            class="rtin-item  grey-scale-on">
-                                                                            <a href="#" target="_blank"><img
-                                                                                    width="285" height="61"
-                                                                                    src="/site/images/parceiros/inapem.png"
-                                                                                    class="attachment-full size-full"
-                                                                                    alt="" decoding="async"
-                                                                                    loading="lazy" /></a>
-                                                                        </div>
+                                                                            <div class="rtin-item  grey-scale-on">
+                                                                                <a href="#" target="_blank"><img
+                                                                                        width="285" height="61"
+                                                                                        src="/site/images/parceiros/inapem.png"
+                                                                                        class="attachment-full size-full"
+                                                                                        alt="" decoding="async"
+                                                                                        loading="lazy" /></a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>

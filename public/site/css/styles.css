@@ -169,3 +169,6 @@ form.submitting .wpcf7-spinner {
     fill: green;
 }
 
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 35px;
+}
