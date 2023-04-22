@@ -8,7 +8,7 @@
             <div class="inner-page-banner">
                 <div class="container">
                     <div class="entry-banner-content breadcrumbs-area">
-                        <h1 class="entry-title">Agenda</h1>
+                        <h1 class="entry-title">Programa</h1>
 
 
                     </div>

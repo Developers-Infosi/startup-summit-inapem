@@ -825,7 +825,7 @@
                                                                                         </li>
 
                                                                                     </ul>
-                                                                                    <h3><a href="#"
+                                                                                    <h3><a href="{!! url('/noticia/' . urlencode($item->title)) !!}"
                                                                                             class="entry-title"
                                                                                             rel="bookmark">{{ $item->title }}</a>
                                                                                     </h3>

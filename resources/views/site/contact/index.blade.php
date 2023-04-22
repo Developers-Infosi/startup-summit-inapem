@@ -50,7 +50,7 @@
                                         </ul>
                                     </div>
                                 @endif
-                                <form class="row mx-n2" method="post" action="#!">
+                                <form class="row mx-n2"  action="#!">
                                     @csrf
                                     <div class="col-md-6 px-2 mb-3">
                                         <input class="form-control" type="text" name="name" placeholder="Nome"
