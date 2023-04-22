@@ -371,11 +371,11 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <img width="400" height="400"
-                                                                                        src="/site/images/desafio/mepchallange.JPG"
+                                                                                        src="{{ asset('/site/images/desafio/mepchallange.JPG') }}"
                                                                                         class="attachment-eventalk-size4 size-eventalk-size4 wp-post-image"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy"
-                                                                                        srcset="/site/images/desafio/mepchallange.JPG"
+                                                                                        srcset="{{ asset('/site/images/desafio/mepchallange.JPG') }}"
                                                                                         sizes="(max-width: 400px) 100vw, 400px" />
                                                                                 </div>
                                                                             </div>
@@ -410,11 +410,11 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <img width="400" height="400"
-                                                                                        src="/site/images/desafio/mepchallange.JPG"
+                                                                                        src="{{ asset('/site/images/desafio/mepchallange.JPG') }}"
                                                                                         class="attachment-eventalk-size4 size-eventalk-size4 wp-post-image"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy"
-                                                                                        srcset="/site/images/desafio/exechallange4.JPG"
+                                                                                        srcset="{{ asset('/site/images/desafio/exechallange4.JPG') }}"
                                                                                         sizes="(max-width: 400px) 100vw, 400px" />
                                                                                 </div>
                                                                             </div>
@@ -451,18 +451,18 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <img width="400" height="400"
-                                                                                        src="/site/images/desafio/bcichallange.JPG"
+                                                                                        src="{{ asset('/site/images/desafio/bcichallange.JPG') }}"
                                                                                         class="attachment-eventalk-size4 size-eventalk-size4 wp-post-image"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy"
-                                                                                        srcset="/site/images/desafio/bcichallange.JPG"
+                                                                                        srcset="{{ asset('/site/images/desafio/bcichallange.JPG') }}"
                                                                                         sizes="(max-width: 400px) 100vw, 400px" />
                                                                                 </div>
                                                                             </div>
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a href="/site/images/desafio/bcichallange.JPG"
+                                                                                    <a href="{{ asset('/site/images/desafio/bcichallange.JPG') }}"
                                                                                         data-toggle="modal"
                                                                                         data-target="#AplicativoModal">BCI
                                                                                         Challenge</a>
