@@ -53,7 +53,7 @@
                                     </li>
                                     <li id="menu-item-553"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                                        <a href="{{ route('site.about.index') }}">Sobre</a>
+                                        <a href="{{ route('site.news') }}">Notícias</a>
                                     </li>
                                     <li id="menu-item-363"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-363">

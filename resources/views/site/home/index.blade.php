@@ -1171,120 +1171,43 @@
                                                             data-widget_type="rt-blog-post.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="rt-el-blgo-post row">
-                                                                    <div
-                                                                        class="rtin-item post-each post-each-new-1 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                                                                        <div class="entry-thumbnail-area">
-                                                                            <a href="#" class="entry-title"
-                                                                                rel="bookmark">
-                                                                                <img width="570" height="380"
-                                                                                    src="/site/images/noticias/not1.JPG"
-                                                                                    class="attachment-eventalk-size3 size-eventalk-size3 wp-post-image"
-                                                                                    alt="" decoding="async"
-                                                                                    loading="lazy" />
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="entry-content-area">
-                                                                            <div class="entry-header">
-                                                                                <ul class="entry-meta-1">
 
-                                                                                    <li><span class="updated published">
-                                                                                            <i class="fa fa-calendar"
-                                                                                                aria-hidden="true"></i>
-                                                                                            11 de Abril de 2023</span>
-                                                                                    </li>
 
-                                                                                </ul>
-                                                                                <h3><a href="#" class="entry-title"
-                                                                                        rel="bookmark">Empresas emergentes
-                                                                                        vão ganhar financiamento ao
-                                                                                        participarem na 2ª edição do Angola
-                                                                                        Startup Summit</a></h3>
+                                                                    @foreach ($news as $item)
+                                                                        <div
+                                                                            class="rtin-item post-each post-each-new-1 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                            <div class="entry-thumbnail-area">
+                                                                                <a href="{!! url('/noticia/' . urlencode($item->title)) !!}"
+                                                                                    class="entry-title" rel="bookmark">
+                                                                                    <img width="570" height="380"
+                                                                                        src="/storage/{{ $item->path }}"
+                                                                                        class="attachment-eventalk-size3 size-eventalk-size3 wp-post-image"
+                                                                                        alt="" decoding="async"
+                                                                                        loading="lazy" />
+                                                                                </a>
                                                                             </div>
-                                                                            <div class="entry-content">
-                                                                                <p>Eventrem Ipsum is simply dummy
-                                                                                    text of the printing and
-                                                                                    typesetting industry. Lorem
-                                                                                    Ipsum has&hellip;</p> <a
-                                                                                    href="https://radiustheme.com/demo/wordpress/eventalk/begendary-music-band-2/"
-                                                                                    class="btn-text">Ver Mais</a>
+                                                                            <div class="entry-content-area">
+                                                                                <div class="entry-header">
+                                                                                    <ul class="entry-meta-1">
+
+                                                                                        <li><span
+                                                                                                class="updated published">
+                                                                                                <i class="fa fa-calendar"
+                                                                                                    aria-hidden="true"></i>
+                                                                                                {{ date('d/m/Y', strtotime($item->date)) }}</span>
+                                                                                        </li>
+
+                                                                                    </ul>
+                                                                                    <h3><a href="#"
+                                                                                            class="entry-title"
+                                                                                            rel="bookmark">{{ $item->title }}</a>
+                                                                                    </h3>
+                                                                                </div>
+
                                                                             </div>
                                                                         </div>
-                                                                    </div>
-                                                                    <div
-                                                                        class="rtin-item post-each post-each-new-1 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                                                                        <div class="entry-thumbnail-area">
-                                                                            <a href="https://radiustheme.com/demo/wordpress/eventalk/legendary-music-band-6/"
-                                                                                class="entry-title" rel="bookmark">
-                                                                                <img width="570" height="380"
-                                                                                    src="/site/images/noticias/not2.JPG "
-                                                                                    class="attachment-eventalk-size3 size-eventalk-size3 wp-post-image"
-                                                                                    alt="" decoding="async"
-                                                                                    loading="lazy" />
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="entry-content-area">
-                                                                            <div class="entry-header">
-                                                                                <ul class="entry-meta-1">
+                                                                    @endforeach
 
-                                                                                    <li><span class="updated published">
-                                                                                            <i class="fa fa-calendar"
-                                                                                                aria-hidden="true"></i>
-                                                                                            17 de 04 de 2023</span>
-                                                                                    </li>
-
-                                                                                </ul>
-                                                                                <h3><a href="#" class="entry-title"
-                                                                                        rel="bookmark">Mais de 200
-                                                                                        participantes aguardadas na “Startup
-                                                                                        Angola Summit-2023”</a>
-                                                                                </h3>
-                                                                            </div>
-                                                                            <div class="entry-content">
-                                                                                <p>Eventrem Ipsum is simply dummy
-                                                                                    text of the printing and
-                                                                                    typesetting industry. Lorem
-                                                                                    Ipsum has&hellip;</p> <a href="#"
-                                                                                    class="btn-text">Ver Mais</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        class="rtin-item post-each post-each-new-1 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                                                                        <div class="entry-thumbnail-area">
-                                                                            <a href="#" class="entry-title"
-                                                                                rel="bookmark">
-                                                                                <img width="570" height="380"
-                                                                                    src="/site/images/noticias/not03.JPG"
-                                                                                    class="attachment-eventalk-size3 size-eventalk-size3 wp-post-image"
-                                                                                    alt="" decoding="async"
-                                                                                    loading="lazy" />
-                                                                            </a>
-                                                                        </div>
-                                                                        <div class="entry-content-area">
-                                                                            <div class="entry-header">
-                                                                                <ul class="entry-meta-1">
-
-                                                                                    <li><span class="updated published">
-                                                                                            <i class="fa fa-calendar"
-                                                                                                aria-hidden="true"></i>
-                                                                                            28 de 03 de 2023</span>
-                                                                                    </li>
-
-                                                                                </ul>
-                                                                                <h3><a href="#" class="entry-title"
-                                                                                        rel="bookmark">Angola Startup
-                                                                                        Summit</a></h3>
-                                                                            </div>
-                                                                            <div class="entry-content">
-                                                                                <p>Dorem ipsum dolor sit amet,
-                                                                                    consectetuer adipiscing elit,
-                                                                                    sed diam nonummy nibh
-                                                                                    euismodtincidunt dear
-                                                                                    ore&hellip;</p> <a href="#"
-                                                                                    class="btn-text">Ver Mais</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
