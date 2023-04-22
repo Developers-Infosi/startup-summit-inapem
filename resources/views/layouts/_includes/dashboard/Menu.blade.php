@@ -94,8 +94,7 @@
 
 
                 <li class="nav-item dropdown">
-                    <a href="#speaker" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle nav-link">
+                    <a href="#speaker" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
                         <i class="fe fe-users fe-16"></i>
                         <span class="ml-3 item-text">Oradores</span>
                     </a>
@@ -116,8 +115,26 @@
 
 
                 <li class="nav-item dropdown">
-                    <a href="#gallery" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle nav-link">
+                    <a href="#video" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
+                        <i class="fe fe-video fe-16"></i>
+                        <span class="ml-3 item-text"> Videos</span>
+                    </a>
+                    <ul class="collapse list-unstyled pl-4 w-100" id="video">
+
+                        <li class="nav-item">
+                            <a class="nav-link pl-3" href="{{ route('admin.video.create') }}">
+                                <span class="ml-1 item-text">Cadastrar Video</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-3" href="{{ route('admin.video.index') }}">
+                                <span class="ml-1 item-text">Listar Videos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#gallery" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
                         <i class="fe fe-image fe-16"></i>
                         <span class="ml-3 item-text"> Galerias</span>
                     </a>
@@ -135,7 +152,30 @@
                         </li>
                     </ul>
                 </li>
+                {{-- Menu de Notícias --}}
+                <p class="text-muted nav-heading mt-4 mb-1">
+                    <span> Notícias </span>
+                </p>
+                {{-- categoria de Notícias --}}
+                <li class="nav-item dropdown">
+                    <a href="#news" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
+                        <i class="fe fe-rss fe-16"></i>
+                        <span class="ml-3 item-text">Notícias</span>
+                    </a>
+                    <ul class="collapse list-unstyled pl-4 w-100" id="news">
 
+                        <li class="nav-item">
+                            <a class="nav-link pl-3" href="{{ route('admin.news.create') }}">
+                                <span class="ml-1 item-text">Cadastrar Notícia</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-3" href="{{ route('admin.news.index') }}">
+                                <span class="ml-1 item-text">Listar Notícias</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
 
                 {{-- Menu de Perguntas Frequentes --}}

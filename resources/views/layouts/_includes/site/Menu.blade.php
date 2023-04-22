@@ -65,7 +65,7 @@
                                             </li>
                                             <li id="menu-item-361"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361">
-                                                <a href="">Videos</a>
+                                                <a href="{{ route('site.videos') }}">Videos</a>
                                             </li>
 
 
