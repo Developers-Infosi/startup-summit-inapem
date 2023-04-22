@@ -213,7 +213,7 @@
                                                                         <div class="video-area">
                                                                             <img decoding="async" width="599"
                                                                                 height="623"
-                                                                                src="/site/images/FUNDOS.JPG "
+                                                                                src="/site/images/FUNDOS.JPG"
                                                                                 class="attachment-full size-full"
                                                                                 alt="" loading="lazy" />
 
