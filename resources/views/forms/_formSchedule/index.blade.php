@@ -1,44 +1,37 @@
 <div class="col-12 col-md-6 col-lg-6">
     <div class="form-group">
-        <label for="theme">Tema</label>
-        <input type="text" name="theme" id="theme"
-            value="{{ isset($schedule->theme) ? $schedule->theme : old('theme') }}" class="form-control border-secondary"
-            placeholder="Tema" required>
+        <label for="activity">Actividade </label>
+        <input type="text" name="activity" id="activity"
+            value="{{ isset($schedule->activity) ? $schedule->activity : old('activity') }}" class="form-control border-secondary"
+            placeholder="Actividade" required>
     </div>
+
+
 </div> <!-- /.col -->
-
-
 <div class="col-12 col-md-6 col-lg-6">
     <div class="form-group">
-        <label for="program">Programa</label>
-        <input type="text" name="program" id="program"
-            value="{{ isset($schedule->program) ? $schedule->program : old('program') }}"
-            class="form-control border-secondary" placeholder="Programa" required>
+        <label for="conference">Conferência </label>
+        <input type="text" name="conference" id="conference"
+            value="{{ isset($schedule->conference) ? $schedule->activity : old('conference') }}" class="form-control border-secondary"
+            placeholder="Conferência" >
     </div>
 </div> <!-- /.col -->
 
-
-<div class="col-12 col-md-6 col-lg-4">
+<div class="col-12 col-md-4 col-lg-4">
     <div class="form-group">
-        <label for="day">Dia do Evento</label>
-        <select name="day" id="day" class="form-control" required>
-            @if (isset($schedule->day))
-                <option value="{{ $schedule->day }}" class="text-primary h6" selected>
-                    {{ $schedule->day }}
-                </option>
-            @else
-                <option disabled selected>Selecione o dia do evento</option>
-            @endif
-
-            <option value="I">I</option>
-            <option value="II">II</option>
-            <option value="III">III</option>
-
-
-        </select>
+        <label for="local">Local</label>
+        <input type="text" name="local" id="local"
+            value="{{ isset($schedule->local) ? $schedule->local : old('local') }}"
+            class="form-control border-secondary" placeholder="local" required>
     </div>
 
+
+
+
 </div> <!-- /.col -->
+
+
+
 
 <div class="col-md-4">
     <div class="form-group">
@@ -58,19 +51,14 @@
     </div>
 </div> <!-- /.col -->
 
-<div class="col-12 col-md-6">
-    <div class="form-group">
-        <label for="speaker">Orador</label>
-        <input type="text" name="speaker" id="speaker"
-            value="{{ isset($schedule->speaker) ? $schedule->speaker : old('speaker') }}"
-            class="form-control border-secondary" placeholder="Oradores">
+<div class="col-md-12 mb-4">
+    <div class="card shadow">
+        <div class="card-body">
+            <h5 class="card-title">Descrição</h5>
+            <!-- Create the editor container -->
+            <textarea name="description" id="editor1" style="min-height:300px; min-width:100%">
+                {{ isset($schedule->description) ? $schedule->description : old('description') }}
+            </textarea>
+        </div>
     </div>
-</div> <!-- /.col -->
-<div class="col-12 col-md-6">
-    <div class="form-group">
-        <label for="title">Titulo</label>
-        <input type="text" name="title" id="title"
-            value="{{ isset($schedule->title) ? $schedule->title : old('title') }}"
-            class="form-control border-secondary" placeholder="Titulo">
-    </div>
-</div> <!-- /.col -->
+</div>

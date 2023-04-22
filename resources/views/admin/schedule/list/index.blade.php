@@ -15,8 +15,8 @@
                 <thead class="bg-primary">
                     <tr class="text-center">
                         <th>#</th>
-                        <th>TEMA</th>
-                        <th>PROGRAMA</th>
+                        <th>Actividade ACTIVIDADE</th>
+                        <th>Conferências </th>
 
                         <th>DIA</th>
                         <th>ACÇÕES</th>
@@ -24,12 +24,13 @@
                 </thead>
                 <tbody class="bg-white">
 
+
                     @foreach ($schedules as $item)
                         <tr class="text-center text-dark">
                             <td>{{ $item->id }}</td>
 
-                            <td>{{ $item->theme }} </td>
-                            <td>{{ $item->program }} </td>
+                            <td>{{ $item->activity }} </td>
+                            <td>{{ $item->conference }} </td>
 
                             <td>{{ $item->day }} </td>
                             <td>

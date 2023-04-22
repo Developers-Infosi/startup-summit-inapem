@@ -43,10 +43,6 @@
                                                     class="fn">{{ $news->typewriter }}</a></span>
                                         </li>
 
-
-
-
-
                                     </ul>
                                     <div class="entry-content  single-blog-content-holder">
                                         <p> {!! html_entity_decode($news->body) !!}</p>
@@ -59,7 +55,7 @@
                     </div>
                     <div class="col-md-3 col-xs-12">
                         <aside class="sidebar-widget-area">
-                          
+
                             <div id="categories-2" class="widget widget_categories single-sidebar padding-bottom1">
                                 <h3 class="widgettitle">Outras Notícias</h3>
                                 <ul>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Classes\Logger;
 use App\Http\Controllers\Controller;
+use App\Models\ActivityProgram;
 use App\Models\Schedule;
 use Illuminate\Http\Request;
 
@@ -20,7 +21,7 @@ class ScheduleController extends Controller
     public function list()
     {
 
-        $response['schedules'] = Schedule::get();
+        $response['schedules'] = ActivityProgram::get();
         //Logger
         $this->Logger->log('info', 'Listou os Programas & Actividades');
         return view('admin.schedule.list.index', $response);
@@ -46,21 +47,21 @@ class ScheduleController extends Controller
      */
     public function store(Request $request)
     {
+
         $request->validate([
-            'theme' => 'required|string',
-            'program' => 'required|string',
-            'day' => 'required|string',
+            'activity' => 'required|string',
+            'conference' => 'required|string',
+
             'start' => 'required|date',
             'end' => 'required|date',
-            'speaker' => 'nullable|string',
-            'title' => 'nullable|string',
+
         ]);
 
-        $schedule = Schedule::create($request->all());
+        $schedule = ActivityProgram::create($request->all());
         //Logger
         $this->Logger->log('info', 'Cadastrou um programa & actividade com o titulo ' . $schedule->program);
 
-        return redirect()->route("admin.schedule.show",$schedule->id)->with('create', '1');
+        return redirect()->route("admin.schedule.show", $schedule->id)->with('create', '1');
     }
 
     /**
@@ -72,7 +73,7 @@ class ScheduleController extends Controller
     public function show($id)
     {
 
-        $response['schedule'] = Schedule::find($id);
+        $response['schedule'] = ActivityProgram::find($id);
 
         //Logger
         $this->Logger->log('info', 'Visualizar um programa & actividade com o identificador ' . $id);
@@ -88,7 +89,7 @@ class ScheduleController extends Controller
     public function edit($id)
     {
 
-        $response['schedule'] = Schedule::find($id);
+        $response['schedule'] = ActivityProgram::find($id);
         //Logger
         $this->Logger->log('info', 'Entrou em editar um programa & actividade com o identificador ' . $id);
         return view('admin.schedule.edit.index', $response);
@@ -104,21 +105,19 @@ class ScheduleController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'theme' => 'required|string',
-            'program' => 'required|string',
-            'day' => 'required|string',
+            'activity' => 'required|string',
+            'conference' => 'required|string',
+
             'start' => 'required|date',
             'end' => 'required|date',
-            'speaker' => 'nullable|string',
-            'title' => 'nullable|string',
         ]);
 
 
-        Schedule::find($id)->update($request->all());
+        ActivityProgram::find($id)->update($request->all());
 
         //Logger
         $this->Logger->log('info', 'Editou um programa & actividade com o identificador ' . $id);
-        return redirect()->route("admin.schedule.show",$id)->with('edit', '1');
+        return redirect()->route("admin.schedule.show", $id)->with('edit', '1');
     }
 
     /**
@@ -131,7 +130,7 @@ class ScheduleController extends Controller
     {
         //Logger
         $this->Logger->log('info', 'Eliminou um programa & actividade com o identificador ' . $id);
-        Schedule::find($id)->delete();
+        ActivityProgram::find($id)->delete();
         return redirect()->back()->with('destroy', '1');
     }
 }

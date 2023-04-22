@@ -11,8 +11,6 @@
 
     <title>@yield('titulo')  - Angola Startup Summit</title>
 	<meta name='robots' content='noindex, nofollow' />
-
-
 	<noscript>
 		<style>
 			#preloader {
@@ -2243,6 +2241,7 @@
 			color: #b3b3b3;
 		}
 	</style>
+    <link rel="icon" type="image/png" sizes="50x50" href="/site/images/faviconStartup.png">
 </head>
 
 <body
