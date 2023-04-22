@@ -67,36 +67,6 @@
                     </section>
                 </div>
 
-                <div class="single-blog-page">
-                    <!-- recent start -->
-                    <div class="left-blog">
-                        <h4>Notícias Recentes</h4>
-                        <div class="recent-post">
-                            @foreach ($lasted as $item)
-                                <!-- start single post -->
-                                <div class="recent-single-post">
-                                    <a href="{!! url('/noticia/' . urlencode($item->title)) !!}">
-                                        <div class="post-img"
-                                            style='background-image:url("/storage/{{ $item->path }}");background-position:center;background-size:cover;height:70px;'>
-                                        </div>
-                                    </a>
-                                    <div class="pst-content">
-                                        <p>
-                                            <a href="{!! url('/noticia/' . urlencode($item->title)) !!}">
-                                                <div
-                                                    style="display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-                                                    {{ $item->title }}
-                                                </div>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- End single post -->
-                            @endforeach
-                        </div>
-                    </div>
-                    <!-- recent end -->
-                </div>
             </div>
         </div>
 
