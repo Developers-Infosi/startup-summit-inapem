@@ -277,12 +277,12 @@
                                                                     class="rt-el-info-box clearfix media  rtin-light rtin-style5">
                                                                     <div class="rtin-img">
                                                                         <img width="120" height="120"
-                                                                            src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png"
-                                                                            class="attachment-thumbnail size-thumbnail"
-                                                                            alt="" decoding="async"
-                                                                            loading="lazy"
-                                                                            srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2-100x100.png 100w"
-                                                                            sizes="(max-width: 120px) 100vw, 120px" />
+                                                                        src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png"
+                                                                        class="attachment-thumbnail size-thumbnail"
+                                                                        alt="" decoding="async"
+                                                                        loading="lazy"
+                                                                        srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3-100x100.png 100w"
+                                                                        sizes="(max-width: 120px) 100vw, 120px" />
                                                                     </div>
                                                                     <div class="media-body rtin-content">
                                                                         <h3 class="media-heading rtin-title"><a
@@ -305,12 +305,15 @@
                                                                     class="rt-el-info-box clearfix media  rtin-light rtin-style5">
                                                                     <div class="rtin-img">
                                                                         <img width="120" height="120"
-                                                                            src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png"
-                                                                            class="attachment-thumbnail size-thumbnail"
-                                                                            alt="" decoding="async"
-                                                                            loading="lazy"
-                                                                            srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3-100x100.png 100w"
-                                                                            sizes="(max-width: 120px) 100vw, 120px" />
+                                                                        src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png"
+                                                                        class="attachment-thumbnail size-thumbnail"
+                                                                        alt="" decoding="async"
+                                                                        loading="lazy"
+                                                                        srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2-100x100.png 100w"
+                                                                        sizes="(max-width: 120px) 100vw, 120px" />
+
+
+
                                                                     </div>
                                                                     <div class="media-body rtin-content">
                                                                         <h3 class="media-heading rtin-title">Networking
