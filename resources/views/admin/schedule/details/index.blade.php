@@ -1,12 +1,12 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Detalhes da Programa & Actividade')
+@section('titulo', 'Detalhes da activitya & Actividade')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.schedule.index') }}"><u>Listar Programas & Actividades</u></a> >
-                {{ $schedule->program }}
+                <a href="{{ route('admin.schedule.index') }}"><u>Listar activityas & Actividades</u></a> >
+                {{ $schedule->activity }}
             </h2>
         </div>
     </div>
@@ -15,16 +15,16 @@
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <h2 class="h3 m-4 page-title">{{ $schedule->theme . ': ' . $schedule->program }}</h2>
+                        <h2 class="h3 m-4 page-title">{{ $schedule->activity }}</h2>
                         <div class="row m-5 align-items-center">
 
                             <div class="col">
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-2">
                                         <h5 class="mb-1">
-                                            <b>Dia do Evento</b>
+                                            <b>Conferências</b>
                                         </h5>
-                                        <p class="text-dark text-justify">{{ $schedule->day }} - Dia</p>
+                                        <p class="text-dark text-justify">{{ $schedule->conference }} - Dia</p>
 
                                     </div>
                                     <div class="col-md-12 mb-2">
@@ -32,7 +32,7 @@
                                             <b>Data de Início</b>
                                         </h5>
                                         <p class="text-dark text-justify">
-                                            {{ date('H:i | d/m/Y', strtotime($schedule->start)) }}
+                                            {{ date('H:i | d/m/Y', strtotime($schedule->description)) }}
                                         </p>
 
                                     </div>
