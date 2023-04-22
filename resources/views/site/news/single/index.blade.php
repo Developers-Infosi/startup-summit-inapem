@@ -1,130 +1,97 @@
 @extends('layouts.merge.site')
-@section('titulo', ' Notícia')
+@section('titulo', ' Notícias')
 @section('content')
 
-    <main id="main">
 
-        <!-- ======= Blog Header ======= -->
-        <div class="header-bg22 page-area">
-            <div class="home-overly"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12" style="height: 70vh !important;">
-                        <div class="slider-content text-center">
-                            <div class="header-bottom">
-                                <div class="layer3 wow zoomInUp" data-wow-duration="2s" data-wow-delay="1s">
-                                </div>
-                            </div>
-                        </div>
+
+    <div id="content" class="site-content">
+
+        <div class="entry-banner">
+            <div class="inner-page-banner">
+                <div class="container">
+                    <div class="entry-banner-content breadcrumbs-area">
+                        <h1 class="entry-title">Notícias</h1>
+
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Blog Header -->
 
-        <!-- ======= Blog Page ======= -->
-        <div class="blog-page area-padding">
-            <div class="container">
+        <div id="primary" class="content-area event-page-area py-5">
+            <div class="container py-5">
                 <div class="row">
-                    <!-- Start single blog -->
-                    <div class="col-md-8 col-sm-8 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <!-- single-blog start -->
-                                <article class="blog-post-wrapper">
-                                    <div class="post-thumbnail">
-                                        <img class="ImgNotice" src="/storage/{{ $news->path }}" alt="" />
-                                    </div>
-                                    <div class="post-information">
-                                        <h2>{{ $news->title }}</h2>
-                                        <div class="entry-meta">
-                                            <span><i class="fa fa-clock-o"></i>Postado em:
+                    <div class="col-md-9 col-xs-12">
+                        <main id="main" class="site-main">
+                            <article id="post-599"
+                                class="post-each post-each-single post-599 post type-post status-publish format-standard has-post-thumbnail hentry category-home4">
+
+                                <div class="entry-thumbnail-area">
+                                    <img width="770" height="438" src="/storage/{{ $news->path }}"
+                                        class="attachment-eventalk-size1 size-eventalk-size1 wp-post-image" alt=""
+                                        decoding="async" />
+                                </div>
+                                <div class="entry-content-area single-blog-wrapper">
+                                    <h2>{{ $news->title }}</h2>
+                                    <ul class="news-meta-info mar20-ul">
+                                        <li class="item-date">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i><span
+                                                class="updated published"> Postado em:
                                                 {{ date('d-M-Y', strtotime($news->date)) }}</span>
-                                        </div>
-                                        <div class="entry-content" style="text-align: justify;">
-                                            <blockquote>
-                                                <p>{{ $news->typewriter }}</p>
-                                            </blockquote>
-                                            {!! html_entity_decode($news->body) !!}
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Right sidebar -->
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="page-head-blog">
-                            <div class="single-blog-page">
-                                <!-- search option start -->
-                                <form action="#">
-                                    <div class="search-option">
-                                        <input type="text" placeholder="Pesquisar...">
-                                        <button class="button" type="submit">
-                                            <i class="fa fa-search"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                                <!-- search option end -->
-                            </div>
-                            <div class="single-blog-page">
-                                <!-- recent start -->
-                                <div class="left-blog">
-                                    <h4>Outras Notícias</h4>
-                                    <div class="recent-post">
-                                        @foreach ($lasted as $item)
-                                            <!-- start single post -->
-                                            <div class="recent-single-post">
-                                                <a href="{!! url('/noticia/' . urlencode($item->title)) !!}">
-                                                    <div class="post-img"
-                                                        style='background-image:url("/storage/{{ $item->path }}");background-position:center;background-size:cover;height:70px;'>
-                                                    </div>
+                                        </li>
 
-                                                </a>
+                                        <li class="vcard-author"><i class="fa fa-user" aria-hidden="true"></i><span
+                                                class="vcard author"><a href="#"
+                                                    class="fn">{{ $news->typewriter }}</a></span>
+                                        </li>
 
-                                                <div class="pst-content">
-                                                    <p><a href="{!! url('/noticia/' . urlencode($item->title)) !!}">
-                                                            <div
-                                                                style="display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;">
-                                                                {{ $item->title }}
-                                                            </div>
-                                                        </a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <!-- End single post -->
-                                        @endforeach
+
+
+
+
+                                    </ul>
+                                    <div class="entry-content  single-blog-content-holder">
+                                        <p> {!! html_entity_decode($news->body) !!}</p>
+
                                     </div>
                                 </div>
-                                <!-- recent end -->
-                            </div>
-                            <div class="single-blog-page">
-                                <!-- recent start -->
-                                <div class="left-blog">
-                                    <h4>Comunicados</h4>
-                                    <div class="recent-post">
-                                        {{-- comunicados aqui --}}
-                                    </div>
-                                </div>
-                                <!-- recent end -->
-                            </div>
-                            <!-- Anúncio -->
+                            </article>
 
-                            <!-- End Anúncio -->
-                        </div>
+                        </main>
                     </div>
-                    <!-- End Right sidebar -->
+                    <div class="col-md-3 col-xs-12">
+                        <aside class="sidebar-widget-area">
+                           
+                            <div id="categories-2" class="widget widget_categories single-sidebar padding-bottom1">
+                                <h3 class="widgettitle">Outras Notícias</h3>
+                                <ul>
+                                    @foreach ($lasted as $item)
+                                    <li class="cat-item cat-item-7">    <a href="{!! url('/noticia/' . urlencode($item->title)) !!}">
+                                        <div class="post-img"
+                                            style='background-image:url("/storage/{{ $item->path }}");background-position:center;background-size:cover;height:70px;'>
+                                        </div>
+
+                                    </a>
+                                    </li>
+
+                                    @endforeach
+                                </ul>
+
+                            </div>
+
+
+                        </aside>
+                    </div>
                 </div>
             </div>
-        </div><!-- End Blog Page -->
 
-    </main><!-- End #main -->
-
-
+        </div>
+    </div>
 
 
 
+@endsection
 
-
-
+@section('JS')
+    <script src="/site/js/HttpRequest.js"></script>
+    <script src="/site/js/alert.js"></script>
 @endsection
