@@ -444,18 +444,18 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <img width="400" height="400"
-                                                                                        src="{{ asset('/site/images/desafio/bcichallange.JPG') }}"
+                                                                                        src="{{ asset('/site/images/desafio/bcichallange.jpg') }}"
                                                                                         class="attachment-eventalk-size4 size-eventalk-size4 wp-post-image"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy"
-                                                                                        srcset="{{ asset('/site/images/desafio/bcichallange.JPG') }}"
+                                                                                        srcset="{{ asset('/site/images/desafio/bcichallange.jpg') }}"
                                                                                         sizes="(max-width: 400px) 100vw, 400px" />
                                                                                 </div>
                                                                             </div>
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a href="{{ asset('/site/images/desafio/bcichallange.JPG') }}"
+                                                                                    <a href="{{ asset('/site/images/desafio/bcichallange.jpg') }}"
                                                                                         data-toggle="modal"
                                                                                         data-target="#AplicativoModal">BCI
                                                                                         Challenge</a>
