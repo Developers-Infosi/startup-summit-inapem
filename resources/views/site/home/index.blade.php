@@ -213,7 +213,7 @@
                                                                         <div class="video-area">
                                                                             <img decoding="async" width="599"
                                                                                 height="623"
-                                                                                src="{{ asset('/site/images/FUNDOS.JPG') }}"
+                                                                                src="http://154.116.254.35/site/images/FUNDOS.JPG "
                                                                                 class="attachment-full size-full"
                                                                                 alt="" loading="lazy" />
 
