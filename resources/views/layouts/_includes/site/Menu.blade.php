@@ -35,10 +35,10 @@
                     <div class="col-sm-2 col-xs-12">
                         <div class="site-branding">
                             <a class="dark-logo" href="{{ route('site.home') }}"><img width="360" height="112"
-                                    src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/themes/eventalk/assets/img/logo-dark.png"
+                                    src="{{ asset('site/images/logo/logoass.png') }}"
                                     alt="Eventalk - Event Conference WordPress Theme" loading="lazy" /></a>
                             <a class="light-logo" href="{{ route('site.home') }}"><img width="360" height="112"
-                                    src="site/images/logo/logoass.png" loading="lazy" /></a>
+                                    src="{{ asset('site/images/logo/logoass.png') }}" loading="lazy" /></a>
                         </div>
                     </div>
                     <div class="col-sm-8 col-xs-12">
