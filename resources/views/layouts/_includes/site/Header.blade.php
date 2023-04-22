@@ -11,6 +11,8 @@
 
     <title>@yield('titulo') - startupsummit</title>
 	<meta name='robots' content='noindex, nofollow' />
+
+
 	<noscript>
 		<style>
 			#preloader {
@@ -18,19 +20,11 @@
 			}
 		</style>
 	</noscript>
-	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
-	<link rel="alternate" type="application/rss+xml" title="Eventalk - Event Conference WordPress Theme &raquo; Feed"
-		href="https://radiustheme.com/demo/wordpress/eventalk/feed/" />
-	<link rel="alternate" type="application/rss+xml"
-		title="Eventalk - Event Conference WordPress Theme &raquo; Comments Feed"
-		href="https://radiustheme.com/demo/wordpress/eventalk/comments/feed/" />
-	<link rel='stylesheet' id='layerslider-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='wp-block-library-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-includes/css/dist/block-library/style.min.css'
-		type='text/css' media='all' />
+    <link rel="stylesheet" id="layerslider-css" href="/site/layerslider/css/layerslider.css" type="text/css"
+    media="all" />
+<link rel="stylesheet" id="wp-block-library-css" href="/site/layerslider/css/dist/block-library/style.min.css"
+    type="text/css" media="all" />
+
 	<style id='wp-block-library-theme-inline-css' type='text/css'>
 		.wp-block-audio figcaption {
 			color: #555;
@@ -219,15 +213,13 @@
 			padding: 1.25em 2.375em
 		}
 	</style>
-	<link rel='stylesheet' id='wc-blocks-vendors-style-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='wc-blocks-style-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='classic-theme-styles-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-includes/css/classic-themes.min.css' type='text/css'
-		media='all' />
+	   <link rel="stylesheet" id="wc-blocks-vendors-style-css"
+        href="/site/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" id="wc-blocks-style-css"
+        href="/site/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="classic-theme-styles-css" href="/site/wp-includes/css/classic-themes.min.css"
+        type="text/css" media="all" />
 	<style id='global-styles-inline-css' type='text/css'>
 		body {
 			--wp--preset--color--black: #000000;
@@ -572,21 +564,13 @@
 			line-height: 1.6;
 		}
 	</style>
-	<link rel='stylesheet' id='contact-form-7-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/contact-form-7/includes/css/styles.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='redux-extendify-styles-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/redux-framework/redux-core/assets/css/extendify-utilities.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='woocommerce-layout-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css'
-		type='text/css' media='only screen and (max-width: 767px)' />
-	<link rel='stylesheet' id='woocommerce-general-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/woocommerce/assets/css/woocommerce.css'
-		type='text/css' media='all' />
+
+    <link rel="stylesheet" id="woocommerce-layout-css" href="/site/css/woocommerce-layout.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" id="woocommerce-smallscreen-css" href="/site/css/woocommerce-smallscreen.css" type="text/css"
+        media="only screen and (max-width: 767px)" />
+    <link rel="stylesheet" id="woocommerce-general-css" href="/site/css/woocommerce.css" type="text/css"
+        media="all" />
 	<style id='woocommerce-inline-inline-css' type='text/css'>
 		.woocommerce form .form-row .required {
 			visibility: visible;
@@ -608,12 +592,10 @@
 			color: #ff0000;
 		}
 	</style>
-	<link rel='stylesheet' id='elementor-icons-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='elementor-frontend-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/elementor/assets/css/frontend.min.css'
-		type='text/css' media='all' />
+    <link rel="stylesheet" id="elementor-icons-css" href="/site/lib/eicons/css/elementor-icons.min.css"
+    type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-frontend-css" href="/site/css/frontend.min.css" type="text/css"
+    media="all" />
 	<style id='elementor-frontend-inline-css' type='text/css'>
 		.elementor-kit-2717 {
 			--e-global-color-primary: #6EC1E4;
@@ -1033,12 +1015,15 @@
 			}
 		}
 	</style>
-	<link rel='stylesheet' id='swiper-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css'
-		href='https://radiustheme.com/demo/wordpress/eventalk/wp-content/themes/eventalk/assets/css/font-awesome.min.css'
-		type='text/css' media='all' />
+    <link rel="stylesheet" id="font-awesome-css" href="/site/css/font-awesome.min.css" type="text/css"
+    media="all" />
+    <link rel="stylesheet" id="bootstrap-css" href="/site/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="animate-css" href="/site/css/animate.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="eventalk-style-css" href="/site/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="eventalk-elementor-css" href="/site/css/elementor.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" id="eventalk-update-css-css" href="/site/css/update-css.css" type="text/css"
+        media="all" />
 	<style id='font-awesome-inline-css' type='text/css'>
 		[data-font="FontAwesome"]:before {
 			font-family: 'FontAwesome' !important;
@@ -2177,18 +2162,19 @@
 			border-bottom: 1px solid #fad03b;
 		}
 	</style>
-	<link rel="preload" as="style"
-		href="https://fonts.googleapis.com/css?family=Poppins:600,500,700%7CRoboto:400&#038;display=swap&#038;ver=1624437890" />
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css?family=Poppins:600,500,700%7CRoboto:400&#038;display=swap&#038;ver=1624437890"
-		media="print" onload="this.media='all'"><noscript>
-		<link rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Poppins:600,500,700%7CRoboto:400&#038;display=swap&#038;ver=1624437890" />
-	</noscript>
-	<link rel='stylesheet' id='google-fonts-1-css'
-		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2'
-		type='text/css' media='all' />
-	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css?family=Poppins:600,500,700%7CRoboto:400&#038;display=swap&#038;ver=1624437890" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Poppins:600,500,700%7CRoboto:400&#038;display=swap&#038;ver=1624437890"
+    media="print" onload="this.media='all'" />
+<noscript>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:600,500,700%7CRoboto:400&#038;display=swap&#038;ver=1624437890" />
+</noscript>
+<link rel="stylesheet" id="google-fonts-1-css"
+    href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.1.1"
+    type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
 	<script type='text/javascript'
 		src='https://radiustheme.com/demo/wordpress/eventalk/wp-includes/js/jquery/jquery.min.js'
 		id='jquery-core-js'></script>

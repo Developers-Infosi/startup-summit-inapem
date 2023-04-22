@@ -19,16 +19,18 @@
                             <h3 class="widgettitle">Contacto</h3>
                             <div class="menu-need-help-container">
                                 <ul id="menu-need-help" class="menu">
-                                    <li><a target="_blank" href="https://www.facebook.com/angoticangola/"
-                                        target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/angoticangola" target="_blank"><i
-                                            class="fa fa-twitter"></i></a></li>
-                                <li><a target="_blank" href="https://www.instagram.com/angoticangola/"
-                                        target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/company/angoticangola/"
-                                        target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a target="_blank" href="https://www.youtube.com/@AngoticAngola"
-                                        target="_blank"><i class="fa fa-youtube"></i></a></li
+
+
+                                        <li>
+                                            <i class="fa fa-phone" aria-hidden="true"></i>  &nbsp;<a
+                                                href="tel:5647-345-2224"> +244 929 794 319</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope-o" aria-hidden="true"></i>  &nbsp;<a
+                                                href="tel:5647-345-2224"> startupsummit@mep.gov.ao</a>
+                                        </li>
+
+                                        
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 text-center">
-                        <p>&copy; Copyright Startup Summit {{ date('Y') }}. Todos Direitos Reservados </p>
+                        <p>&copy; Copyright Angola Startup Summit {{ date('Y') }}. Todos Direitos Reservados </p>
                     </div>
                 </div>
             </div>
