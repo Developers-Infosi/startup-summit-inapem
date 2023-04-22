@@ -216,19 +216,12 @@
                                                                                 src="/site/images/FUNDOS.jpg"
                                                                                 class="attachment-full size-full"
                                                                                 alt="" loading="lazy" />
-
-
-
                                                                             <div class="video-icon"><a
                                                                                     class="play-btn popup-video popup-youtube"
                                                                                     href="https://www.youtube.com/watch?v=Y8PYCMGBtOU">
                                                                                     <i class="fa fa-play"
                                                                                         aria-hidden="true"></i>
                                                                                 </a></div>
-
-
-
-
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -371,11 +364,11 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <img width="400" height="400"
-                                                                                        src="{{ asset('/site/images/desafio/mepchallange.JPG') }}"
+                                                                                        src="{{ asset('/site/images/desafio/mepchallange.jpg') }}"
                                                                                         class="attachment-eventalk-size4 size-eventalk-size4 wp-post-image"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy"
-                                                                                        srcset="{{ asset('/site/images/desafio/mepchallange.JPG') }}"
+                                                                                        srcset="{{ asset('/site/images/desafio/mepchallange.jpg') }}"
                                                                                         sizes="(max-width: 400px) 100vw, 400px" />
                                                                                 </div>
                                                                             </div>
@@ -410,11 +403,11 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <img width="400" height="400"
-                                                                                        src="{{ asset('/site/images/desafio/mepchallange.JPG') }}"
+                                                                                        src="{{ asset('/site/images/desafio/mepchallange.jpg') }}"
                                                                                         class="attachment-eventalk-size4 size-eventalk-size4 wp-post-image"
                                                                                         alt="" decoding="async"
                                                                                         loading="lazy"
-                                                                                        srcset="{{ asset('/site/images/desafio/exechallange4.JPG') }}"
+                                                                                        srcset="{{ asset('/site/images/desafio/exechallange4.jpg') }}"
                                                                                         sizes="(max-width: 400px) 100vw, 400px" />
                                                                                 </div>
                                                                             </div>
@@ -537,7 +530,8 @@
                                                                                             class="col-lg-2 col-md-3 col-sm-12">
                                                                                             <div class="schedule-time">
                                                                                                 <i class="fa fa-clock-o"
-                                                                                                    aria-hidden="true"></i>     {{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                                                                    aria-hidden="true"></i>
+                                                                                                {{ date('H:i | d/m/Y', strtotime($item->start)) }}
                                                                                                 -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
                                                                                             </div>
                                                                                         </div>
@@ -550,8 +544,8 @@
                                                                                             class="col-lg-6 col-md-6 col-sm-12">
                                                                                             <div class="speaker-new-wrp">
                                                                                                 <h3 class="schedule-title">
-                                                                                                    <a
-                                                                                                        href="#"> {{ $item->activity }}</a>
+                                                                                                    <a href="#">
+                                                                                                        {{ $item->activity }}</a>
 
                                                                                                 </h3>
                                                                                                 <ul
@@ -561,7 +555,7 @@
                                                                                                     <li>
                                                                                                         <i class="fa fa-map-marker"
                                                                                                             aria-hidden="true"></i>
-                                                                                                            {{ $item->local }}
+                                                                                                        {{ $item->local }}
                                                                                                     </li>
 
                                                                                                 </ul>
@@ -615,62 +609,63 @@
                                                                         </div>
                                                                         <div class="schedule-item-8">
                                                                             @foreach ($schedulesII as $item)
-                                                                            <div class="schedule-contnet-mid">
-                                                                                <div class="row">
-                                                                                    <div
-                                                                                        class="col-lg-2 col-md-3 col-sm-12">
-                                                                                        <div class="schedule-time">
-                                                                                            <i class="fa fa-clock-o"
-                                                                                                aria-hidden="true"></i>     {{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                                                            -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="col-lg-2 col-md-2 col-sm-12 p0">
-
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="col-lg-6 col-md-6 col-sm-12">
-                                                                                        <div class="speaker-new-wrp">
-                                                                                            <h3 class="schedule-title">
-                                                                                                <a
-                                                                                                    href="#"> {{ $item->activity }}</a>
-
-                                                                                            </h3>
-                                                                                            <ul
-                                                                                                class="schedule-list-info">
-
-
-                                                                                                <li>
-                                                                                                    <i class="fa fa-map-marker"
-                                                                                                        aria-hidden="true"></i>
-                                                                                                        {{ $item->local }}
-                                                                                                </li>
-
-                                                                                            </ul>
-
-                                                                                            <div class="details-txt">
-                                                                                                <p>{!! html_entity_decode($item->description) !!}
-                                                                                                </p>
-                                                                                            </div>
-
-
-
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="col-lg-2 col-md-2 col-sm-12">
+                                                                                <div class="schedule-contnet-mid">
+                                                                                    <div class="row">
                                                                                         <div
-                                                                                            class="speaker-details-wrp details-info">
+                                                                                            class="col-lg-2 col-md-3 col-sm-12">
+                                                                                            <div class="schedule-time">
+                                                                                                <i class="fa fa-clock-o"
+                                                                                                    aria-hidden="true"></i>
+                                                                                                {{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                                                                -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                                                            </div>
+                                                                                        </div>
 
-                                                                                            <a class="details-down"
-                                                                                                href="#">Detalhes</a>
+                                                                                        <div
+                                                                                            class="col-lg-2 col-md-2 col-sm-12 p0">
+
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="col-lg-6 col-md-6 col-sm-12">
+                                                                                            <div class="speaker-new-wrp">
+                                                                                                <h3 class="schedule-title">
+                                                                                                    <a href="#">
+                                                                                                        {{ $item->activity }}</a>
+
+                                                                                                </h3>
+                                                                                                <ul
+                                                                                                    class="schedule-list-info">
+
+
+                                                                                                    <li>
+                                                                                                        <i class="fa fa-map-marker"
+                                                                                                            aria-hidden="true"></i>
+                                                                                                        {{ $item->local }}
+                                                                                                    </li>
+
+                                                                                                </ul>
+
+                                                                                                <div class="details-txt">
+                                                                                                    <p>{!! html_entity_decode($item->description) !!}
+                                                                                                    </p>
+                                                                                                </div>
+
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="col-lg-2 col-md-2 col-sm-12">
+                                                                                            <div
+                                                                                                class="speaker-details-wrp details-info">
+
+                                                                                                <a class="details-down"
+                                                                                                    href="#">Detalhes</a>
+                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
-                                                                        @endforeach
+                                                                            @endforeach
 
                                                                         </div>
 
@@ -702,62 +697,63 @@
                                                                         </div>
                                                                         <div class="schedule-item-8">
                                                                             @foreach ($schedulesIII as $item)
-                                                                            <div class="schedule-contnet-mid">
-                                                                                <div class="row">
-                                                                                    <div
-                                                                                        class="col-lg-2 col-md-3 col-sm-12">
-                                                                                        <div class="schedule-time">
-                                                                                            <i class="fa fa-clock-o"
-                                                                                                aria-hidden="true"></i>     {{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                                                            -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <div
-                                                                                        class="col-lg-2 col-md-2 col-sm-12 p0">
-
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="col-lg-6 col-md-6 col-sm-12">
-                                                                                        <div class="speaker-new-wrp">
-                                                                                            <h3 class="schedule-title">
-                                                                                                <a
-                                                                                                    href="#"> {{ $item->activity }}</a>
-
-                                                                                            </h3>
-                                                                                            <ul
-                                                                                                class="schedule-list-info">
-
-
-                                                                                                <li>
-                                                                                                    <i class="fa fa-map-marker"
-                                                                                                        aria-hidden="true"></i>
-                                                                                                        {{ $item->local }}
-                                                                                                </li>
-
-                                                                                            </ul>
-
-                                                                                            <div class="details-txt">
-                                                                                                <p>{!! html_entity_decode($item->description) !!}
-                                                                                                </p>
-                                                                                            </div>
-
-
-
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="col-lg-2 col-md-2 col-sm-12">
+                                                                                <div class="schedule-contnet-mid">
+                                                                                    <div class="row">
                                                                                         <div
-                                                                                            class="speaker-details-wrp details-info">
+                                                                                            class="col-lg-2 col-md-3 col-sm-12">
+                                                                                            <div class="schedule-time">
+                                                                                                <i class="fa fa-clock-o"
+                                                                                                    aria-hidden="true"></i>
+                                                                                                {{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                                                                -{{ date('H:i | d/m/Y', strtotime($item->start)) }}
+                                                                                            </div>
+                                                                                        </div>
 
-                                                                                            <a class="details-down"
-                                                                                                href="#">Detalhes</a>
+                                                                                        <div
+                                                                                            class="col-lg-2 col-md-2 col-sm-12 p0">
+
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="col-lg-6 col-md-6 col-sm-12">
+                                                                                            <div class="speaker-new-wrp">
+                                                                                                <h3 class="schedule-title">
+                                                                                                    <a href="#">
+                                                                                                        {{ $item->activity }}</a>
+
+                                                                                                </h3>
+                                                                                                <ul
+                                                                                                    class="schedule-list-info">
+
+
+                                                                                                    <li>
+                                                                                                        <i class="fa fa-map-marker"
+                                                                                                            aria-hidden="true"></i>
+                                                                                                        {{ $item->local }}
+                                                                                                    </li>
+
+                                                                                                </ul>
+
+                                                                                                <div class="details-txt">
+                                                                                                    <p>{!! html_entity_decode($item->description) !!}
+                                                                                                    </p>
+                                                                                                </div>
+
+
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="col-lg-2 col-md-2 col-sm-12">
+                                                                                            <div
+                                                                                                class="speaker-details-wrp details-info">
+
+                                                                                                <a class="details-down"
+                                                                                                    href="#">Detalhes</a>
+                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
-                                                                        @endforeach
+                                                                            @endforeach
 
                                                                         </div>
 
