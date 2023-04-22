@@ -9,7 +9,7 @@
 	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
 	<script>function loadAsync(e, t) { var a, n = !1; a = document.createElement("script"), a.type = "text/javascript", a.src = e, a.onreadystatechange = function () { n || this.readyState && "complete" != this.readyState || (n = !0, "function" == typeof t && t()) }, a.onload = a.onreadystatechange, document.getElementsByTagName("head")[0].appendChild(a) }</script>
 
-    <title>@yield('titulo') Oficial - Angola Startup Summit</title>
+    <title>@yield('titulo')  - Angola Startup Summit</title>
 	<meta name='robots' content='noindex, nofollow' />
 
 
