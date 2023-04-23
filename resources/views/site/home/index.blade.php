@@ -395,10 +395,10 @@
 
 
                                                                             </div>
-                                                                            @include('extra.modal._modalChallenge.index')
+
                                                                         </div>
                                                                     </div>
-
+                                                                    @include('extra.modal._modalChallenge.index')
                                                                     <div
                                                                         class="rtin-item col-lg-3 col-md-6 col-sm-6 col-12">
                                                                         <div class="speaker-layout4">
@@ -418,7 +418,7 @@
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
                                                                                     <a data-toggle="modal"
-                                                                                        data-target="#exampleModal">Governador
+                                                                                        data-target="#GovernadorModal">Governador
                                                                                         Challenge</a>
 
                                                                                 </h3>
@@ -438,7 +438,7 @@
                                                                         </div>
                                                                     </div>
 
-
+                                                                    @include('extra.modal._modalGovernador.index')
 
                                                                     <div
                                                                         class="rtin-item col-lg-3 col-md-6 col-sm-6 col-12 ">
@@ -458,9 +458,8 @@
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a href="{{ asset('/site/images/desafio/bcichallange.jpg') }}"
-                                                                                        data-toggle="modal"
-                                                                                        data-target="#AplicativoModal">BCI
+                                                                                    <a href=""
+                                                                                        >BCI
                                                                                         Challenge</a>
                                                                                 </h3>
                                                                                 <div class="designation">Melhor solução
