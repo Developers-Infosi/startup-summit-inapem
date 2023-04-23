@@ -185,12 +185,109 @@
                                                             data-id="c98d4af" data-element_type="widget"
                                                             data-widget_type="image.default">
                                                             <div class="elementor-widget-container">
-                                                                <img decoding="async" width="363" height="591"
-                                                                    src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/Layer-591.png"
-                                                                    class="attachment-full size-full wp-image-2600"
-                                                                    alt="" loading="lazy"
-                                                                    srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/Layer-591.png 363w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/Layer-591-184x300.png 184w"
-                                                                    sizes="(max-width: 363px) 100vw, 363px" />
+
+                                                                <div class="row">
+
+                                                                    <div
+                                                                    class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
+                                                                    <div class="speaker-layout4">
+
+                                                                        <div class="speaker-layout4-top">
+                                                                            <div class="speaker-layout4-img">
+                                                                                <i class="fa fa-download" aria-hidden="true"></i>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="item-title">
+                                                                            <h3 class="title">
+                                                                                <a target="_blank" href="/site/pdf/dossier_expositor.pdf" >DOSSIER DO EXPOSITOR
+
+
+                                                                                </a>
+                                                                            </h3>
+
+
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div
+                                                                class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
+                                                                <div class="speaker-layout4">
+
+                                                                    <div class="speaker-layout4-top">
+                                                                        <div class="speaker-layout4-img">
+                                                                            <i class="fa fa-download" aria-hidden="true"></i>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="item-title">
+                                                                        <h3 class="title">
+                                                                            <a href="#" >Patrocínio
+
+
+                                                                            </a>
+                                                                        </h3>
+
+
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                            class="rtin-item col-lg-6 col-md-4 col-sm-6 col-">
+                                                            <div class="speaker-layout4">
+
+                                                                <div class="speaker-layout4-top">
+                                                                    <div class="speaker-layout4-img">
+                                                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="item-title">
+                                                                    <h3 class="title">
+                                                                        <a href="{{ route('site.registration') }}" >FICHA DE INSCRIÇÃO(Expositor)
+
+
+                                                                        </a>
+                                                                    </h3>
+
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div
+                                                        class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
+                                                        <div class="speaker-layout4">
+
+                                                            <div class="speaker-layout4-top">
+                                                                <div class="speaker-layout4-img">
+                                                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="item-title">
+                                                                <h3 class="title">
+                                                                    <a href="#"  data-toggle="modal" data-target="#exampleModal">COMO PARTICIPAR(Critérios)
+
+
+                                                                    </a>
+                                                                </h3>
+
+
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>

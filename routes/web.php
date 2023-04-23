@@ -39,6 +39,9 @@ Route::get('/noticia/{title}', ['as' => 'site.news.show', 'uses' => 'Site\NewsCo
 Route::get('/contactos', ['as' => 'site.contact', 'uses' => 'Site\ContactController@index']);
 route::post('site/help/email', ['as' => 'site.help.email', 'uses' => 'Site\Email\HelpController@send']);
 
+/**registration */
+Route::get('/registro', ['as' => 'site.registration', 'uses' => 'Site\RegistrationController@create']);
+
 /* policyPrivacy */
 Route::get('/politicas-de-privacidade', ['as' => 'site.policyPrivacy', 'uses' => 'Site\PolicyPrivacyController@index']);
 /* inclui as rotas de autenticação do ficheiro auth.php */
