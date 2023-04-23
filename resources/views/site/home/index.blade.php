@@ -207,7 +207,7 @@
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
-                                                                        
+
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
@@ -442,7 +442,9 @@
                                             class="elementor-section elementor-top-section elementor-element elementor-element-789dd1d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                                             data-id="789dd1d" data-element_type="section"
                                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-container elementor-column-gap-default" style="display: flex;
+                                            justify-content: center;
+                                            align-items: center;  width: 120%;" >
                                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-612dbe4"
                                                     data-id="612dbe4" data-element_type="column">
                                                     <div class="elementor-widget-wrap elementor-element-populated">
