@@ -65,7 +65,19 @@
                         </a>
                     </li>
                 </ul>
+  {{-- Menu de Inscrições --}}
+  <p class="text-muted nav-heading mt-2 mb-1">
+    <span> Inscrições</span>
+</p>
+<ul class="navbar-nav flex-fill w-100 mb-2">
+    <li class="nav-item w-100">
+        <a class="nav-link" href="{{ route('admin.registration.index') }}">
 
+            <i class="fe fe-users fe-16"></i>
+            <span class="ml-3 item-text">Inscrições</span>
+        </a>
+    </li>
+</ul>
 
 
                 {{-- Menu de Programas & Oradores --}}

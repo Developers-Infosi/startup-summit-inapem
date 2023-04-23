@@ -41,6 +41,8 @@ route::post('site/help/email', ['as' => 'site.help.email', 'uses' => 'Site\Email
 
 /**registration */
 Route::get('/registro', ['as' => 'site.registration', 'uses' => 'Site\RegistrationController@create']);
+Route::post('/registro/store', ['as' => 'site.registration.store', 'uses' => 'Site\RegistrationController@store']);
+
 
 /* policyPrivacy */
 Route::get('/politicas-de-privacidade', ['as' => 'site.policyPrivacy', 'uses' => 'Site\PolicyPrivacyController@index']);

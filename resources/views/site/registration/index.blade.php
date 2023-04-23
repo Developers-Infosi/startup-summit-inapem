@@ -17,10 +17,18 @@
     </div>
 
     <div id="primary" class="content-area event-page-area py-5">
-        <div class="container">
-            <div class="row">
-
-
+        
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+                <form action="{{ route('site.registration.store') }}" method="POST" enctype="multipart/form-data" class="row">
+                    @csrf
 
                 @include('forms._formRegistration.index')
             </div>
@@ -32,10 +40,19 @@
                 </button>
 
             </div>
+        </form>
         </div>
 
     </div>
 
-
+    @if (session('create'))
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Registro feito com sucesso!',
+            showConfirmButton: true
+        })
+    </script>
+    @endif
 
 @endsection

@@ -18,6 +18,10 @@
 			}
 		</style>
 	</noscript>
+        {{-- sweetalert --}}
+        <link rel="stylesheet" href="/css/sweetalert2.css">
+        <script src="/js/sweetalert2.all.min.js"></script>
+
     <link rel="stylesheet" id="layerslider-css" href="/site/layerslider/css/layerslider.css" type="text/css"
     media="all" />
 <link rel="stylesheet" id="wp-block-library-css" href="/site/layerslider/css/dist/block-library/style.min.css"

@@ -88,6 +88,13 @@ Route::middleware(['auth'])->group(function () {
     /* end news */
 
 
+    /* registration */
+    Route::get('admin/registration/index', ['as' => 'admin.registration.index', 'uses' => 'Admin\RegistratonController@index']);
+    Route::get('admin/registration/show/{id}', ['as' => 'admin.registration.show', 'uses' => 'Admin\RegistratonController@show']);
+
+    Route::get('admin/registration/edit/{id}', ['as' => 'admin.registration.edit', 'uses' => 'Admin\RegistratonController@edit']);
+    Route::put('admin/registration/update/{id}', ['as' => 'admin.registration.update', 'uses' => 'Admin\RegistratonController@update']);
+
     /* video */
     Route::get('admin/video/index', ['as' => 'admin.video.index', 'uses' => 'Admin\VideoController@list']);
     Route::get('admin/video/show/{id}', ['as' => 'admin.video.show', 'uses' => 'Admin\VideoController@show']);
