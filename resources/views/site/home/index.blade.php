@@ -62,62 +62,82 @@
                                         </section>
 
 
-                                        <section <div
-                                            class="elementor-section elementor-top-section elementor-element elementor-element-534587aa elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                            data-id="534587aa" data-element_type="section"
-                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}"
-                                            style="width: 1024px; left: -47px;">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4ccd5c91  d-flex align-items-center primary-bgcolor"
-                                                    data-id="4ccd5c91" data-element_type="column"
-                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-background-overlay"></div>
-                                                        <div class="elementor-element elementor-element-1ffb0894 elementor-widget elementor-widget-text-editor"
-                                                            data-id="1ffb0894" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="upcoming-event-layout2 zindex-up">
-                                                                    <h2> Instituto Superior Politécnico de
+                                        <section>
 
-                                                                        Tecnologias e Ciências</h2>
-                                                                    <div class="event-location">Talatona, Luanda</div>
-                                                                    <div class="event-date">De 27 a 29 de Abril
+                                            <div class="elementor-section elementor-top-section elementor-element elementor-element-534587aa elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                                                data-id="534587aa" data-element_type="section"
+                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}"
+                                                style=" width: 100%;
+  margin: 0; left: -47px;">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4ccd5c91  d-flex align-items-center primary-bgcolor"
+                                                        data-id="4ccd5c91" data-element_type="column"
+                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-background-overlay"></div>
+                                                            <div class="elementor-element elementor-element-1ffb0894 elementor-widget elementor-widget-text-editor"
+                                                                data-id="1ffb0894" data-element_type="widget"
+                                                                data-widget_type="text-editor.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="upcoming-event-layout2 zindex-up">
+                                                                        <h2> Instituto Superior Politécnico de
+
+                                                                            Tecnologias e Ciências</h2>
+                                                                        <div class="event-location">Talatona, Luanda</div>
+                                                                        <div class="event-date">De 27 a 29 de Abril
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7ed3469e primary-bgcolor"
-                                                    data-id="7ed3469e" data-element_type="column"
-                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-5f6ea31c elementor-widget elementor-widget-rt-countdown"
-                                                            data-id="5f6ea31c" data-element_type="widget"
-                                                            data-widget_type="rt-countdown.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div
-                                                                    class="full-width-container countdown-layout1 rtin-light">
-                                                                    <div class="container-fluid-wrp">
+
+                                                    <div class="elementor-element elementor-element-b7f9577 elementor-widget elementor-widget-rt-countdown primary-bgcolor"
+                                                        data-id="7ed3469e" data-element_type="widget"
+                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 
 
-                                                                        <div data-countdown="2023/04/27 07:00:00"
-                                                                            class="event-countdown row">
-                                                                            <div class="countdown-layout1new  rtin-light">
 
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-b7f9577 elementor-widget elementor-widget-rt-countdown"
+                                                                data-id="b7f9577" data-element_type="widget"
+                                                                data-widget_type="rt-countdown.default">
+                                                                <div class="elementor-widget-container">
+
+
+
+                                                                    <div class="full-width-container countdown-layout1new rtin-light"
+                                                                        style=" padding: 35px;   font-size: 40px;">
+
+                                                                        <div class="container-fluid-wrp">
+                                                                            <div data-countdown="2023/04/27 07:00:00"
+                                                                                class="event-countdown">
+                                                                                <div class="countdown-section">
+                                                                                    <h2>04</h2>
+                                                                                    <h3>Dia</h3>
+                                                                                </div>
+                                                                                <div class="countdown-section cs2sd">
+                                                                                    <h2>19</h2>
+                                                                                    <h3>Hours</h3>
+                                                                                </div>
+                                                                                <div class="countdown-section">
+                                                                                    <h2>22</h2>
+                                                                                    <h3>Minutes</h3>
+                                                                                </div>
+                                                                                <div class="countdown-section">
+                                                                                    <h2>20</h2>
+                                                                                    <h3>Seconds</h3>
+                                                                                </div>
                                                                             </div>
-
-
                                                                         </div>
 
                                                                     </div>
 
-
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </section>
@@ -145,37 +165,7 @@
                                                             data-widget_type="text-editor.default">
 
                                                         </div>
-                                                        <div class="elementor-element elementor-element-b7f9577 elementor-widget elementor-widget-rt-countdown"
-                                                            data-id="b7f9577" data-element_type="widget"
-                                                            data-widget_type="rt-countdown.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="countdown-layout1new  rtin-light">
-                                                                    <div class="countdown-layout1new  rtin-light">
-                                                                        <div class="container-fluid-wrp">
-                                                                            <div data-countdown="2022/09/15 00:00:00"
-                                                                                class="event-countdown">
-                                                                                <div class="countdown-section">
-                                                                                    <h2>04</h2>
-                                                                                    <h3>Dia</h3>
-                                                                                </div>
-                                                                                <div class="countdown-section cs2sd">
-                                                                                    <h2>19</h2>
-                                                                                    <h3>Hours</h3>
-                                                                                </div>
-                                                                                <div class="countdown-section">
-                                                                                    <h2>22</h2>
-                                                                                    <h3>Minutes</h3>
-                                                                                </div>
-                                                                                <div class="countdown-section">
-                                                                                    <h2>20</h2>
-                                                                                    <h3>Seconds</h3>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-66242bc"
@@ -189,103 +179,112 @@
                                                                 <div class="row">
 
                                                                     <div
-                                                                    class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
-                                                                    <div class="speaker-layout4">
+                                                                        class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
+                                                                        <div class="speaker-layout4">
 
-                                                                        <div class="speaker-layout4-top">
-                                                                            <div class="speaker-layout4-img">
-                                                                                <i class="fa fa-download" aria-hidden="true"></i>
+                                                                            <div class="speaker-layout4-top">
+                                                                                <div class="speaker-layout4-img">
+                                                                                    <i class="fa fa-download"
+                                                                                        aria-hidden="true"></i>
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
 
-                                                                        <div class="item-title">
-                                                                            <h3 class="title">
-                                                                                <a target="_blank" href="/site/pdf/dossier_expositor.pdf" >DOSSIER DO EXPOSITOR
-
-
-                                                                                </a>
-                                                                            </h3>
+                                                                            <div class="item-title">
+                                                                                <h3 class="title">
+                                                                                    <a target="_blank"
+                                                                                        href="/site/pdf/dossier_expositor.pdf">DOSSIER
+                                                                                        DO EXPOSITOR
 
 
+                                                                                    </a>
+                                                                                </h3>
 
-                                                                        </div>
 
-                                                                    </div>
-                                                                </div>
 
-                                                                <div
-                                                                class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
-                                                                <div class="speaker-layout4">
+                                                                            </div>
 
-                                                                    <div class="speaker-layout4-top">
-                                                                        <div class="speaker-layout4-img">
-                                                                            <i class="fa fa-download" aria-hidden="true"></i>
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="item-title">
-                                                                        <h3 class="title">
-                                                                            <a href="#" >Patrocínio
+                                                                    <div
+                                                                        class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
+                                                                        <div class="speaker-layout4">
+
+                                                                            <div class="speaker-layout4-top">
+                                                                                <div class="speaker-layout4-img">
+                                                                                    <i class="fa fa-download"
+                                                                                        aria-hidden="true"></i>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="item-title">
+                                                                                <h3 class="title">
+                                                                                    <a href="#">Patrocínio
 
 
-                                                                            </a>
-                                                                        </h3>
+                                                                                    </a>
+                                                                                </h3>
 
 
 
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="rtin-item col-lg-6 col-md-4 col-sm-6 col-">
+                                                                        <div class="speaker-layout4">
+
+                                                                            <div class="speaker-layout4-top">
+                                                                                <div class="speaker-layout4-img">
+                                                                                    <i class="fa fa-envelope-o"
+                                                                                        aria-hidden="true"></i>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="item-title">
+                                                                                <h3 class="title">
+                                                                                    <a
+                                                                                        href="{{ route('site.registration') }}">FICHA
+                                                                                        DE INSCRIÇÃO(Expositor)
+
+
+                                                                                    </a>
+                                                                                </h3>
+
+
+
+                                                                            </div>
+
+                                                                        </div>
                                                                     </div>
 
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                            class="rtin-item col-lg-6 col-md-4 col-sm-6 col-">
-                                                            <div class="speaker-layout4">
+                                                                    <div
+                                                                        class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
+                                                                        <div class="speaker-layout4">
 
-                                                                <div class="speaker-layout4-top">
-                                                                    <div class="speaker-layout4-img">
-                                                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                                            <div class="speaker-layout4-top">
+                                                                                <div class="speaker-layout4-img">
+                                                                                    <i class="fa fa-envelope-o"
+                                                                                        aria-hidden="true"></i>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="item-title">
+                                                                                <h3 class="title">
+                                                                                    <a href="#" data-toggle="modal"
+                                                                                        data-target="#exampleModal">COMO
+                                                                                        PARTICIPAR(Critérios)
+
+
+                                                                                    </a>
+                                                                                </h3>
+
+
+
+                                                                            </div>
+
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-
-                                                                <div class="item-title">
-                                                                    <h3 class="title">
-                                                                        <a href="{{ route('site.registration') }}" >FICHA DE INSCRIÇÃO(Expositor)
-
-
-                                                                        </a>
-                                                                    </h3>
-
-
-
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div
-                                                        class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
-                                                        <div class="speaker-layout4">
-
-                                                            <div class="speaker-layout4-top">
-                                                                <div class="speaker-layout4-img">
-                                                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="item-title">
-                                                                <h3 class="title">
-                                                                    <a href="#"  data-toggle="modal" data-target="#exampleModal">COMO PARTICIPAR(Critérios)
-
-
-                                                                    </a>
-                                                                </h3>
-
-
-
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
 
                                                                 </div>
                                                             </div>
@@ -374,12 +373,12 @@
                                                                     class="rt-el-info-box clearfix media  rtin-light rtin-style5">
                                                                     <div class="rtin-img">
                                                                         <img width="120" height="120"
-                                                                        src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png"
-                                                                        class="attachment-thumbnail size-thumbnail"
-                                                                        alt="" decoding="async"
-                                                                        loading="lazy"
-                                                                        srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3-100x100.png 100w"
-                                                                        sizes="(max-width: 120px) 100vw, 120px" />
+                                                                            src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png"
+                                                                            class="attachment-thumbnail size-thumbnail"
+                                                                            alt="" decoding="async"
+                                                                            loading="lazy"
+                                                                            srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon3-100x100.png 100w"
+                                                                            sizes="(max-width: 120px) 100vw, 120px" />
                                                                     </div>
                                                                     <div class="media-body rtin-content">
                                                                         <h3 class="media-heading rtin-title"><a
@@ -402,12 +401,12 @@
                                                                     class="rt-el-info-box clearfix media  rtin-light rtin-style5">
                                                                     <div class="rtin-img">
                                                                         <img width="120" height="120"
-                                                                        src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png"
-                                                                        class="attachment-thumbnail size-thumbnail"
-                                                                        alt="" decoding="async"
-                                                                        loading="lazy"
-                                                                        srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2-100x100.png 100w"
-                                                                        sizes="(max-width: 120px) 100vw, 120px" />
+                                                                            src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png"
+                                                                            class="attachment-thumbnail size-thumbnail"
+                                                                            alt="" decoding="async"
+                                                                            loading="lazy"
+                                                                            srcset="https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2.png 120w, https://radiustheme.com/demo/wordpress/eventalk/wp-content/uploads/2019/03/icon2-100x100.png 100w"
+                                                                            sizes="(max-width: 120px) 100vw, 120px" />
 
 
 
@@ -555,8 +554,7 @@
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a href=""
-                                                                                        >BCI
+                                                                                    <a href="">BCI
                                                                                         Challenge</a>
                                                                                 </h3>
                                                                                 <div class="designation">Melhor solução
@@ -565,7 +563,9 @@
                                                                                     atribuído pelo Banco de Comércio e
                                                                                     Indústria (BCI) para as Startups que
                                                                                     criarem projectos virados à cadeia do
-                                                                                    agronegócio, no âmbito da 2.ª edição...
+                                                                                    agronegócio, no âmbito da 2.ª edição do
+                                                                                    Angola Startup Summit 2023, a decorrer
+                                                                                    de 27 a 29 de Abril presente, em Luanda.
 
                                                                                 </div>
 
@@ -583,7 +583,7 @@
                                                 </div>
                                             </div>
                                         </section>
-                                    @include('extra._schedule.index')
+                                        @include('extra._schedule.index')
                                         <section
                                             class="elementor-section elementor-top-section elementor-element elementor-element-1b72013 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                             data-id="1b72013" data-element_type="section"

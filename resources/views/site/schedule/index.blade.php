@@ -15,20 +15,19 @@
                 </div>
             </div>
         </div>
-
-        <div class="elementor-section elementor-top-section elementor-element elementor-element-d0936b1 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-            data-id="d0936b1" data-element_type="section" data-settings='{"stretch_section":"section-stretched"}'>
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6995e3"
-                    data-id="b6995e3" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated py-5 my-5">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-12 py-5">
+                      <!-- AGENDA-->
+                      <div class="elementor-widget-wrap elementor-element-populated my-5 py-5">
 
                         @include('extra._schedule.index')
                     </div>
+                    <!-- END AGENDA-->
                 </div>
             </div>
         </div>
+
     </div>
 
 @endsection
