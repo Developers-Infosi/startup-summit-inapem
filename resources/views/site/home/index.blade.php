@@ -180,6 +180,8 @@
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
+                                                                        <a  class="entry-title"  target="_blank"
+                                                                        href="/site/pdf/dossier_expositor.pdf">
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
@@ -191,12 +193,8 @@
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a target="_blank"
-                                                                                        href="/site/pdf/dossier_expositor.pdf">DOSSIER
+                                                                                   DOSSIER
                                                                                         DO EXPOSITOR
-
-
-                                                                                    </a>
                                                                                 </h3>
 
 
@@ -204,10 +202,12 @@
                                                                             </div>
 
                                                                         </div>
+                                                                    </a>
                                                                     </div>
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
+                                                                        
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
@@ -219,7 +219,7 @@
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a href="#">Patrocínio
+                                                                                    <a  class="entry-title" href="#">Patrocínio
 
 
                                                                                     </a>
@@ -231,7 +231,11 @@
 
                                                                         </div>
                                                                     </div>
+                                                                    <a class="entry-title"
+                                                                    href="{{ route('site.registration') }}">
                                                                     <div class="rtin-item col-lg-6 col-md-4 col-sm-6 col-">
+                                                                        <a class="entry-title"
+                                                                        href="{{ route('site.registration') }}">
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
@@ -243,12 +247,13 @@
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a
-                                                                                        href="{{ route('site.registration') }}">FICHA
+                                                                                   FICHA
                                                                                         DE INSCRIÇÃO(Expositor)
 
 
-                                                                                    </a>
+
+
+
                                                                                 </h3>
 
 
@@ -256,7 +261,9 @@
                                                                             </div>
 
                                                                         </div>
+                                                                    </a>
                                                                     </div>
+                                                                </a>
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
