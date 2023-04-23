@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
+use App\Models\ActivityProgram;
 use App\Models\Schedule;
 
 class ScheduleController extends Controller
@@ -16,9 +17,9 @@ class ScheduleController extends Controller
     public function index()
     {
         /* programs & activities */
-        $response['schedulesI'] = Schedule::where('day', 'I')->get();
-        $response['schedulesII'] = Schedule::where('day', 'II')->get();
-        $response['schedulesIII'] = Schedule::where('day', 'III')->get();
+        $response['schedulesI'] = ActivityProgram::where('day', 'I')->get();
+        $response['schedulesII'] = ActivityProgram::where('day', 'II')->get();
+        $response['schedulesIII'] = ActivityProgram::where('day', 'III')->get();
 
         return view('site.schedule.index', $response);
     }
