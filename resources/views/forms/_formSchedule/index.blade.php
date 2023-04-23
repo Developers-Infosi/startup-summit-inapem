@@ -1,4 +1,4 @@
-<div class="col-12 col-md-6 col-lg-6">
+<div class="col-4 col-md-4 col-lg-4">
     <div class="form-group">
         <label for="activity">Actividade </label>
         <input type="text" name="activity" id="activity"
@@ -8,7 +8,7 @@
 
 
 </div> <!-- /.col -->
-<div class="col-12 col-md-6 col-lg-6">
+<div class="col-4 col-md-4 col-lg-4">
     <div class="form-group">
         <label for="conference">Conferência </label>
         <input type="text" name="conference" id="conference"
@@ -51,6 +51,29 @@
     </div>
 </div> <!-- /.col -->
 
+
+
+<div class="col-4 col-md-4 col-lg-4">
+    <div class="form-group">
+        <label for="day">Dia do Evento</label>
+        <select name="day" id="day" class="form-control" required>
+            @if (isset($schedule->day))
+                <option value="{{ $schedule->day }}" class="text-primary h6" selected>
+                    {{ $schedule->day }}
+                </option>
+            @else
+                <option disabled selected>Selecione o dia do evento</option>
+            @endif
+
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+
+
+        </select>
+    </div>
+
+</div> <!-- /.col -->
 <div class="col-md-12 mb-4">
     <div class="card shadow">
         <div class="card-body">
