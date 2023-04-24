@@ -165,9 +165,9 @@
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
-                                                                        <a class="entry-title" href="/site/pdf/dossier_expositor.pdf">
-                                                                        <div class="speaker-layout4">
 
+                                                                        <div class="speaker-layout4">
+                                                                            <a target="_blank" class="entry-title" href="/site/pdf/dossier_expositor.pdf">
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <i class="fa fa-download"
@@ -186,8 +186,9 @@
 
                                                                                 </div>
                                                                             </a>
+                                                                        </a>
                                                                         </div>
-                                                                    </a>
+
                                                                     </div>
 
                                                                     <div
