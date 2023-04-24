@@ -61,71 +61,71 @@
                                             </div>
                                         </section>
 
+                                        <section
+                                        <div class="elementor-section elementor-top-section elementor-element elementor-element-534587aa elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                                         data-id="534587aa" data-element_type="section"
+                                         data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                         <div class="elementor-container elementor-column-gap-default">
+                                             <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4ccd5c91  d-flex align-items-center primary-bgcolor"
+                                                 data-id="4ccd5c91" data-element_type="column"
+                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                 <div class="elementor-widget-wrap elementor-element-populated">
+                                                     <div class="elementor-background-overlay"></div>
+                                                     <div class="elementor-element elementor-element-1ffb0894 elementor-widget elementor-widget-text-editor"
+                                                         data-id="1ffb0894" data-element_type="widget"
+                                                         data-widget_type="text-editor.default">
+                                                         <div class="elementor-widget-container">
+                                                             <div class="upcoming-event-layout2 zindex-up">
+                                                                 <h2> Instituto Superior Politécnico de
 
-                                        <section>
+                                                                    Tecnologias e Ciências</h2>
+                                                                 <div class="event-location">Talatona, Luanda</div>
+                                                                 <div class="event-date">De 27 a 29 de Abril
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7ed3469e primary-bgcolor"
+                                                 data-id="7ed3469e" data-element_type="column"
+                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                 <div class="elementor-widget-wrap elementor-element-populated">
+                                                     <div class="elementor-element elementor-element-5f6ea31c elementor-widget elementor-widget-rt-countdown"
+                                                         data-id="5f6ea31c" data-element_type="widget"
+                                                         data-widget_type="rt-countdown.default">
+                                                         <div class="elementor-widget-container">
+                                                             <div
+                                                                 class="full-width-container countdown-layout1new rtin-light"  style=" padding: 35px;   font-size: 40px;">
+                                                                 <div class="container-fluid-wrp">
+                                                                     <div data-countdown="2023/04/27 07:00:00"
+                                                                         class="event-countdown row justify-content-center">
+                                                                         <div class="countdown-section">
+                                                                             <h2>251</h2>
+                                                                             <h3>Dias</h3>
+                                                                         </div>
+                                                                         <div class="countdown-section cs2sd">
+                                                                             <h2>08</h2>
+                                                                             <h3>Horas</h3>
+                                                                         </div>
+                                                                         <div class="countdown-section">
+                                                                             <h2>51</h2>
+                                                                             <h3>Minutos</h3>
+                                                                         </div>
+                                                                         <div class="countdown-section">
+                                                                             <h2>47</h2>
+                                                                             <h3>Segundos</h3>
+                                                                         </div>
+                                                                     </div>
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </section>
 
-                                            <div class="elementor-section elementor-top-section elementor-element elementor-element-534587aa elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                                data-id="534587aa" data-element_type="section"
-                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}"
-                                                style="  left: -0px;">
-                                                <div class="elementor-container elementor-column-gap-default">
-                                                    <div class="elementor-column elementor-col-64 elementor-top-column elementor-element elementor-element-4ccd5c91  d-flex align-items-center primary-bgcolor"
-                                                        data-id="4ccd5c91" data-element_type="column"
-                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                                            <div class="elementor-background-overlay"></div>
-                                                            <div class="elementor-element elementor-element-1ffb0894 elementor-widget elementor-widget-text-editor"
-                                                                data-id="1ffb0894" data-element_type="widget"
-                                                                data-widget_type="text-editor.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="upcoming-event-layout2 zindex-up">
-                                                                        <h2> Instituto Superior Politécnico de
-
-                                                                            Tecnologias e Ciências</h2>
-                                                                        <div class="event-location">Talatona, Luanda</div>
-                                                                        <div class="event-date">De 27 a 29 de Abril
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="elementor-element elementor-element-b7f9577 elementor-widget elementor-widget-rt-countdown primary-bgcolor"
-                                                        data-id="7ed3469e" data-element_type="widget"
-                                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-
-
-
-                                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                                            <div class="elementor-element elementor-element-b7f9577 elementor-widget elementor-widget-rt-countdown"
-                                                                data-id="b7f9577" data-element_type="widget"
-                                                                data-widget_type="rt-countdown.default">
-                                                                <div class="elementor-widget-container">
-
-
-
-                                                                    <div class="full-width-container countdown-layout1new rtin-light"
-                                                                        style=" padding: 35px;   font-size: 40px;">
-
-                                                                        <div class="container-fluid-wrp ">
-                                                                            <div data-countdown="2023/04/27 07:00:00"
-                                                                                class="event-countdown">
-
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </section>
 
                                         <section
                                             class="elementor-section elementor-top-section elementor-element elementor-element-b0f2eae elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
