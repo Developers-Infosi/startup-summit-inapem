@@ -101,6 +101,23 @@
                                         {{ $registration->phone_number }}
                                     </p>
                                 </div>
+
+                                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                                    <h5 class="mb-1">
+                                        <b>Sector de Actividade</b>
+                                    </h5>
+                                    <p class="text-dark text-justify">
+                                        {{ $registration->industry_sector }}
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 mb-2">
+                                    <h5 class="mb-1">
+                                        <b>Localidade</b>
+                                    </h5>
+                                    <p class="text-dark text-justify">
+                                        {{ $registration->city }}
+                                    </p>
+                                </div>
                                 <div class="col-12 col-md-6 col-lg-4 mb-2">
                                     <h5 class="mb-1">
                                         <b>Email</b>

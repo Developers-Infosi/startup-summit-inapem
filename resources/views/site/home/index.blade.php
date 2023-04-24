@@ -67,10 +67,9 @@
                                             <div class="elementor-section elementor-top-section elementor-element elementor-element-534587aa elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                                                 data-id="534587aa" data-element_type="section"
                                                 data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}"
-                                                style=" width: 100%;
-  margin: 0; left: -47px;">
+                                                style="  left: -0px;">
                                                 <div class="elementor-container elementor-column-gap-default">
-                                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4ccd5c91  d-flex align-items-center primary-bgcolor"
+                                                    <div class="elementor-column elementor-col-64 elementor-top-column elementor-element elementor-element-4ccd5c91  d-flex align-items-center primary-bgcolor"
                                                         data-id="4ccd5c91" data-element_type="column"
                                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -109,25 +108,11 @@
                                                                     <div class="full-width-container countdown-layout1new rtin-light"
                                                                         style=" padding: 35px;   font-size: 40px;">
 
-                                                                        <div class="container-fluid-wrp">
+                                                                        <div class="container-fluid-wrp ">
                                                                             <div data-countdown="2023/04/27 07:00:00"
                                                                                 class="event-countdown">
-                                                                                <div class="countdown-section">
-                                                                                    <h2>04</h2>
-                                                                                    <h3>Dia</h3>
-                                                                                </div>
-                                                                                <div class="countdown-section cs2sd">
-                                                                                    <h2>19</h2>
-                                                                                    <h3>Hours</h3>
-                                                                                </div>
-                                                                                <div class="countdown-section">
-                                                                                    <h2>22</h2>
-                                                                                    <h3>Minutes</h3>
-                                                                                </div>
-                                                                                <div class="countdown-section">
-                                                                                    <h2>20</h2>
-                                                                                    <h3>Seconds</h3>
-                                                                                </div>
+
+
                                                                             </div>
                                                                         </div>
 
@@ -180,29 +165,29 @@
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
-
+                                                                        <a class="entry-title" href="/site/pdf/dossier_expositor.pdf">
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <i class="fa fa-download"
-                                                                                        aria-hidden="true"></i>
+                                                                                        aria-hidden="true"  style=" font-size: 2em;"></i>
                                                                                 </div>
                                                                             </div>
-                                                                            <a  class="entry-title"  target="_blank"
-                                                                            href="/site/pdf/dossier_expositor.pdf">
-                                                                            <div class="item-title">
-                                                                                <h3 class="title">
-                                                                                   DOSSIER
+                                                                            <a class="entry-title" target="_blank"
+                                                                                href="/site/pdf/dossier_expositor.pdf">
+                                                                                <div class="item-title">
+                                                                                    <h3 class="title">
+                                                                                        DOSSIER
                                                                                         DO EXPOSITOR
-                                                                                </h3>
+                                                                                    </h3>
 
 
 
-                                                                            </div>
-                                                                        </a>
+                                                                                </div>
+                                                                            </a>
                                                                         </div>
-
+                                                                    </a>
                                                                     </div>
 
                                                                     <div
@@ -213,13 +198,14 @@
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
                                                                                     <i class="fa fa-download"
-                                                                                        aria-hidden="true"></i>
+                                                                                        aria-hidden="true"  style=" font-size: 2em;"></i>
                                                                                 </div>
                                                                             </div>
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a  class="entry-title" href="#"> PATROCÍNIO
+                                                                                    <a class="entry-title" href="#">
+                                                                                        PATROCÍNIO
 
 
                                                                                     </a>
@@ -233,60 +219,39 @@
                                                                     </div>
 
                                                                     <div class="rtin-item col-lg-6 col-md-4 col-sm-6 col-">
-                                                                        <a class="entry-title"
-                                                                        href="{{ route('site.registration') }}">
-                                                                        <div class="speaker-layout4">
-
-                                                                            <div class="speaker-layout4-top">
-                                                                                <div class="speaker-layout4-img">
-                                                                                    <i class="fa fa-envelope-o"
-                                                                                        aria-hidden="true"></i>
+                                                                        <a class="entry-title" href="{{ route('site.registration') }}">
+                                                                            <div class="speaker-layout4">
+                                                                                <div class="speaker-layout4-top">
+                                                                                    <div class="speaker-layout4-img">
+                                                                                        <i class="fa fa-pencil-square-o" aria-hidden="true" style=" font-size: 2em;"></i>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </div>
 
-                                                                            <div class="item-title">
-                                                                                <h3 class="title">
-                                                                                   FICHA
+                                                                                <div class="item-title">
+                                                                                    <h3 class="title">
+                                                                                        FICHA
                                                                                         DE INSCRIÇÃO(Expositor)
-
-
-
-
-
-                                                                                </h3>
-
-
+                                                                                    </h3>
+                                                                                </div>
 
                                                                             </div>
-
-                                                                        </div>
-                                                                    </a>
+                                                                        </a>
                                                                     </div>
 
-
-                                                                    <div
-                                                                        class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
+                                                                    <div  class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
                                                                         <div class="speaker-layout4">
-
                                                                             <div class="speaker-layout4-top">
                                                                                 <div class="speaker-layout4-img">
-                                                                                    <i class="fa fa-envelope-o"
-                                                                                        aria-hidden="true"></i>
+                                                                                    <i class="fa fa-id-badge" aria-hidden="true"  style=" font-size: 2em;"></i>
                                                                                 </div>
                                                                             </div>
-
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
                                                                                     <a href="#" data-toggle="modal"
                                                                                         data-target="#exampleModal">COMO
                                                                                         PARTICIPAR(Critérios)
-
-
                                                                                     </a>
                                                                                 </h3>
-
-
-
                                                                             </div>
 
                                                                         </div>
@@ -443,9 +408,8 @@
                                             class="elementor-section elementor-top-section elementor-element elementor-element-789dd1d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                                             data-id="789dd1d" data-element_type="section"
                                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-container elementor-column-gap-default"
-
-                                            align-items: center;  width: 120%;" >
+                                            <div class="elementor-container elementor-column-gap-default" align-items:
+                                                center; width: 120%;">
                                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-612dbe4"
                                                     data-id="612dbe4" data-element_type="column">
                                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -466,7 +430,8 @@
                                                             <div class="elementor-widget-container center">
                                                                 <div class="rt-el-speaker-grid-3 row">
 
-                                                                    <div     class="rtin-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="rtin-item col-lg-3 col-md-6 col-sm-6 col-12 ">
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
