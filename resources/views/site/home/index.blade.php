@@ -219,7 +219,7 @@
 
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
-                                                                                    <a  class="entry-title" href="#">Patrocínio
+                                                                                    <a  class="entry-title" href="#"> PATROCÍNIO
 
 
                                                                                     </a>
@@ -693,7 +693,7 @@
                                                             </div>
                                                         </div>
 
- 
+
 
 
                                                         <div class="elementor-element elementor-element-31eeb272 elementor-widget elementor-widget-rt-logo-slider"
