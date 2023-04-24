@@ -98,7 +98,7 @@
                                         <b>Número de telefone</b>
                                     </h5>
                                     <p class="text-dark text-justify">
-                                        {{ $registration->tel }}
+                                        {{ $registration->phone_number }}
                                     </p>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 mb-2">

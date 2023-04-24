@@ -8,15 +8,7 @@ use Illuminate\Http\Request;
 
 class RegistrationController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
+
 
     /**
      * Show the form for creating a new resource.
@@ -66,7 +58,6 @@ class RegistrationController extends Controller
             'nif' => $request->nif,
             'exhibition_product' => $request->exhibition_product,
             'country' => $request->country,
-
             'email' => $request->email,
             'phone_number' => $request->phone_number,
             'site' => $request->site,
