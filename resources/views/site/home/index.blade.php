@@ -180,8 +180,7 @@
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-4">
-                                                                        <a  class="entry-title"  target="_blank"
-                                                                        href="/site/pdf/dossier_expositor.pdf">
+
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
@@ -190,7 +189,8 @@
                                                                                         aria-hidden="true"></i>
                                                                                 </div>
                                                                             </div>
-
+                                                                            <a  class="entry-title"  target="_blank"
+                                                                            href="/site/pdf/dossier_expositor.pdf">
                                                                             <div class="item-title">
                                                                                 <h3 class="title">
                                                                                    DOSSIER
@@ -200,9 +200,9 @@
 
 
                                                                             </div>
-
+                                                                        </a>
                                                                         </div>
-                                                                    </a>
+
                                                                     </div>
 
                                                                     <div
@@ -231,8 +231,7 @@
 
                                                                         </div>
                                                                     </div>
-                                                                    <a class="entry-title"
-                                                                    href="{{ route('site.registration') }}">
+
                                                                     <div class="rtin-item col-lg-6 col-md-4 col-sm-6 col-">
                                                                         <a class="entry-title"
                                                                         href="{{ route('site.registration') }}">
@@ -263,7 +262,7 @@
                                                                         </div>
                                                                     </a>
                                                                     </div>
-                                                                </a>
+
 
                                                                     <div
                                                                         class="rtin-item col-lg-6 col-md-4 col-sm-6 col-6">
@@ -438,12 +437,14 @@
                                                 </div>
                                             </div>
                                         </section>
+
+
                                         <section
                                             class="elementor-section elementor-top-section elementor-element elementor-element-789dd1d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                                             data-id="789dd1d" data-element_type="section"
                                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-container elementor-column-gap-default" style="display: flex;
-                                            justify-content: center;
+                                            <div class="elementor-container elementor-column-gap-default"
+
                                             align-items: center;  width: 120%;" >
                                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-612dbe4"
                                                     data-id="612dbe4" data-element_type="column">
@@ -465,8 +466,7 @@
                                                             <div class="elementor-widget-container center">
                                                                 <div class="rt-el-speaker-grid-3 row">
 
-                                                                    <div
-                                                                        class="rtin-item col-lg-3 col-md-6 col-sm-6 col-12">
+                                                                    <div     class="rtin-item col-lg-3 col-md-6 col-sm-6 col-12 ">
                                                                         <div class="speaker-layout4">
 
                                                                             <div class="speaker-layout4-top">
@@ -693,6 +693,7 @@
                                                             </div>
                                                         </div>
 
+ 
 
 
                                                         <div class="elementor-element elementor-element-31eeb272 elementor-widget elementor-widget-rt-logo-slider"
