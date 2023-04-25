@@ -105,7 +105,7 @@
                     <div class="modal-body">
                         Acesse o menu programa; <br>
 
-                        Dentre muitas disponível, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
+                        Dentre muitas  disponíveis, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
 
                         Preencha o formulário e submeta.
                     </div>

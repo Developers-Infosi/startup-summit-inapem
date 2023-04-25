@@ -6,14 +6,14 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Portal do Fórum – ANGOLA ICT FÓRUM<br>
+                Portal do Angola Startup Summit<br>
                 <small>Painel Administrativo</small>
             </h2>
         </div>
     </div>
 
     <div class="row">
-      
+
         <div class="col-md-6 col-xl-3 mb-4">
             <div class="card shadow text-dark">
                 <div class="card-body">

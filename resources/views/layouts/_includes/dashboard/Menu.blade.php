@@ -40,7 +40,7 @@
             <!-- nav bar -->
             <div class="w-100  d-flex">
                 <a class="navbar-brand mx-auto mt-5 flex-fill text-center" href="{{ route('admin.home') }}">
-                    <img rel="icon" src="{{ asset('site/images/logo/logoass.png') }}" style="width:200px; margin:auto" />
+                    <img rel="icon" src="{{ asset('/dashboard/img/logoass_black.png') }}" style="width:170px; margin:auto" />
 
                 </a>
             </div>

@@ -1,7 +1,7 @@
 <footer class="py-1 mt-4 bg-primary">
 
     <p class="text-center mt-3 text-white">
-        <span>&copy; {{ date('Y') }}, Portal do Fórum – ANGOLA ICT FÓRUM </span> by <a href="https://infosi.gov.ao/"
+        <span>&copy; {{ date('Y') }}, Portal do Angola Startup Summit </span> by <a href="https://infosi.gov.ao/"
             target="_blank" class="text-white">INFOSI</a>
     </p>
 </footer>

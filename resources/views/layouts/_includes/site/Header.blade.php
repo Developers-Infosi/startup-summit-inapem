@@ -2245,7 +2245,7 @@
 			color: #b3b3b3;
 		}
 	</style>
-    <link rel="icon" type="image/png" sizes="50x50" href="/site/images/icons/favicons/faviconStartup.jpg">
+    <link rel="icon" type="image/png" sizes="50x50" href="/site/images/icons/favicons/faviconStartupNovo.png">
 </head>
 
 <body

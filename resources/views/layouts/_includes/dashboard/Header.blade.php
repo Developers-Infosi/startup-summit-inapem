@@ -17,8 +17,7 @@
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/logotipo/icon.png">
 
-    <link href="/site/images/icons/favicons/favicon-50x.png" sizes="16x16" rel="shortcut icon" />
-    <link href="/site/images/icons/favicons/favicon-50x.png" sizes="32x32" rel="shortcut icon" />
+    <link rel="icon" type="image/png" sizes="50x50" href="/site/images/icons/favicons/faviconStartupNovo.png">
     <title>@yield('titulo')</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="/dashboard/css/simplebar.css">

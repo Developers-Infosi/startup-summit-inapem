@@ -287,17 +287,13 @@
                                                                 style="color: #47484b; line-height: 140%; text-align: center; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;">
                                                                     <strong>
-                                                                        <span style="font-size: 25px; line-height: 38px;">
+                                                                        <span
+                                                                            style="font-size: 25px; line-height: 38px;">
 
-                                                                            @if (isset($registration['msg']))
-                                                                                Sua inscrição foi Aprovada para participar da 10ª Cimeira de Chefes de Estado e de Governo da OEACP.
 
-                                                                            @else
-                                                                                Obrigado
-                                                                                por realizar a sua inscrição para participar
-                                                                                da 10ª Cimeira dos Chefes de Estado e de
-                                                                                Governo da OEACP.
-                                                                            @endif
+                                                                            Obrigado
+                                                                            por realizar a sua inscrição para participar
+                                                                            do Startupsummit
 
 
 
@@ -306,15 +302,9 @@
                                                                 </p>
                                                                 <p class="text-center"
                                                                     style="font-size: 14px; line-height: 100%;">
-                                                                    De 6 a 10 de Dezembro de 2022
+                                                                    De 27 a 29 de Abril
 
-                                                                    <br>
-                                                                    @if (!isset($registration['msg']))
 
-                                                                        Solicitamos que aguarde pela Aprovação do seu
-                                                                        pedido
-                                                                        por parte da nossa equipa.
-                                                                    @endif
                                                                 </p>
 
                                                             </div>
@@ -446,7 +436,7 @@
                                                                             style="font-size: 14px; line-height: 19.6px;">
 
 
-                                                                            {{ $registration['name'] . ' ' . $registration['surname'] }}
+                                                                            {{ $response['name'] }}
                                                                         </span></strong>
                                                                 </p>
                                                             </div>
@@ -582,7 +572,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $registration['idcard'] }}</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $response['bi'] }}</span>
                                                                 </p>
                                                             </div>
 
@@ -628,7 +618,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">Organização</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">Telefone</span>
                                                                 </p>
                                                             </div>
 
@@ -662,7 +652,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $registration['organization'] }}</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $response['tel'] }}</span>
                                                                 </p>
                                                             </div>
 
@@ -742,7 +732,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $registration['email'] }}</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $response['email'] }}</span>
                                                                 </p>
                                                             </div>
 
@@ -848,7 +838,8 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">Código</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">Programa
+                                                                    </span>
                                                                 </p>
                                                             </div>
 
@@ -882,7 +873,7 @@
 
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
-                                                                <h3><b>{{ $registration['code'] }}</b></h3>
+                                                                <h3><b>{{ $response->programs->activity }}</b></h3>
 
                                                             </div>
 
@@ -933,9 +924,7 @@
                                                                         style="font-size: 14px; line-height: 19.6px;">Eventos
                                                                         que irá particiapar</span>
                                                                     <br>
-                                                                    @foreach ($registration['events'] as $row)
-                                                                        {{ $row->typeevent->name }},
-                                                                    @endforeach
+                                                                    {{ $response->programs->activity }}
                                                                 </p>
                                                             </div>
 
