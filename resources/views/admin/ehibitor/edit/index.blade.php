@@ -1,11 +1,13 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Cadastrar Pergunta Frequente')
+@section('titulo', 'Editar Pergunta Frequente')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Cadastrar Pergunta Frequente
+                <a href="{{ route('admin.ehibitor.index') }}"><u>Listar Perguntas Frequentes</u></a> > Editar Pergunta
+                Frequente >
+                {{ $ehibitor->title }}
             </h2>
         </div>
     </div>
@@ -20,19 +22,22 @@
                     </ul>
                 </div>
             @endif
-            <form action="{{ route('admin.faq.store') }}" method="POST" class="row">
+            <form action='{{ url("admin/expositores/update/{$ehibitor->id}") }}' method="POST" class="row">
                 @csrf
-                @include('forms._formFaq.index')
+                @method('PUT')
+                @include('forms._formEhibitor.index')
                 <div class="col-md-12">
                     <div class="form-group text-center">
-                        <button type="submit" class="btn px-5 col-md-4 btn-success">
-                            Salvar
+                        <button type="submit" class="btn px-5 col-md-4 btn-primary">
+                            Salvar alterações
                             <span class="fe fe-chevron-right fe-16"></span>
                         </button>
 
                     </div>
                 </div>
             </form>
+
+
         </div>
     </div>
 

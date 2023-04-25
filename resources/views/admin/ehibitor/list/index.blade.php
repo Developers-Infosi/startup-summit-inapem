@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Lista de Perguntas Frequentes')
+@section('titulo', 'Lista de Expositores')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Lista de Perguntas Frequentes
+                Lista de Expositores
             </h2>
         </div>
     </div>
@@ -21,11 +21,11 @@
                 </thead>
                 <tbody class="bg-white">
 
-                    @foreach ($faqs as $item)
+                    @foreach ($ehibitor as $item)
                         <tr class="text-center text-dark">
                             <td>{{ $item->id }}</td>
                             <td>{{ $item->title }} </td>
-                         
+
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-primary btn-sm dropdown-toggle" type="button"
@@ -34,14 +34,14 @@
                                         <i class="fa fa-clone fa-sm" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a href='{{ url("admin/faq/show/{$item->id}") }}'
+                                        <a href='{{ url("admin/expositores/show/{$item->id}") }}'
                                             class="dropdown-item">Detalhes</a>
 
-                                        <a href='{{ url("admin/faq/edit/{$item->id}") }}'
+                                        <a href='{{ url("admin/expositores/edit/{$item->id}") }}'
                                             class="dropdown-item">Editar</a>
 
 
-                                        <a href='{{ url("admin/faq/delete/{$item->id}") }}' class="dropdown-item">
+                                        <a href='{{ url("admin/expositores/delete/{$item->id}") }}' class="dropdown-item">
                                             Eliminar
                                         </a>
                                     </div>

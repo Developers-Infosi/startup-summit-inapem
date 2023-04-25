@@ -4,13 +4,16 @@ namespace App\Http\Controllers\Admin;
 
 use App\Classes\Logger;
 use App\Http\Controllers\Controller;
-use App\Models\Video;
+use App\Models\Ehibitor;
 use Illuminate\Http\Request;
 
-
-class VideoController extends Controller
+class EhibitorController extends Controller
 {
-
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
 
     private $Logger;
 
@@ -18,12 +21,13 @@ class VideoController extends Controller
     {
         $this->Logger = new Logger;
     }
-    public function list()
+    public function index()
     {
-        $response['videos'] = Video::orderBy('id', 'desc')->get();
+               //
+        $response['ehibitor'] = Ehibitor::get();
         //Logger
-        $this->Logger->log('info', 'Listou Videos');
-        return view('admin.video.list.index', $response);
+        $this->Logger->log('info', 'Listou as expositores');
+        return view('admin.ehibitor.list.index', $response);
     }
 
     /**
@@ -33,9 +37,8 @@ class VideoController extends Controller
      */
     public function create()
     {
-        //Logger
-        $this->Logger->log('info', 'Entrou em Cadastrar  Videos');
-        return view('admin.video.create.index');
+        $this->Logger->log('info', 'Cadastrar uma Expositor');
+        return view('admin.ehibitor.create.index');
     }
 
     /**
@@ -46,24 +49,21 @@ class VideoController extends Controller
      */
     public function store(Request $request)
     {
-
         $validation = $request->validate([
             'title' => 'required|min:5|max:255',
-            'link' => 'required|min:2',
-            'date' => 'required',
+            'description' => 'required|min:5',
+
         ]);
 
-
-        $video = Video::create([
-            'link' => $request->link,
+        $ehibitor = Ehibitor::create([
             'title' => $request->title,
-            'date' => $request->date,
+            'description' => $request->description,
 
         ]);
-        //Logger
-        $this->Logger->log('info', 'Cadastrou um Video com o titulo ' . $video->title);
 
-        return redirect("admin/video/show/$video->id")->with('create', '1');
+        //Logger
+        $this->Logger->log('info', 'Cadastrou um expositor com o titulo - ' . $ehibitor->title);
+        return redirect("admin/expositores/show/$ehibitor->id")->with('create', '1');
     }
 
     /**
@@ -75,10 +75,10 @@ class VideoController extends Controller
     public function show($id)
     {
         //
-        $response['video'] = Video::find($id);
+        $response['ehibitor'] = Ehibitor::find($id);
         //Logger
-        $this->Logger->log('info', 'Visualizou um Video com o identificador ' . $id);
-        return view('admin.video.details.index', $response);
+        $this->Logger->log('info', 'Visualizou um expositor com o identificador ' . $id);
+        return view('admin.ehibitor.details.index', $response);
     }
 
     /**
@@ -90,11 +90,10 @@ class VideoController extends Controller
     public function edit($id)
     {
         //
-        $response['video'] = Video::find($id);
-
+        $response['ehibitor'] = Ehibitor::find($id);
         //Logger
-        $this->Logger->log('info', 'Entrou em editar um Video com o identificador ' . $id);
-        return view('admin.video.edit.index', $response);
+        $this->Logger->log('info', 'Entrou em editar um expositor com o identificador ' . $id);
+        return view('admin.ehibitor.edit.index', $response);
     }
 
     /**
@@ -108,19 +107,16 @@ class VideoController extends Controller
     {
         $validation = $request->validate([
             'title' => 'required|min:5|max:255',
-            'link' => 'required|min:2',
-            'date' => 'required',
+            'description' => 'required|min:5',
+
         ]);
-
-
-        Video::find($id)->update([
-            'link' => $request->link,
+        Ehibitor::find($id)->update([
             'title' => $request->title,
-            'date' => $request->date,
+            'description' => $request->description,
         ]);
         //Logger
-        $this->Logger->log('info', 'Editou um Video com o identificador ' . $id);
-        return redirect()->route('admin.video.index')->with('edit', '1');
+        $this->Logger->log('info', 'Editou uma Notícia com o identificador ' . $id);
+        return redirect("admin/expositores/show/$id")->with('edit', '1');
     }
 
     /**
@@ -131,10 +127,10 @@ class VideoController extends Controller
      */
     public function destroy($id)
     {
-
+            //
         //Logger
-        $this->Logger->log('info', 'Eliminou um Video com o identificador ' . $id);
-        Video::find($id)->delete();
+        $this->Logger->log('info', 'Eliminou um expositor com o identificador ' . $id);
+        Ehibitor::find($id)->delete();
         return redirect()->back()->with('destroy', '1');
     }
 }

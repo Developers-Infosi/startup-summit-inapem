@@ -53,36 +53,26 @@
                                     </li>
                                     <li id="menu-item-553"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                                        <a href="{{ route('site.news') }}">Notícias</a>
+                                        <a href="#expositores">Expositores</a>
                                     </li>
-                                    <li id="menu-item-363"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-363">
-                                        <a href="#">Galerias</a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-362"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362">
-                                                <a href="{{ route('site.gallery') }}">Imagens</a>
-                                            </li>
-                                            <li id="menu-item-361"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361">
-                                                <a href="{{ route('site.videos') }}">Vídeos</a>
-                                            </li>
 
-
-
-                                        </ul>
-                                    </li>
                                     <li id="menu-item-553"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                                        <a href="{{ route('site.schedule') }}">Programa</a>
+                                        <a href="#programa">Programa</a>
                                     </li>
 
 
 
                                     <li id="menu-item-553"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                                        <a href="{{ route('site.contact') }}">Contactos</a>
+                                        <a href="#mapa">Mapa do Evento</a>
                                     </li>
+                                    <li id="menu-item-553"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
+                                    <a href="#feedback">Feedback</a>
+                                </li>
+
+
                                 </ul>
                             </nav>
                         </div>
