@@ -117,6 +117,8 @@
                                                                 <div
                                                                     class="rt-el-title section-heading title-black color-light text-center style1">
                                                                     <h2 class="rtin-title">Mapa do Evento</h2>
+                                                                    <p>Nota: A exposição de stands passou para a quadra desportiva</p>
+                                                                    <embed src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf" type="application/pdf" width="1000%" height=400">
 
                                                                 </div>
                                                             </div>
@@ -126,6 +128,7 @@
                                                 </div>
                                             </div>
                                         </section>
+
                                         @include('extra._schedule.index')
                                         <section id="feedback"
                                         class="elementor-section elementor-top-section elementor-element elementor-element-ff1856f elementor-section-boxed elementor-section-height-default elementor-section-height-default"

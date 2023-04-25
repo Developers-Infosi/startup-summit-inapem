@@ -2,7 +2,7 @@
 <script>
     Swal.fire({
         icon: 'success',
-        title: 'Registro feito com sucesso!',
+        title: 'Registo feito com sucesso!',
         showConfirmButton: true
     })
 </script>
