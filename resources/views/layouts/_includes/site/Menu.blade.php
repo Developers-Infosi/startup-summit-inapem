@@ -91,38 +91,15 @@
         </div>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Como participar Passo à passo:</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Acesse o menu programa; <br>
 
-                        Dentre muitas  disponíveis, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
-
-                        Preencha o formulário e submeta.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
 
     <ul class="header-action-items mobile-button-area">
-        <li>
-            <a href="#" title="Buy Tickets" target="_blank"
-                class="btn-fill size-xs color-yellow border-radius-5 gust">participar</a>
-        </li>
+
+        <button type="button" class="btn-fill size-xs color-yellow border-radius-5 gust"
+        data-toggle="modal" data-target="#exampleModal">
+        Inscrever-se
+    </button>
     </ul>
 
 
@@ -130,7 +107,7 @@
         <div class="mean-bar">
             <a href="{{ route('site.home') }}" alt="Eventalk - Event Conference WordPress Theme"><img width="489"
                     height="121" class="logo-small" alt="Eventalk - Event Conference WordPress Theme"
-                    src="https://radiustheme.com/demo/wordpress/eventalk/wp-content/themes/eventalk/assets/img/logo-dark.png"></a>
+                    src="{{ asset('/dashboard/img/logoass_black.png') }}"></a>
             <span class="sidebarBtn ">
                 <span class="fa fa-bars">
                 </span>
@@ -142,47 +119,61 @@
                 <nav class="menu-main-container">
                     <ul id="menu-main" class="menu">
 
-                        <li id="menu-item-553"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                            <a href="{{ route('site.home') }}">Início</a>
-                        </li>
-                        <li id="menu-item-553"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                            <a href="">Notícias</a>
-                        </li>
-                        <li id="menu-item-363"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-363">
-                            <a href="#">Galerias</a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-362"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362">
-                                    <a href="">Imagens</a>
-                                </li>
-                                <li id="menu-item-361"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361">
-                                    <a href="">Videos</a>
-                                </li>
-
-
-                            </ul>
-                        </li>
-                        <li id="menu-item-553"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                            <a href="{{ route('site.schedule') }}">Programa</a>
-                        </li>
 
                         <li id="menu-item-553"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                            <a href="{{ route('site.gallery') }}">Galeria</a>
-                        </li>
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
+                        <a href="{{ route('site.home') }}">Início</a>
+                    </li>
+                    <li id="menu-item-553"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
+                        <a href="#expositores">Expositores</a>
+                    </li>
 
-                        <li id="menu-item-553"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
-                            <a href="{{ route('site.contact') }}">Contactos</a>
-                        </li>
+                    <li id="menu-item-553"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
+                        <a href="#programa">Programa</a>
+                    </li>
+                    <li id="menu-item-553"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
+                        <a href="#mapa">Mapa do Evento</a>
+                    </li>
+                    <li id="menu-item-553"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
+                    <a href="#feedback">Feedback</a>
+                </li>
+
+
+
                     </ul>
                 </nav>
             </div>
         </div>
 
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Como participar Passo à passo:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Acesse o menu programa; <br>
+
+                    Dentre muitas  disponíveis, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
+
+                    Preencha o formulário e submeta.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
     </div>
