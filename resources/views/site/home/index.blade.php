@@ -106,7 +106,7 @@
                                             data-id="789dd1d" data-element_type="section"
                                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                                             <div class="elementor-container elementor-column-gap-default" align-items:
-                                                center; width: 120%;">
+                                                center; width: 100%; hidden:100%">
                                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-612dbe4"
                                                     data-id="612dbe4" data-element_type="column">
                                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -118,7 +118,7 @@
                                                                     class="rt-el-title section-heading title-black color-light text-center style1">
                                                                     <h2 class="rtin-title">Mapa do Evento</h2>
                                                                     <p>Nota: A exposição de stands passou para a quadra desportiva</p>
-                                                                    <embed src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf" type="application/pdf" width="500" height=600">
+                                                                    <embed src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf" type="application/pdf" width="100%" height="600px">
 
                                                                 </div>
                                                             </div>
