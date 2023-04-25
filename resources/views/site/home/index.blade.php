@@ -147,21 +147,21 @@
                                             <form class="row mx-n2"  action="{{ route('site.feedback.store') }}" method="post">
                                                 @csrf
                                                 <div class="col-md-6 px-2 mb-3">
-                                                    <input class="form-control" type="text" name="name" placeholder="Nome"
+                                                    <input required class="form-control" type="text" name="name" placeholder="Nome"
                                                         aria-label="Nome">
                                                 </div>
 
                                                 <div class="col-md-6 px-2 mb-3">
-                                                    <input class="form-control" type="email" name="email" placeholder="E-mail"
+                                                    <input required  class="form-control" type="email" name="email" placeholder="E-mail"
                                                         aria-label="Email address">
                                                 </div>
                                                 <div class="col-md-12 px-2 mb-3">
-                                                    <input class="form-control" type="text" name="subject" placeholder="Assunto"
+                                                    <input required  class="form-control" type="text" name="subject" placeholder="Assunto"
                                                         aria-label="Assunto">
                                                 </div>
 
                                                 <div class="col-12 px-2 mb-3">
-                                                    <textarea class="form-control" rows=7 placeholder="Mensagem" aria-label="Mensagem" name="msg"></textarea>
+                                                    <textarea required class="form-control" rows=7 placeholder="Mensagem" aria-label="Mensagem" name="msg"></textarea>
                                                 </div>
 
                                                 <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
