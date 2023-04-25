@@ -34,8 +34,8 @@ class RegistrationController extends Controller
     //Logger
 
      //data to be included in the email
-     $response = Registration::with('programs')->find($registration->id);
-     Mail::to($registration->email)->send(new RegistrationMail($response));;
+     //$response = Registration::with('programs')->find($registration->id);
+     //Mail::to($registration->email)->send(new RegistrationMail($response));;
     return redirect()->back()->with('create', '1');
 }
 }
