@@ -67,6 +67,14 @@ Route::middleware(['auth'])->group(function () {
     Route::get('admin/registration/edit/{id}', ['as' => 'admin.registration.edit', 'uses' => 'Admin\RegistratonController@edit']);
     Route::put('admin/registration/update/{id}', ['as' => 'admin.registration.update', 'uses' => 'Admin\RegistratonController@update']);
 
+ /* registration */
+ Route::get('admin/feedback/index', ['as' => 'admin.feedback.index', 'uses' => 'Admin\FeedbackController@index']);
+ Route::get('admin/feedback/show/{id}', ['as' => 'admin.feedback.show', 'uses' => 'Admin\FeedbackController@show']);
+ Route::get('admin/feedback/edit/{id}', ['as' => 'admin.feedback.edit', 'uses' => 'Admin\FeedbackController@edit']);
+ Route::put('admin/feedback/update/{id}', ['as' => 'admin.feedback.update', 'uses' => 'Admin\FeedbackController@update']);
+
+
+
 
     /* speaker */
     Route::get('admin/speaker/index', ['as' => 'admin.speaker.index', 'uses' => 'Admin\SpeakerController@index']);

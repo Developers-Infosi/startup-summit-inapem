@@ -7,6 +7,17 @@
     })
 </script>
 @endif
+@if (session('helpCreate'))
+<script>
+    Swal.fire({
+        icon: 'success',
+        title: 'Menssagem enviada com sucesso',
+        showConfirmButton: true
+    })
+</script>
+@endif
+
+
 <footer>
     <div class="footer-layout2">
         <div class="footer-top-area footer-box-layout">

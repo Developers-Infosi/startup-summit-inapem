@@ -44,6 +44,8 @@ Route::get('/registro/{id}', ['as' => 'site.registration', 'uses' => 'Site\Regis
 Route::post('/registro/store/{id}', ['as' => 'site.registration.store', 'uses' => 'Site\RegistrationController@store']);
 
 
+/** */
+Route::post('/feedback/store/', ['as' => 'site.feedback.store', 'uses' => 'Site\FeedBackConttroller@store']);
 /* policyPrivacy */
 Route::get('/politicas-de-privacidade', ['as' => 'site.policyPrivacy', 'uses' => 'Site\PolicyPrivacyController@index']);
 /* inclui as rotas de autenticação do ficheiro auth.php */

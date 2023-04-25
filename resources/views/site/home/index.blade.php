@@ -130,10 +130,10 @@
                                         </section>
 
                                         @include('extra._schedule.index')
-                                        <section id="feedback"
+                                        <section id="feedback" style="justify-content: center"
                                         class="elementor-section elementor-top-section elementor-element elementor-element-ff1856f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="ff1856f" data-element_type="section">
-                                        <div class="col-12 col-md-6 col-lg-7 mb-5" style="justify-content: center">
+                                        <div class="col-12 col-md-6 col-lg-7 mb-5" >
                                             <h3 class="py-3 title-bold color-dark title-bar">Deixe a sua opinião sobre o evento</h3>
                                             @if ($errors->any())
                                                 <div class="alert alert-danger">
@@ -144,7 +144,7 @@
                                                     </ul>
                                                 </div>
                                             @endif
-                                            <form class="row mx-n2"  action="#!">
+                                            <form class="row mx-n2"  action="{{ route('site.feedback.store') }}" method="post">
                                                 @csrf
                                                 <div class="col-md-6 px-2 mb-3">
                                                     <input class="form-control" type="text" name="name" placeholder="Nome"
