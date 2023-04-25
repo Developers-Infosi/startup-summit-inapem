@@ -96,7 +96,7 @@
                                             <div class="col-lg-2 col-md-2 col-sm-12">
                                                 <div class="speaker-details-wrp details-info">
 
-                                                    <a class="details-down" href="#">Detalhes</a>
+                                                    <a class="details-down" href="#">Inscrever-se</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -269,7 +269,7 @@
                                             <div class="col-lg-2 col-md-2 col-sm-12">
                                                 <div class="speaker-details-wrp details-info">
 
-                                                    <a class="details-down" href="#">Detalhes</a>
+                                                    <a class="details-down" href="#">Inscrever-se</a>
                                                 </div>
                                             </div>
                                         </div>
