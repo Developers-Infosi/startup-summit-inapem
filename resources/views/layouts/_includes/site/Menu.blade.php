@@ -60,9 +60,6 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
                                         <a href="#programa">Programa</a>
                                     </li>
-
-
-
                                     <li id="menu-item-553"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553">
                                         <a href="#mapa">Mapa do Evento</a>
@@ -84,7 +81,7 @@
 
                                 <button type="button" class="btn-fill size-xs color-yellow border-radius-5 gust"
                                     data-toggle="modal" data-target="#exampleModal">
-                                    Como Participar
+                                    Inscrever-se
                                 </button>
                             </li>
                         </ul>
@@ -106,36 +103,11 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        1 - Preenchimento da ficha de inscrição e envio para EA - geral@eventosarena.co.ao <br>
+                        Acesse o menu programa de actividades; <br>
 
-                        2 - emissão da proforma (EA)<br>
+                        Dentre muitas disponível, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
 
-                        3 - pagamento<br>
-
-                        4 - envio do recibo e confirmação<br>
-
-                        5 - levantamento das credências com comprovativo de pagamento<br>
-<b>       Contactos</b><br>
-
-                        (+244)924 901 280<br>
-
-                      <b>   Email</b><br>
-                        geral@eventosarena.co.ao<br>
-<b>    Valor da Inscrição</b> <br>
-
-                        Startup com até um ano de actividade, 15 mil (kz)<br>
-
-                        Startups com dois ou mais anos, de actividade, 85 mil (kz)<br>
-
-                        <b>       Observações:</b><br>
-
-                        As despesas com transporte, logística de materiais, deverão ser por conta de cada participante;<br>
-
-                        As empresas participantes deverão ter individualmente suas inscrições e contratos devidamente
-                        preenchidos com a organização;<br>
-
-                        A empresa está ciente e obriga-se a cumprir todas as normas de participação da Feira, bem como
-                        se obriga a observar e atender a identidade visual pré- determinada pela organização.
+                        Preencha o formulário e submeta.
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>

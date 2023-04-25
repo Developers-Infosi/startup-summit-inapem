@@ -1,3 +1,12 @@
+@if (session('create'))
+<script>
+    Swal.fire({
+        icon: 'success',
+        title: 'Registro feito com sucesso!',
+        showConfirmButton: true
+    })
+</script>
+@endif
 <footer>
     <div class="footer-layout2">
         <div class="footer-top-area footer-box-layout">

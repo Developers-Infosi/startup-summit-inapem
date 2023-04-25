@@ -7,7 +7,7 @@
         <div class="inner-page-banner">
             <div class="container">
                 <div class="entry-banner-content breadcrumbs-area">
-                    <h1 class="entry-title">Ficha de inscrição (Expositor)
+                    <h1 class="entry-title">Inscerver-se
 
                     </h1>
 
@@ -17,7 +17,7 @@
     </div>
 
     <div id="primary" class="content-area event-page-area py-5">
-        
+
                 @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
@@ -45,14 +45,6 @@
 
     </div>
 
-    @if (session('create'))
-    <script>
-        Swal.fire({
-            icon: 'success',
-            title: 'Registro feito com sucesso!',
-            showConfirmButton: true
-        })
-    </script>
-    @endif
+  
 
 @endsection

@@ -40,8 +40,8 @@ Route::get('/contactos', ['as' => 'site.contact', 'uses' => 'Site\ContactControl
 route::post('site/help/email', ['as' => 'site.help.email', 'uses' => 'Site\Email\HelpController@send']);
 
 /**registration */
-Route::get('/registro', ['as' => 'site.registration', 'uses' => 'Site\RegistrationController@create']);
-Route::post('/registro/store', ['as' => 'site.registration.store', 'uses' => 'Site\RegistrationController@store']);
+Route::get('/registro/{id}', ['as' => 'site.registration', 'uses' => 'Site\RegistrationController@create']);
+Route::post('/registro/store/{id}', ['as' => 'site.registration.store', 'uses' => 'Site\RegistrationController@store']);
 
 
 /* policyPrivacy */

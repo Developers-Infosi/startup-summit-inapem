@@ -17,12 +17,13 @@
                     <tr class="text-center">
                         <th>#</th>
                         <th>Nome da empresa</th>
-                        <th>Telemóvel/BI</th>
-                        <th>Número de contrinuinte(NIF)
+                        <th>Telemóvel</th>
+                        <th>email
                         </th>
-                        <th>PAÍS</th>
-                        <th>Código postal</th>
-                      
+                        <th>Programa
+                        </th>
+
+
                         <th>ACÇÕES</th>
                     </tr>
                 </thead>
@@ -31,13 +32,10 @@
                     @foreach ($registrations as $item)
                         <tr class="text-center text-dark">
                             <td>{{ $item->id }}</td>
-                            <td>{{ $item->company_name }}</td>
-                            <td>{{ $item->phone }}</td>
-                            <td>{{ $item->nif }} </td>
-                            <td>{{ $item->country }}</td>
-                            <td>{{ $item->postal_code }}</td>
-
-
+                            <td>{{ $item->name }}</td>
+                            <td>{{ $item->tel }}</td>
+                            <td>{{ $item->email }} </td>
+                            <td>{{ $item->programs->activity }}</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-primary btn-sm dropdown-toggle" type="button"
