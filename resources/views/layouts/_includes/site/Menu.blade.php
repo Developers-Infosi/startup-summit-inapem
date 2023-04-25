@@ -103,7 +103,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Acesse o menu programa de actividades; <br>
+                        Acesse o menu programa; <br>
 
                         Dentre muitas disponível, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
 
