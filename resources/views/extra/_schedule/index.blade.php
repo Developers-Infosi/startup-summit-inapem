@@ -1,80 +1,85 @@
-<section id="expositores"
-    class="elementor-section elementor-top-section elementor-element elementor-element-77b8eec1 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-    data-id="77b8eec1" data-element_type="section"
-    data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-default">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1dafdd8c"
-            data-id="1dafdd8c" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-44c92771 elementor-widget elementor-widget-rt-title"
-                    data-id="44c92771" data-element_type="widget" data-widget_type="rt-title.default">
-                    <div class="elementor-widget-container">
-                        <div class="rt-el-title section-heading title-black color-light text-center style1">
-                            <h2 class="rtin-title">Expositores</h2>
-                            <div class="rtin-subtitle">
-                                <p>Acompanhe a nossa lista de expositores
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
-                    data-id="609beca7" data-element_type="widget" data-widget_type="rt-event.default">
-                    <div class="elementor-widget-container">
-                        <div class="schedule-layout-wrp">
-                            <div class="schedule-wrapper-8">
+<div class="elementor-element elementor-element-3601825 elementor-widget elementor-widget-rt-event" data-id="3601825"
+    data-element_type="widget" data-widget_type="rt-event.default">
+    <div class="elementor-widget-container">
+        <div class="schedule-layout-wrp">
+            <div class="schedule-layout2">
+                <ul class="schedule-nav nav nav-tabs row">
+                    <li class="nav-item col-12 col-md-12 col-lg-4">
+                        <a class="active" href="#schedule-20191201" data-toggle="tab" aria-expanded="false">
+                            <div class="day-number">
+                                Dia - 01</div>
+                            <div class="schedule-date">
+                                12-06-2023</div>
+                        </a>
+                    </li>
+                    <li class="nav-item col-12 col-md-12 col-lg-4">
+                        <a class="" href="#schedule-20191202" data-toggle="tab" aria-expanded="false">
+                            <div class="day-number">
+                                Dia - 02</div>
+                            <div class="schedule-date">
+                                13-06-2023</div>
+                        </a>
+                    </li>
+                    <li class="nav-item col-12 col-md-12 col-lg-4">
+                        <a class="" href="#schedule-20191203" data-toggle="tab" aria-expanded="true">
+                            <div class="day-number">
+                                Dia - 03</div>
+                            <div class="schedule-date">
+                                14-06-2023</div>
+                        </a>
+                    </li>
 
-                                <div class="schedule-item-8">
-                                    @foreach ($ehibitor as $item)
-                                        <div class="schedule-contnet-mid">
-                                            <div class="row">
-                                                <div class="col-lg-2 col-md-3 col-sm-12">
-                                                    <div class="schedule-time">
+                </ul>
+                <div class="schedule-content">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade show active" id="schedule-20191201"
+                            aria-expanded="false">
 
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="peaker-new-wrps">
-                                                        <h3 class="schedule-title">
-                                                            {{ $item->title }}
+                            <table class="table table-bordered table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Empresa</th>
+                                        <th>Sector de Actividade</th>
+                                        <th>Produtos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @php
+                                        $i = 1;
+                                    @endphp
+                                    @foreach ($schedulesI as $item)
+                                        <tr>
+                                            <th scope="row">{{ $i++ }}</th>
+                                            <td>
+                                                <b>{{ $item->theme }}: </b>{{ $item->program }}
+                                            </td>
 
-                                                        </h3>
+                                            <td>
+                                                {{ date('H:i', strtotime($item->start)) }} -
+                                                {{ date('H:i', strtotime($item->end)) }}
+                                            </td>
+                                            <td>
+                                                {{ $item->room }}
+                                            </td>
+                                            <td>
+                                                {!! html_entity_decode($item->speaker) !!}
+                                            </td>
 
-
-
-
-
-                                                    </div>
-                                                    <div class="details-txt tex-center">
-                                                        <p>{!! html_entity_decode($item->description) !!}
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                                    <div class="speaker-details-wrp details-info">
-
-                                                        <a class="details-down" href="#">Detalhes</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </tr>
                                     @endforeach
-                                </div>
 
+                                </tbody>
+                            </table>
 
-
-                            </div>
 
                         </div>
 
+
                     </div>
                 </div>
-
-
-
-
             </div>
+
         </div>
     </div>
-</section>
+</div>
