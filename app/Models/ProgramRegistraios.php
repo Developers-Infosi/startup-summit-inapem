@@ -20,8 +20,4 @@ class ProgramRegistraios extends Model
     protected $dates = ['deleted_at'];
 
 
-    public function programs(){
-
-        return $this->belongsTo(ActivityProgram::class, 'fk_activity_program');
-    }
 }
