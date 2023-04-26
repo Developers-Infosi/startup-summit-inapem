@@ -20,9 +20,7 @@
                         <th>Telemóvel</th>
                         <th>email
                         </th>
-                        <th>Programa
-                        </th>
-
+                      
 
                         <th>ACÇÕES</th>
                     </tr>
@@ -35,7 +33,7 @@
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->tel }}</td>
                             <td>{{ $item->email }} </td>
-                            <td>{{ $item->programs->activity }}</td>
+
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-primary btn-sm dropdown-toggle" type="button"

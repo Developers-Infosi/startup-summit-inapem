@@ -4,8 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Classes\Logger;
 use App\Http\Controllers\Controller;
+use App\Models\ProgramRegistraios;
 use App\Models\Registration;
 use Illuminate\Http\Request;
+use Symfony\Component\Console\Helper\ProgressIndicator;
 
 class RegistratonController extends Controller
 {
@@ -21,7 +23,7 @@ class RegistratonController extends Controller
     public function index()
     {
 
-        $response['registrations'] = Registration::with('programs')->orderBy('id', 'desc')->get();
+        $response['registrations'] = Registration::orderBy('id', 'desc')->get();
 
         //Logger
         $this->Logger->log('emergency', 'Listou os Inscritos ');
@@ -37,8 +39,8 @@ class RegistratonController extends Controller
     public function show($id)
     {
 
-        $response['registration'] = Registration::with('programs')->find($id);
-
+     $response['registration'] = Registration::with('programs')->find($id);
+     $response['programRegistraios'] = ProgramRegistraios::where('fk_registrations',$id)->get();
 
         //Logger
         $this->Logger->log(
