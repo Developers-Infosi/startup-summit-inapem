@@ -190,7 +190,7 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="https://oeacp.infosi.gov.ao/site/images/Logo_AZUL.png"
+                                                                            src="http://154.116.254.35/dashboard/img/logoass_black.png"
                                                                             alt="Image" title="Image"
                                                                             width="250" />
 
