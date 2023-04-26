@@ -16,7 +16,7 @@
                     <tr class="text-center">
                         <th>#</th>
                         <th>Actividade ACTIVIDADE</th>
-                        <th>Conferências </th>
+                        <th>Prelector </th>
 
                         <th>DIA</th>
                         <th>ACÇÕES</th>

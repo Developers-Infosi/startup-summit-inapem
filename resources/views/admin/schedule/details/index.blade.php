@@ -22,7 +22,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-md-12 mb-2">
                                         <h5 class="mb-1">
-                                            <b>Conferências</b>
+                                            <b>Prelector</b>
                                         </h5>
                                         <p class="text-dark text-justify">{{ $schedule->conference }} - Dia</p>
 

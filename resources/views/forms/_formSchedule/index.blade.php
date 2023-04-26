@@ -10,9 +10,12 @@
 </div> <!-- /.col -->
 <div class="col-4 col-md-4 col-lg-4">
     <div class="form-group">
-        <label for="conference">Conferência </label>
+        <label for="conference">
+            prelector
+
+             </label>
         <input type="text" name="conference" id="conference"
-            value="{{ isset($schedule->conference) ? $schedule->activity : old('conference') }}" class="form-control border-secondary"
+            value="{{ isset($schedule->conference) ? $schedule->conference : old('conference') }}" class="form-control border-secondary"
             placeholder="Conferência" >
     </div>
 </div> <!-- /.col -->

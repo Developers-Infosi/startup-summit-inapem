@@ -60,7 +60,7 @@
                                                         <th>Selecionar Actividade</th>
                                                         <th>HORA</th>
                                                         <th>ACTIVIDADE</th>
-                                                        <th>CONFERÊNCIA</th>
+                                                        <th> PRELECTOR</th>
                                                         <th>LOCAL</th>
                                                     </tr>
                                                 </thead>
@@ -129,7 +129,7 @@
                                                     <th>Selecionar Actividade</th>
                                                     <th>HORA</th>
                                                     <th>ACTIVIDADE</th>
-                                                    <th>CONFERÊNCIA</th>
+                                                    <th> PRELECTOR</th>
                                                     <th>LOCAL</th>
                                                 </tr>
                                             </thead>
@@ -196,7 +196,7 @@
                                                     <th>Selecionar Actividade</th>
                                                     <th>HORA</th>
                                                     <th>ACTIVIDADE</th>
-                                                    <th>CONFERÊNCIA</th>
+                                                    <th> PRELECTOR</th>
                                                     <th>LOCAL</th>
                                                 </tr>
                                             </thead>
