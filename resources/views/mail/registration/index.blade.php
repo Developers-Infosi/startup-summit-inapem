@@ -436,7 +436,7 @@
                                                                             style="font-size: 14px; line-height: 19.6px;">
 
 
-                                                                            {{ $response['name'] }}
+                                                                            {{ $registration['name'] }}
                                                                         </span></strong>
                                                                 </p>
                                                             </div>
@@ -572,7 +572,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $response['bi'] }}</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $registration['bi'] }}</span>
                                                                 </p>
                                                             </div>
 
@@ -652,7 +652,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $response['tel'] }}</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $registration['tel'] }}</span>
                                                                 </p>
                                                             </div>
 
@@ -732,7 +732,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $response['email'] }}</span>
+                                                                        style="font-size: 14px; line-height: 19.6px;">{{ $registration['email'] }}</span>
                                                                 </p>
                                                             </div>
 
@@ -873,7 +873,7 @@
 
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
-                                                                <h3><b>{{ $response->programs->activity }}</b></h3>
+                                                                <h3><b>{{ $registration->programs->activity }}</b></h3>
 
                                                             </div>
 
@@ -924,7 +924,7 @@
                                                                         style="font-size: 14px; line-height: 19.6px;">Eventos
                                                                         que irá particiapar</span>
                                                                     <br>
-                                                                    {{ $response->programs->activity }}
+                                                                    {{ $registration->programs->activity }}
                                                                 </p>
                                                             </div>
 
