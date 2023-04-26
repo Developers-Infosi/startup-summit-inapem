@@ -14,280 +14,215 @@
                     </div>
                 </div>
             </div>
-            <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
-                data-id="609beca7" data-element_type="widget" data-widget_type="rt-event.default">
+            <div class="elementor-element elementor-element-3601825 elementor-widget elementor-widget-rt-event"
+                data-id="3601825" data-element_type="widget" data-widget_type="rt-event.default">
+
+
+
+
+
                 <div class="elementor-widget-container">
                     <div class="schedule-layout-wrp">
-                        <div class="schedule-wrapper-8">
-                            <div class="schedule-header">
-                                <div class="schedule-date">
-                                    <div class="day-number"><span class="day-number-left">
-                                            27/04/2023:
-                                        </span>
-                                        Dia 01
+                        <div class="schedule-layout2">
+                            <ul class="schedule-nav nav nav-tabs row">
+                                <li class="nav-item col-12 col-md-12 col-lg-4">
+                                    <a class="active" href="#schedule-20191201" data-toggle="tab" aria-expanded="false">
+                                        <div class="day-number">
+                                            Dia - 027</div>
+                                        <div class="schedule-date">
+                                            12-06-2023</div>
+                                    </a>
+                                </li>
+                                <li class="nav-item col-12 col-md-12 col-lg-4">
+                                    <a class="" href="#schedule-20191202" data-toggle="tab" aria-expanded="false">
+                                        <div class="day-number">
+                                            Dia - 02</div>
+                                        <div class="schedule-date">
+                                            13-06-2023</div>
+                                    </a>
+                                </li>
+                                <li class="nav-item col-12 col-md-12 col-lg-4">
+                                    <a class="" href="#schedule-20191203" data-toggle="tab" aria-expanded="true">
+                                        <div class="day-number">
+                                            Dia - 03</div>
+                                        <div class="schedule-date">
+                                            14-06-2023</div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <div class="schedule-content">
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade show active" id="schedule-20191201"
+                                        aria-expanded="false">
+                                        <form action="{{ route('site.registration.store') }}" method="post"
+                                            class="my-6 mt-6">
+                                            <table class="table table-bordered table-responsive">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Selecionar Actividade</th>
+                                                        <th>HORA</th>
+                                                        <th>ACTIVIDADE</th>
+                                                        <th>CONFERÊNCIA</th>
+                                                        <th>LOCAL</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @php
+                                                        $i = 1;
+                                                    @endphp
+                                                    @foreach ($schedulesI as $item)
+                                                        <tr>
+                                                            <th scope="row" class="text-center"><input
+                                                                    class="form-check-input" name="id[]"
+                                                                    value="{{ $item->id }}" type="checkbox"
+                                                                    id="flexCheckDefault"></th>
+                                                            <td>
+                                                                <b> {{ date('H:i', strtotime($item->start)) }}
+                                                                    -{{ date('H:i', strtotime($item->end)) }}
+                                                            </td>
+
+                                                            <td>
+                                                                {{ $item->activity }}
+                                                            </td>
+                                                            <td>
+                                                                {{ $item->conference }}
+                                                            </td>
+                                                            <td>
+                                                                {{ $item->local }}
+                                                            </td>
+
+
+                                                        </tr>
+                                                    @endforeach
+
+                                                </tbody>
+                                            </table>
+
+                                            <br>
+                                            <p>Formulário do dia 01</p>
+                                            @if ($errors->any())
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        @foreach ($errors->all() as $error)
+                                                            <li>{{ $error }}</li>
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                            @endif
+
+                                            @csrf
+                                            @include('forms._formRegistration.index')
+                                            <div class="form-group text-center">
+                                                <button type="submit"
+                                                    class="btn-fill size-xs color-green border-radius-5 gust">
+                                                    Submeter
+                                                    <span class="fe fe-chevron-right fe-16"></span>
+                                                </button>
+
+                                            </div>
+
+                                        </form>
+                                        <br>
+
+
                                     </div>
+
+
                                 </div>
                             </div>
-                            <div class="schedule-item-8">
-                                @foreach ($schedulesI as $item)
-                                    <div class="schedule-contnet-mid">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-3 col-sm-12">
-                                                <div class="schedule-time">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                                    {{ date('H:i', strtotime($item->start)) }}
-                                                    -{{ date('H:i', strtotime($item->end)) }}
-                                                </div>
-                                            </div>
 
-                                            <div class="col-lg-2 col-md-2 col-sm-12 p0">
+                            <div class="schedule-content">
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade show active" id="schedule-20191202"
+                                        aria-expanded="false">
+                                        <form action="{{ route('site.registration.store') }}" method="post"
+                                            class="my-6 mt-6">
+                                            <table class="table table-bordered table-responsive">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Selecionar Actividade</th>
+                                                        <th>HORA</th>
+                                                        <th>ACTIVIDADE</th>
+                                                        <th>CONFERÊNCIA</th>
+                                                        <th>LOCAL</th>
 
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                                <div class="speaker-new-wrp">
-                                                    <h3 class="schedule-title">
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @php
+                                                        $i = 1;
+                                                    @endphp
+                                                    @foreach ($schedulesII as $item)
+                                                        <tr>
+                                                            <th scope="row" class="text-center"><input
+                                                                    class="form-check-input" name="id[]"
+                                                                    value="{{ $item->id }}" type="checkbox"
+                                                                    id="flexCheckDefault"></th>
+                                                            <td>
+                                                                <b> {{ date('H:i', strtotime($item->start)) }}
+                                                                    -{{ date('H:i', strtotime($item->end)) }}
+                                                            </td>
 
-                                                        {{ $item->activity }}
+                                                            <td>
+                                                                {{ $item->activity }}
+                                                            </td>
+                                                            <td>
+                                                                {{ $item->conference }}
+                                                            </td>
+                                                            <td>
+                                                                {{ $item->local }}
+                                                            </td>
 
-                                                    </h3>
-                                                    <ul class="schedule-list-info">
 
+                                                        </tr>
+                                                    @endforeach
 
-                                                        <li>
-                                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                            {{ $item->local }}
-                                                        </li>
+                                                </tbody>
+                                            </table>
 
+                                            <br>
+                                            <p>Formulário do dia 01</p>
+                                            @if ($errors->any())
+                                                <div class="alert alert-danger">
+                                                    <ul>
+                                                        @foreach ($errors->all() as $error)
+                                                            <li>{{ $error }}</li>
+                                                        @endforeach
                                                     </ul>
-
-                                                    <div class="details-txt">
-                                                        <p>{!! html_entity_decode($item->description) !!}
-                                                        </p>
-
-                                                        @if ($errors->any())
-                                                        <div class="alert alert-danger">
-                                                            <ul>
-                                                                @foreach ($errors->all() as $error)
-                                                                    <li>{{ $error }}</li>
-                                                                @endforeach
-                                                            </ul>
-                                                        </div>
-                                                    @endif
-                                                        <form action="{{ route('site.registration.store', $item->id) }}" method="post"
-                                                            class="my-6 mt-6">
-                                                            @csrf
-                                                            @include('forms._formRegistration.index')
-                                                            <div class="form-group text-center">
-                                                                <button type="submit"
-                                                                    class="btn-fill size-xs color-green border-radius-5 gust">
-                                                                    Submeter
-                                                                    <span class="fe fe-chevron-right fe-16"></span>
-                                                                </button>
-
-                                                            </div>
-                                                        </form>
-
-                                                    </div>
-
-
-
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-sm-12">
-                                                <div class="speaker-details-wrp details-info">
+                                            @endif
 
-                                                    <a class="details-down" href="#">Inscrever-se</a>
-                                                </div>
+                                            @csrf
+                                            @include('forms._formRegistration.index')
+                                            <div class="form-group text-center">
+                                                <button type="submit"
+                                                    class="btn-fill size-xs color-green border-radius-5 gust">
+                                                    Submeter
+                                                    <span class="fe fe-chevron-right fe-16"></span>
+                                                </button>
+
                                             </div>
-                                        </div>
+
+                                        </form>
+                                        <br>
+
+
                                     </div>
-                                @endforeach
+
+
+                                </div>
                             </div>
-
-
-
                         </div>
 
                     </div>
-
-                </div>
-            </div>
-            <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
-                data-id="609beca7" data-element_type="widget" data-widget_type="rt-event.default">
-                <div class="elementor-widget-container">
-                    <div class="schedule-layout-wrp">
-                        <div class="schedule-wrapper-8">
-                            <div class="schedule-header">
-                                <div class="schedule-date">
-                                    <div class="day-number"><span class="day-number-left">
-                                            28/04/2023:
-                                        </span>
-                                        Dia 02
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="schedule-item-8">
-                                @foreach ($schedulesII as $item)
-                                    <div class="schedule-contnet-mid">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-3 col-sm-12">
-                                                <div class="schedule-time">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                                    {{ date('H:i', strtotime($item->start)) }}
-                                                    -{{ date('H:i', strtotime($item->end)) }}
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-2 col-md-2 col-sm-12 p0">
-
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                                <div class="speaker-new-wrp">
-                                                    <h3 class="schedule-title">
-                                                        <a href="#">
-                                                            {{ $item->activity }}</a>
-
-                                                    </h3>
-                                                    <ul class="schedule-list-info">
-
-
-                                                        <li>
-                                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                            {{ $item->local }}
-                                                        </li>
-
-                                                    </ul>
-
-                                                    <div class="details-txt">
-                                                        <p>{!! html_entity_decode($item->description) !!}
-                                                        </p>
-                                                        @if ($errors->any())
-                                                        <div class="alert alert-danger">
-                                                            <ul>
-                                                                @foreach ($errors->all() as $error)
-                                                                    <li>{{ $error }}</li>
-                                                                @endforeach
-                                                            </ul>
-                                                        </div>
-                                                    @endif
-                                                        <form action="{{ route('site.registration.store', $item->id) }}" method="post"
-                                                            class="my-6 mt-6">
-                                                            @csrf
-                                                            @include('forms._formRegistration.index')
-                                                            <div class="form-group text-center">
-                                                                <button type="submit"
-                                                                    class="btn-fill size-xs color-green border-radius-5 gust">
-                                                                    Submeter
-                                                                    <span class="fe fe-chevron-right fe-16"></span>
-                                                                </button>
-
-                                                            </div>
-                                                        </form>
-                                                    </div>
-
-
-                                                </div>
-
-
-                                            </div><br>
-                                            <div class="col-lg-2 col-md-2 col-sm-12">
-                                                <div class="speaker-details-wrp details-info">
-
-                                                    <a class="details-down" href="#">Inscrever-se</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
-
-                            </div>
-
-
-
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
 
 
-            <div class="elementor-element elementor-element-609beca7 elementor-widget elementor-widget-rt-event"
-                data-id="609beca7" data-element_type="widget" data-widget_type="rt-event.default">
-                <div class="elementor-widget-container">
-                    <div class="schedule-layout-wrp">
-                        <div class="schedule-wrapper-8">
-                            <div class="schedule-header">
-                                <div class="schedule-date">
-                                    <div class="day-number"><span class="day-number-left">
-                                            29/04/2023:
-                                        </span>
-                                        Dia 03
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="schedule-item-8">
-                                @foreach ($schedulesIII as $item)
-                                    <div class="schedule-contnet-mid">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-3 col-sm-12">
-                                                <div class="schedule-time">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                                    {{ date('H:i', strtotime($item->start)) }}
-                                                    -{{ date('H:i', strtotime($item->start)) }}
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-2 col-md-2 col-sm-12 p0">
-
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                                <div class="speaker-new-wrp">
-                                                    <h3 class="schedule-title">
-                                                        <a href="#">
-                                                            {{ $item->activity }}</a>
-
-                                                    </h3>
-                                                    <ul class="schedule-list-info">
 
 
-                                                        <li>
-                                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                            {{ $item->local }}
-                                                        </li>
-
-                                                    </ul>
-
-                                                    <div class="details-txt">
-
-                                                    </div>
-
-
-
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-sm-12">
-                                                <div class="speaker-details-wrp details-info">
-
-                                                    <a class="details-down" href="#">Inscrever-se</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
-
-
-
-                            </div>
-
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
 
         </div>
     </div>

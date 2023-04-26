@@ -19,8 +19,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('tel');
             $table->string('email');
             $table->string('bi');
-            $table->unsignedBigInteger('fk_activity_program');
-            $table->foreign('fk_activity_program')->references('id')->on('activity_programs')->onDelete('CASCADE')->onUpgrade('CASCADE');
+            
             $table->softDeletes();
             $table->timestamps();
         });

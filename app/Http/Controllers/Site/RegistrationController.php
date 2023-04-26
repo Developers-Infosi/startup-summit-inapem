@@ -7,30 +7,39 @@ use App\Models\Registration;
 use Illuminate\Http\Request;
 use App\Jobs\ExhibitorJob;
 use App\Mail\RegistrationMail;
+use App\Models\ProgramRegistraios;
 use Illuminate\Support\Facades\Mail;
 
 class RegistrationController extends Controller
-{  public function store(Request $request,$id)
+{  public function store(Request $request)
     {
-    $validation = $request->validate([
 
+
+
+    $validation = $request->validate([
         'name' => 'required',
         'email' => 'required',
         'tel' => 'required',
-        'bi' => 'required',
-
-    ]);
+        'bi' => 'required',]);
 
 
     $registration = Registration::create([
-
         'name' => $request->name,
         'email' => $request->email,
         'tel' => $request->tel,
         'bi' => $request->bi,
-        'fk_activity_program'=>$id
 
     ]);
+    for ($a = 0; $a < count($request->id); $a++) {
+    ProgramRegistraios::create([
+        'fk_registrations' => $registration->id,
+        'fk_activity_program' => $request->id[$a],
+    ]);
+
+
+}
+
+
     //Logger
 
      //data to be included in the email
