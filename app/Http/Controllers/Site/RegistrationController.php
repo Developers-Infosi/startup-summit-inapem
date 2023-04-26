@@ -37,7 +37,7 @@ class RegistrationController extends Controller
             ]);
         }
 
-        $registration = Registration::find($data->id);
+       return $registration = Registration::find($data->id);
         RegistrationJob::dispatch($registration)->delay(now()->addSeconds('2'));
 
         return redirect()->back()->with('create', '1');

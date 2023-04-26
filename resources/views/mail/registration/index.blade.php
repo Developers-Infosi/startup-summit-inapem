@@ -758,7 +758,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">Programa
+                                                                        style="font-size: 14px; line-height: 19.6px;">  {{ $registration['eventday'] }}
                                                                     </span>
                                                                 </p>
                                                             </div>
@@ -774,43 +774,7 @@
                                         <!--<![endif]-->
                                     </div>
                                 </div>
-                                <!--[if (mso)|(IE)]></td><![endif]-->
-                                <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px 30px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                                <div class="u-col u-col-50"
-                                    style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
-                                    <div style="width: 100% !important;">
-                                        <!--[if (!mso)&(!IE)]><!-->
-                                        <div
-                                            style="padding: 0px 30px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
-                                            <!--<![endif]-->
 
-                                            <table style="font-family:'Open Sans',sans-serif;" role="presentation"
-                                                cellpadding="0" cellspacing="0" width="100%" border="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Open Sans',sans-serif;"
-                                                            align="left">
-
-                                                            <div class="v-text-align"
-                                                                style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
-                                                                <h3><b>
-                                                                    {{ $registration['eventday'] }}
-                                                                </b></h3>
-
-                                                            </div>
-
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-
-                                            <!--[if (!mso)&(!IE)]><!-->
-                                        </div>
-                                        <!--<![endif]-->
-                                    </div>
-                                </div>
-                                <!--[if (mso)|(IE)]></td><![endif]-->
-                                <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
                             </div>
                         </div>
                     </div>
