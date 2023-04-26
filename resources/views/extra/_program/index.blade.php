@@ -27,7 +27,7 @@
                                         <div class="day-number">
                                             Dia - 01</div>
                                         <div class="schedule-date">
-                                            12-06-2023</div>
+                                            24-04-2023</div>
                                     </a>
                                 </li>
                                 <li class="nav-item col-12 col-md-12 col-lg-4">
@@ -35,7 +35,7 @@
                                         <div class="day-number">
                                             Dia - 02</div>
                                         <div class="schedule-date">
-                                            13-06-2023</div>
+                                            28-04-2023</div>
                                     </a>
                                 </li>
                                 <li class="nav-item col-12 col-md-12 col-lg-4">
@@ -43,7 +43,7 @@
                                         <div class="day-number">
                                             Dia - 03</div>
                                         <div class="schedule-date">
-                                            14-06-2023</div>
+                                            29-04-2023</div>
                                     </a>
                                 </li>
 
