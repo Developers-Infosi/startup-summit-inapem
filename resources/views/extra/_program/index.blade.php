@@ -27,7 +27,7 @@
                                         <div class="day-number">
                                             Dia - 01</div>
                                         <div class="schedule-date">
-                                            24-04-2023</div>
+                                            27-04-2023</div>
                                     </a>
                                 </li>
                                 <li class="nav-item col-12 col-md-12 col-lg-4">
