@@ -51,12 +51,14 @@ class EhibitorController extends Controller
     {
         $validation = $request->validate([
             'title' => 'required|min:5|max:255',
-            'description' => 'required|min:5',
+            'product' => 'required|min:3|max:255',
+            'description' => 'required|min:5'
 
         ]);
 
         $ehibitor = Ehibitor::create([
             'title' => $request->title,
+            'product' => $request->product,
             'description' => $request->description,
 
         ]);
@@ -107,11 +109,13 @@ class EhibitorController extends Controller
     {
         $validation = $request->validate([
             'title' => 'required|min:5|max:255',
+            'product' => 'required|min:3|max:255',
             'description' => 'required|min:5',
 
         ]);
         Ehibitor::find($id)->update([
             'title' => $request->title,
+            'product' => $request->product,
             'description' => $request->description,
         ]);
         //Logger
