@@ -810,7 +810,7 @@
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
                                                                         style="font-size: 14px; line-height: 19.6px;">
                                                                         <b> Eventos
-                                                                            que irá particiapar</b>
+                                                                            que irá  participar</b>
                                                                             <br><br>
                                                                     </span>
 
