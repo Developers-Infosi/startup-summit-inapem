@@ -163,13 +163,26 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    Acesse o menu programa; <br>
+                <div class="modal-body ">
 
-                    Dentre muitas  disponíveis, escolha a(s) que desperta(m) o(s) seu(s) interesse(s);<br>
+                    <div class="container">
+                        <p>PASSO À PASSO para inscrever-se nas actividades:</p>
 
-                    Preencha o formulário e submeta.
+
+                        <ul>
+                            <li>Acesse o menu programa;</li>
+                            <li>Escolha o dia do evento;</li>
+                            <li>Escolha uma ou multiplas actividade no dia selecionado;</li>
+                            <li>Preencha o formulário e submeta.</li>
+                        </ul>
+
+                        <p>
+                            <b> Observação: </b> A cada dia terá que selecionar as actividades que deseja participar e submeter o formulário.
+                        </p>
+                    </div>
+
                 </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
 
