@@ -14,8 +14,9 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Empresa</th>
-                                        <th>Sector de Actividade</th>
                                         <th>Produtos</th>
+                                        <th>Sector de Actividade</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -29,14 +30,15 @@
                                                 <b>{{ $item->title }}
                                             </td>
 
+                                            <td>
+                                                {{$item->product}}
+                                            </td>
 
                                             <td>
                                                 {!! html_entity_decode($item->description) !!}
                                             </td>
 
-                                            <td>
-                                                {{$item->product}}
-                                            </td>
+
 
                                         </tr>
                                     @endforeach
