@@ -14,8 +14,9 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Empresa</th>
-                                        <th>Produtos</th>
                                         <th>Sector de Actividade</th>
+                                        <th>Produtos</th>
+
 
                                     </tr>
                                 </thead>
