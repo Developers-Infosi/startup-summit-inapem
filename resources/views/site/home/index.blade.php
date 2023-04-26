@@ -162,10 +162,13 @@
 </section>
 
 
-                                        <section id="feedback" style="justify-content: center"
+                                        <section id="feedback" style=""
                                         class="elementor-section elementor-top-section elementor-element elementor-element-ff1856f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="ff1856f" data-element_type="section">
-                                        <div class="col-12 col-md-6 col-lg-7 mb-5" >
+
+
+
+                                        <div class="col-12 col-md-6 col-lg-7 mb-5 mx-auto" >
                                             <h3 class="py-3 title-bold color-dark title-bar">Deixe a sua opinião sobre o evento</h3>
                                             @if ($errors->any())
                                                 <div class="alert alert-danger">
