@@ -873,7 +873,9 @@
 
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
-                                                                <h3><b>{{ $registration->programs->activity }}</b></h3>
+                                                                <h3><b>
+                                                                    -------------- ERRO 500 ----------
+                                                                </b></h3>
 
                                                             </div>
 
@@ -924,7 +926,7 @@
                                                                         style="font-size: 14px; line-height: 19.6px;">Eventos
                                                                         que irá particiapar</span>
                                                                     <br>
-                                                                    {{ $registration->programs->activity }}
+                                                                    --------- erro 500 ----------
                                                                 </p>
                                                             </div>
 

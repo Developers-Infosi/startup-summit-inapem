@@ -23,7 +23,7 @@ class RegistrationController extends Controller
         ]);
 
 
-        $registration = Registration::create([
+        $data = Registration::create([
             'name' => $request->name,
             'email' => $request->email,
             'tel' => $request->tel,
@@ -32,12 +32,12 @@ class RegistrationController extends Controller
         ]);
         for ($a = 0; $a < count($request->eventSelect); $a++) {
             ProgramRegistraios::create([
-                'fk_registrations' => $registration->id,
+                'fk_registrations' => $data->id,
                 'fk_activity_program' => $request->eventSelect[$a],
             ]);
         }
 
-        $registration = Registration::with('programs')->find($registration->id);
+        $registration = Registration::find($data->id);
         RegistrationJob::dispatch($registration)->delay(now()->addSeconds('2'));
 
         return redirect()->back()->with('create', '1');
