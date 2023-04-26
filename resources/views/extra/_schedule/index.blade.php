@@ -50,6 +50,10 @@
 
                         </div>
 
+                        <div class="justify-content-center d-flex mt-0">
+                            <b>  {{ $news->links() }}</b>
+                          </div>
+
 
                     </div>
                 </div>
