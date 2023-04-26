@@ -20,7 +20,8 @@ class SiteController extends Controller
         $response['schedulesII'] = ActivityProgram::where('day', 'II')->get();
         $response['schedulesIII'] = ActivityProgram::where('day', 'III')->get();
 
-        $response['ehibitor'] = Ehibitor::orderBy('id', 'desc')->paginate(10);
+        $response['ehibitor']= Ehibitor::get();
+
         return view('site.home.index', $response);
     }
 }

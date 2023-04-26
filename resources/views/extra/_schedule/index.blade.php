@@ -9,7 +9,9 @@
                         <div role="tabpanel" class="tab-pane fade show active" id="schedule-20191201"
                             aria-expanded="false">
 
-                            <table class="table table-bordered table-responsive">
+
+                        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                            <table class="table table-fixed table-bordered table-responsive">
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -46,13 +48,14 @@
 
                                 </tbody>
                             </table>
+                        </div>
+
+
 
 
                         </div>
 
-                        <div class="justify-content-center d-flex mt-0">
-                            <b>  {{ $news->links() }}</b>
-                          </div>
+
 
 
                     </div>
