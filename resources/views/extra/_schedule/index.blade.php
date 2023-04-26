@@ -1,3 +1,6 @@
+
+
+
 <div class="elementor-element elementor-element-3601825 elementor-widget elementor-widget-rt-event" data-id="3601825"
     data-element_type="widget" data-widget_type="rt-event.default">
     <div class="elementor-widget-container">
@@ -10,7 +13,7 @@
                             aria-expanded="false">
 
 
-                        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                        <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive">
                             <table class="table table-fixed table-bordered table-responsive">
                                 <thead>
                                     <tr>

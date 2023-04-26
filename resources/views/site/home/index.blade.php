@@ -118,7 +118,13 @@
                                                                     class="rt-el-title section-heading title-black color-light text-center style1">
                                                                     <h2 class="rtin-title">Mapa do Evento</h2>
                                                                     <p>Nota: A exposição de stands passou para a quadra desportiva</p>
-                                                                    <embed src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf" type="application/pdf" width="600" height="500">
+
+                                                                    <div class="row">
+                                                                    <div class="col-lg-12  col-sm-4 col-md-6 col-12">
+                                                                        <embed src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf" type="application/pdf" width="600" height="500">
+
+                                                                    </div>
+                                                                </div>
 
                                                                 </div>
                                                             </div>
