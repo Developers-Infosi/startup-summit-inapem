@@ -16,6 +16,7 @@ class CreateEhibitorsTable extends Migration
         Schema::create('ehibitors', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('product');
             $table->longText('description');
             $table->softDeletes();
             $table->timestamps();

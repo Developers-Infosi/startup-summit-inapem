@@ -22,7 +22,17 @@
 
                                     <div class="col-md-12 mb-2">
                                         <h5 class="mb-1">
-                                            <b>Descrição:</b>
+                                            <b>Produto:</b>
+                                        </h5>
+                                        <p class="text-dark text-justify">
+                                            {{$ehibitor->product}}
+                                        </p>
+
+                                    </div>
+
+                                    <div class="col-md-12 mb-2">
+                                        <h5 class="mb-1">
+                                            <b>Sector de Actividade:</b>
                                         </h5>
                                         <p class="text-dark text-justify">{!! html_entity_decode($ehibitor->description) !!}</p>
 

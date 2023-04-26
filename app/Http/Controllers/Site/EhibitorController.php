@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
+use App\Models\Ehibitor;
 use Illuminate\Http\Request;
 
 class EhibitorController extends Controller
@@ -14,7 +15,8 @@ class EhibitorController extends Controller
      */
     public function index()
     {
-        //
+        $response['ehibitor'] = Ehibitor::get();;
+        return view('site.schedule.index', $response);
     }
 
 
