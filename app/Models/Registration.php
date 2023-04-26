@@ -19,7 +19,11 @@ class Registration extends Model
      */
     protected $dates = ['deleted_at'];
 
+
+
+
     public function programs(){
-        return $this->belongsTo(ActivityProgram::class, 'fk_activity_program');
+
+        return $this->hasMany(ProgramRegistraios::class, 'fk_registrations');
     }
 }

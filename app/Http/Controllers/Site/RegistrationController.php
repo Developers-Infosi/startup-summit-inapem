@@ -20,7 +20,8 @@ class RegistrationController extends Controller
         'name' => 'required',
         'email' => 'required',
         'tel' => 'required',
-        'bi' => 'required',]);
+        'bi' => 'required',
+        'eventSelect' => 'required',]);
 
 
     $registration = Registration::create([
@@ -30,10 +31,10 @@ class RegistrationController extends Controller
         'bi' => $request->bi,
 
     ]);
-    for ($a = 0; $a < count($request->id); $a++) {
+    for ($a = 0; $a < count($request->eventSelect); $a++) {
     ProgramRegistraios::create([
         'fk_registrations' => $registration->id,
-        'fk_activity_program' => $request->id[$a],
+        'fk_activity_program' => $request->eventSelect[$a],
     ]);
 
 

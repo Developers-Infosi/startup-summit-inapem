@@ -18,9 +18,6 @@
                 data-id="3601825" data-element_type="widget" data-widget_type="rt-event.default">
 
 
-
-
-
                 <div class="elementor-widget-container">
                     <div class="schedule-layout-wrp">
                         <div class="schedule-layout2">
@@ -28,7 +25,7 @@
                                 <li class="nav-item col-12 col-md-12 col-lg-4">
                                     <a class="active" href="#schedule-20191201" data-toggle="tab" aria-expanded="false">
                                         <div class="day-number">
-                                            Dia - 027</div>
+                                            Dia - 01</div>
                                         <div class="schedule-date">
                                             12-06-2023</div>
                                     </a>
@@ -65,7 +62,6 @@
                                                         <th>ACTIVIDADE</th>
                                                         <th>CONFERÊNCIA</th>
                                                         <th>LOCAL</th>
-
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -73,33 +69,29 @@
                                                         $i = 1;
                                                     @endphp
                                                     @foreach ($schedulesI as $item)
-                                                        <tr>
-                                                            <th scope="row" class="text-center"><input
-                                                                    class="form-check-input" name="id[]"
-                                                                    value="{{ $item->id }}" type="checkbox"
-                                                                    id="flexCheckDefault"></th>
-                                                            <td>
-                                                                <b> {{ date('H:i', strtotime($item->start)) }}
-                                                                    -{{ date('H:i', strtotime($item->end)) }}
-                                                            </td>
+                                                    <tr>
+                                                        <th scope="row" class="text-center"><input
+                                                                class="form-check-input" name="eventSelect[]"
+                                                                value="{{ $item->id }}" type="checkbox"
+                                                                id="flexCheckDefault"></th>
+                                                        <td>
+                                                            <b> {{ date('H:i', strtotime($item->start)) }}
+                                                                -{{ date('H:i', strtotime($item->end)) }}
+                                                        </td>
 
-                                                            <td>
-                                                                {{ $item->activity }}
-                                                            </td>
-                                                            <td>
-                                                                {{ $item->conference }}
-                                                            </td>
-                                                            <td>
-                                                                {{ $item->local }}
-                                                            </td>
-
-
-                                                        </tr>
+                                                        <td>
+                                                            {{ $item->activity }}
+                                                        </td>
+                                                        <td>
+                                                            {{ $item->conference }}
+                                                        </td>
+                                                        <td>
+                                                            {{ $item->local }}
+                                                        </td>
                                                     @endforeach
 
                                                 </tbody>
                                             </table>
-
                                             <br>
                                             <p>Formulário do dia 01</p>
                                             @if ($errors->any())
@@ -124,93 +116,143 @@
                                             </div>
 
                                         </form>
-                                        <br>
-
 
                                     </div>
-
-
-                                </div>
-                            </div>
-
-                            <div class="schedule-content">
-                                <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane fade show active" id="schedule-20191202"
+                                    <div role="tabpanel" class="tab-pane fade" id="schedule-20191202"
                                         aria-expanded="false">
                                         <form action="{{ route('site.registration.store') }}" method="post"
-                                            class="my-6 mt-6">
-                                            <table class="table table-bordered table-responsive">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Selecionar Actividade</th>
-                                                        <th>HORA</th>
-                                                        <th>ACTIVIDADE</th>
-                                                        <th>CONFERÊNCIA</th>
-                                                        <th>LOCAL</th>
+                                        class="my-6 mt-6">
+                                        <table class="table table-bordered table-responsive">
 
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    @php
-                                                        $i = 1;
-                                                    @endphp
-                                                    @foreach ($schedulesII as $item)
-                                                        <tr>
-                                                            <th scope="row" class="text-center"><input
-                                                                    class="form-check-input" name="id[]"
-                                                                    value="{{ $item->id }}" type="checkbox"
-                                                                    id="flexCheckDefault"></th>
-                                                            <td>
-                                                                <b> {{ date('H:i', strtotime($item->start)) }}
-                                                                    -{{ date('H:i', strtotime($item->end)) }}
-                                                            </td>
+                                            <thead>
+                                                <tr>
+                                                    <th>Selecionar Actividade</th>
+                                                    <th>HORA</th>
+                                                    <th>ACTIVIDADE</th>
+                                                    <th>CONFERÊNCIA</th>
+                                                    <th>LOCAL</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @php
+                                                    $i = 1;
+                                                @endphp
+                                                @foreach ($schedulesII as $item)
+                                                <tr>
+                                                    <th scope="row" class="text-center"><input
+                                                            class="form-check-input" name="eventSelect[]"
+                                                            value="{{ $item->id }}" type="checkbox"
+                                                            id="flexCheckDefault"></th>
+                                                    <td>
+                                                        <b> {{ date('H:i', strtotime($item->start)) }}
+                                                            -{{ date('H:i', strtotime($item->end)) }}
+                                                    </td>
 
-                                                            <td>
-                                                                {{ $item->activity }}
-                                                            </td>
-                                                            <td>
-                                                                {{ $item->conference }}
-                                                            </td>
-                                                            <td>
-                                                                {{ $item->local }}
-                                                            </td>
-
-
-                                                        </tr>
-                                                    @endforeach
-
-                                                </tbody>
-                                            </table>
-
-                                            <br>
-                                            <p>Formulário do dia 01</p>
-                                            @if ($errors->any())
-                                                <div class="alert alert-danger">
-                                                    <ul>
-                                                        @foreach ($errors->all() as $error)
-                                                            <li>{{ $error }}</li>
-                                                        @endforeach
-                                                    </ul>
-                                                </div>
-                                            @endif
-
-                                            @csrf
-                                            @include('forms._formRegistration.index')
-                                            <div class="form-group text-center">
-                                                <button type="submit"
-                                                    class="btn-fill size-xs color-green border-radius-5 gust">
-                                                    Submeter
-                                                    <span class="fe fe-chevron-right fe-16"></span>
-                                                </button>
-
-                                            </div>
-
-                                        </form>
+                                                    <td>
+                                                        {{ $item->activity }}
+                                                    </td>
+                                                    <td>
+                                                        {{ $item->conference }}
+                                                    </td>
+                                                    <td>
+                                                        {{ $item->local }}
+                                                    </td>
+                                                @endforeach
+                                            </tbody>
+                                        </table>
                                         <br>
+                                        <p>Formulário do dia 02</p>
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        @endif
 
+                                        @csrf
+                                        @include('forms._formRegistration.index')
+                                        <div class="form-group text-center">
+                                            <button type="submit"
+                                                class="btn-fill size-xs color-green border-radius-5 gust">
+                                                Submeter
+                                                <span class="fe fe-chevron-right fe-16"></span>
+                                            </button>
 
+                                        </div>
+
+                                    </form>
                                     </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="schedule-20191203"
+                                        aria-expanded="true">
+                                        <form action="{{ route('site.registration.store') }}" method="post"
+                                        class="my-6 mt-6">
+                                        <table class="table table-bordered table-responsive">
 
+                                            <thead>
+                                                <tr>
+                                                    <th>Selecionar Actividade</th>
+                                                    <th>HORA</th>
+                                                    <th>ACTIVIDADE</th>
+                                                    <th>CONFERÊNCIA</th>
+                                                    <th>LOCAL</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @php
+                                                    $i = 1;
+                                                @endphp
+                                                @foreach ($schedulesIII as $item)
+                                                <tr>
+                                                    <th scope="row" class="text-center"><input
+                                                            class="form-check-input" name="eventSelect[]"
+                                                            value="{{ $item->id }}" type="checkbox"
+                                                            id="flexCheckDefault"></th>
+                                                    <td>
+                                                        <b> {{ date('H:i', strtotime($item->start)) }}
+                                                            -{{ date('H:i', strtotime($item->end)) }}
+                                                    </td>
+
+                                                    <td>
+                                                        {{ $item->activity }}
+                                                    </td>
+                                                    <td>
+                                                        {{ $item->conference }}
+                                                    </td>
+                                                    <td>
+                                                        {{ $item->local }}
+                                                    </td>
+                                                @endforeach
+
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <p>Formulário do dia 03</p>
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        @endif
+
+                                        @csrf
+                                        @include('forms._formRegistration.index')
+                                        <div class="form-group text-center">
+                                            <button type="submit"
+                                                class="btn-fill size-xs color-green border-radius-5 gust">
+                                                Submeter
+                                                <span class="fe fe-chevron-right fe-16"></span>
+                                            </button>
+
+                                        </div>
+
+                                    </form>
+                                    </div>
 
                                 </div>
                             </div>
@@ -218,6 +260,9 @@
 
                     </div>
                 </div>
+
+
+
             </div>
 
 
