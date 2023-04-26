@@ -54,6 +54,8 @@
                                         aria-expanded="false">
                                         <form action="{{ route('site.registration.store') }}" method="post"
                                             class="my-6 mt-6">
+
+                                            <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive">
                                             <table class="table table-bordered table-responsive">
                                                 <thead>
                                                     <tr>
@@ -92,6 +94,7 @@
 
                                                 </tbody>
                                             </table>
+                                            </div>
                                             <br>
                                             <p>Formulário do dia 01</p>
                                             @if ($errors->any())
@@ -122,6 +125,8 @@
                                         aria-expanded="false">
                                         <form action="{{ route('site.registration.store') }}" method="post"
                                         class="my-6 mt-6">
+
+                                        <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive">
                                         <table class="table table-bordered table-responsive">
 
                                             <thead>
@@ -160,6 +165,7 @@
                                                 @endforeach
                                             </tbody>
                                         </table>
+                                        </div>
                                         <br>
                                         <p>Formulário do dia 02</p>
                                         @if ($errors->any())
@@ -189,6 +195,7 @@
                                         aria-expanded="true">
                                         <form action="{{ route('site.registration.store') }}" method="post"
                                         class="my-6 mt-6">
+                                        <div class="table-wrapper-scroll-y my-custom-scrollbar table-responsive">
                                         <table class="table table-bordered table-responsive">
 
                                             <thead>
@@ -228,6 +235,7 @@
 
                                             </tbody>
                                         </table>
+                                        </div>
                                         <br>
                                         <p>Formulário do dia 03</p>
                                         @if ($errors->any())
