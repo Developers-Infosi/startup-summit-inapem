@@ -809,14 +809,15 @@
                                                                 style="color: #615e5e; line-height: 140%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
                                                                         style="font-size: 14px; line-height: 19.6px;">
-<b>  Eventos
-    que irá particiapa</b>
-                                                                      r</span>
-                                                                    <br>
+                                                                        <b> Eventos
+                                                                            que irá particiapar</b>
+                                                                            <br><br>
+                                                                    </span>
+
                                                                     @foreach ($registration['programs'] as $item)
                                                                         {{ $item->activity }}-
                                                                         {{ date('H:i', strtotime($item->start)) }}
-                                                                        -{{ date('H:i', strtotime($item->end)) }} <br> <br>
+                                                                        -{{ date('H:i', strtotime($item->end)) }} <br>
                                                                     @endforeach
                                                                 </p>
                                                             </div>
