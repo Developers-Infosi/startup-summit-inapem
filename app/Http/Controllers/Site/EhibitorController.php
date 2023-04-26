@@ -15,7 +15,7 @@ class EhibitorController extends Controller
      */
     public function index()
     {
-        $response['ehibitor'] = Ehibitor::get();;
+
         return view('site.schedule.index', $response);
     }
 

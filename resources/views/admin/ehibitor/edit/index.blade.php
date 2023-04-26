@@ -5,8 +5,8 @@
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                <a href="{{ route('admin.ehibitor.index') }}"><u>Listar Perguntas Frequentes</u></a> > Editar Pergunta
-                Frequente >
+                <a href="{{ route('admin.ehibitor.index') }}"><u>Listar Expositores</u></a> > Editar Expositor
+                 >
                 {{ $ehibitor->title }}
             </h2>
         </div>
