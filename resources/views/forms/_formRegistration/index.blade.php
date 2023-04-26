@@ -1,13 +1,7 @@
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-6">
-            <div class="form-group">
-                <label for="payment">BI</label>
-                <input type="text" name="bi" id="bi" value="{{ isset($registration->bi) ? $registration->bi : old('bi') }}"
-                    class="form-control border-secondary" placeholder="BI" required>
-            </div>
-        </div>
-    <div class="col-12 col-md-6">
+
+    <div class="col-4 col-md-4">
         <div class="form-group">
             <label for="name">Nome</label>
             <input type="text" name="name" id="name" value="{{ isset($registration->name) ? $registration->name : old('name') }}"
@@ -17,7 +11,7 @@
 
 
 
-    <div class="col-12 col-md-6">
+    <div class="col-4 col-md-4">
         <div class="form-group">
             <label for="payment">Email</label>
             <input type="text" name="email" id="site" value="{{ isset($registration->email) ? $registration->email : old('email') }}"
@@ -28,7 +22,7 @@
 
 
 
-    <div class="col-12 col-md-6">
+    <div class="col-4 col-md-4">
         <div class="form-group">
             <label for="payment">Telefone</label>
             <input type="text" name="tel" id="tel" value="{{ isset($registration->tel) ? $registration->tel : old('tel') }}"

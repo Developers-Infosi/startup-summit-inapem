@@ -18,8 +18,8 @@ class RegistrationController extends Controller
             'name' => 'required',
             'email' => 'required',
             'tel' => 'required',
-            'bi' => 'required',
             'eventSelect' => 'required',
+            'eventday' => 'required',
         ]);
 
 
@@ -27,7 +27,7 @@ class RegistrationController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'tel' => $request->tel,
-            'bi' => $request->bi,
+            'eventday' => $request->eventday,
 
         ]);
         for ($a = 0; $a < count($request->eventSelect); $a++) {
@@ -37,7 +37,7 @@ class RegistrationController extends Controller
             ]);
         }
 
-       return $registration = Registration::find($data->id);
+        $registration = Registration::find($data->id);
         RegistrationJob::dispatch($registration)->delay(now()->addSeconds('2'));
 
         return redirect()->back()->with('create', '1');

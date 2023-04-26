@@ -18,8 +18,8 @@ class CreateRegistrationsTable extends Migration
             $table->string('name');
             $table->string('tel');
             $table->string('email');
-            $table->string('bi');
-            
+            $table->string('eventday');
+
             $table->softDeletes();
             $table->timestamps();
         });

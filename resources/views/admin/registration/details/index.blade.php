@@ -30,11 +30,11 @@
                                     <div class="row">
                                         <div class="col-12 col-md-6 col-lg-6">
                                             <h5 class="mb-2">
-                                                <b>BI</b>
+                                                <b>Programa</b>
                                             </h5>
                                             <p class="text-dark">
 
-                                                {{ $registration->bi }}
+                                                {{ $registration->eventday }}
                                             </p>
                                         </div>
 
@@ -58,7 +58,7 @@
                                     </p>
                                 </div>
                                 <div class="row align-items-center">
-                                    
+
                                     <div class="col-md-12 mb-12">
                                         <h3 class="text-center">Actividades inscritas</h3>
 
@@ -68,47 +68,45 @@
                         </div>
                     </div>
 
-                                @foreach ($programRegistraios as $item )
-
-                                <div class="col-4 col-md-4 col-lg-4 mb-2">
-                                    <h5 class="mb-1">
-                                        <b>Actividade</b>
-                                    </h5>
-                                    <p class="text-dark">
-                                        {{ $item->programs->activity }}
-                                    </p>
-                                </div>
-                                <div class="col-4 col-md-4 col-lg-4 mb-2">
-                                    <h5 class="mb-1">
-                                        <b>Hora</b>
-                                    </h5>
-                                    <p class="text-dark">
-
-
-                                        {{ date('H:i', strtotime($item->start)) }}
-                                        -{{ date('H:i', strtotime($item->end)) }}
-                                    </p>
-                                </div>
-
-                                @endforeach
-
-                            </div>
+                    @foreach ($programRegistraios as $item)
+                        <div class="col-4 col-md-4 col-lg-4 mb-2">
+                            <h5 class="mb-1">
+                                <b>Actividade</b>
+                            </h5>
+                            <p class="text-dark">
+                                {{ $item->programs->activity }}
+                            </p>
                         </div>
+                        <div class="col-4 col-md-4 col-lg-4 mb-2">
+                            <h5 class="mb-1">
+                                <b>Hora</b>
+                            </h5>
+                            <p class="text-dark">
 
-                            <div class="row align-items-center">
-                                <div class="col-md-7 mb-2">
-                                    <hr>
-                                    <p class="mb-1 text-dark"><b>Data de Cadastro</b> {{ $registration->created_at }}
-                                    </p>
-                                    <p class="mb-1 text-dark"><b>Última Actualização</b> {{ $registration->updated_at }}
-                                    </p>
 
-                                </div>
-                            </div>
+                                {{ date('H:i', strtotime($item->start)) }}
+                                -{{ date('H:i', strtotime($item->end)) }}
+                            </p>
                         </div>
-                    </div> <!-- /.col-12 -->
-                </div> <!-- .row -->
-            </div> <!-- .container-fluid -->
+                    @endforeach
+
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-md-7 mb-2">
+                    <hr>
+                    <p class="mb-1 text-dark"><b>Data de Cadastro</b> {{ $registration->created_at }}
+                    </p>
+                    <p class="mb-1 text-dark"><b>Última Actualização</b> {{ $registration->updated_at }}
+                    </p>
+
+                </div>
+            </div>
         </div>
+    </div> <!-- /.col-12 -->
+    </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+    </div>
     </div>
 @endsection

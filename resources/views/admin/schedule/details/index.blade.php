@@ -24,24 +24,25 @@
                                         <h5 class="mb-1">
                                             <b>Prelector</b>
                                         </h5>
-                                        <p class="text-dark text-justify">{{ $schedule->conference }} - Dia</p>
+                                        <p class="text-dark text-justify">{{ $schedule->conference }} </p>
 
                                     </div>
                                     <div class="col-md-12 mb-2">
                                         <h5 class="mb-1">
-                                            <b>Data de Início</b>
+                                            <b>Local</b>
                                         </h5>
                                         <p class="text-dark text-justify">
-                                            {{ date('H:i | d/m/Y', strtotime($schedule->description)) }}
+                                            {{ $schedule->local }}
                                         </p>
 
                                     </div>
                                     <div class="col-md-12 mb-2">
                                         <h5 class="mb-1">
-                                            <b>Data de Termino</b>
+                                            <b>Hora</b>
                                         </h5>
                                         <p class="text-dark text-justify">
-                                            {{ date('H:i | d/m/Y', strtotime($schedule->end)) }}
+                                            {{ date('H:i', strtotime($schedule->start)) }}
+                                            -{{ date('H:i', strtotime($schedule->end)) }}
                                         </p>
 
                                     </div>

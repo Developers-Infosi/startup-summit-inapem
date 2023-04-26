@@ -108,6 +108,7 @@
                                             @endif
 
                                             @csrf
+                                            <input type="text" name="eventday" hidden id="" value="Programa do dia 01">
                                             @include('forms._formRegistration.index')
                                             <div class="form-group text-center">
                                                 <button type="submit"
@@ -179,6 +180,7 @@
                                         @endif
 
                                         @csrf
+                                        <input type="text" name="eventday" hidden id="" value="Programa do dia 02">
                                         @include('forms._formRegistration.index')
                                         <div class="form-group text-center">
                                             <button type="submit"
@@ -249,6 +251,7 @@
                                         @endif
 
                                         @csrf
+                                        <input type="text" name="eventday" hidden id="" value="Programa do dia 03">
                                         @include('forms._formRegistration.index')
                                         <div class="form-group text-center">
                                             <button type="submit"

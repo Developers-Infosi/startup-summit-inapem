@@ -117,14 +117,18 @@
                                                                 <div
                                                                     class="rt-el-title section-heading title-black color-light text-center style1">
                                                                     <h2 class="rtin-title">Mapa do Evento</h2>
-                                                                    <p>Nota: A exposição de stands passou para a quadra desportiva</p>
+                                                                    <p>Nota: A exposição de stands passou para a quadra
+                                                                        desportiva</p>
 
                                                                     <div class="row">
-                                                                    <div class="col-lg-12  col-sm-4 col-md-6 col-12">
-                                                                        <embed src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf" type="application/pdf" width="600" height="500">
+                                                                        <div class="col-lg-12  col-sm-4 col-md-6 col-12">
+                                                                            <embed
+                                                                                src="site/pdf/Draft_Evento-_Angola_Startup_Summit_2023.pdf"
+                                                                                type="application/pdf" width="600"
+                                                                                height="500">
 
+                                                                        </div>
                                                                     </div>
-                                                                </div>
 
                                                                 </div>
                                                             </div>
@@ -136,92 +140,99 @@
                                         </section>
 
                                         <section id="expositores"
-    class="elementor-section elementor-top-section elementor-element elementor-element-77b8eec1 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-    data-id="77b8eec1" data-element_type="section"
-    data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-    <div class="elementor-container elementor-column-gap-default">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1dafdd8c"
-            data-id="1dafdd8c" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-44c92771 elementor-widget elementor-widget-rt-title"
-                    data-id="44c92771" data-element_type="widget" data-widget_type="rt-title.default">
-                    <div class="elementor-widget-container">
-                        <div class="rt-el-title section-heading title-black color-light text-center style1">
-                            <h2 class="rtin-title">Expositores</h2>
-                            <div class="rtin-subtitle">
-                                <p>Acompanhe a nossa lista de expositores
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                                            class="elementor-section elementor-top-section elementor-element elementor-element-77b8eec1 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                            data-id="77b8eec1" data-element_type="section"
+                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1dafdd8c"
+                                                    data-id="1dafdd8c" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-44c92771 elementor-widget elementor-widget-rt-title"
+                                                            data-id="44c92771" data-element_type="widget"
+                                                            data-widget_type="rt-title.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div
+                                                                    class="rt-el-title section-heading title-black color-light text-center style1">
+                                                                    <h2 class="rtin-title">Expositores</h2>
+                                                                    <div class="rtin-subtitle">
+                                                                        <p>Acompanhe a nossa lista de expositores
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
 
-                    @include('extra._schedule.index')
-                </div>
-
-
-
-
-
-            </div>
-        </div>
-    </div>
-</section>
-
-
-                                        <section id="feedback" style=""
-                                        class="elementor-section elementor-top-section elementor-element elementor-element-ff1856f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="ff1856f" data-element_type="section">
+                                                            @include('extra._schedule.index')
+                                                        </div>
 
 
 
-                                        <div class="col-12 col-md-6 col-lg-7 mb-5 mx-auto" >
-                                            <h3 class="py-3 title-bold color-dark title-bar">Deixe a sua opinião sobre o evento</h3>
-                                            @if ($errors->any())
-                                                <div class="alert alert-danger">
-                                                    <ul>
-                                                        @foreach ($errors->all() as $error)
-                                                            <li>{{ $error }}</li>
-                                                        @endforeach
-                                                    </ul>
-                                                </div>
-                                            @endif
-                                            <form class="row mx-n2"  action="{{ route('site.feedback.store') }}" method="post">
-                                                @csrf
-                                                <div class="col-md-6 px-2 mb-3">
-                                                    <input required class="form-control" type="text" name="name" placeholder="Nome"
-                                                        aria-label="Nome">
-                                                </div>
 
-                                                <div class="col-md-6 px-2 mb-3">
-                                                    <input required  class="form-control" type="email" name="email" placeholder="E-mail"
-                                                        aria-label="Email address">
-                                                </div>
-                                                <div class="col-md-12 px-2 mb-3">
-                                                    <input required  class="form-control" type="text" name="subject" placeholder="Assunto"
-                                                        aria-label="Assunto">
-                                                </div>
-
-                                                <div class="col-12 px-2 mb-3">
-                                                    <textarea required class="form-control" rows=7 placeholder="Mensagem" aria-label="Mensagem" name="msg"></textarea>
-                                                </div>
-
-                                                <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
-                                                    <div class="col-md-12">
 
                                                     </div>
                                                 </div>
+                                            </div>
+                                        </section>
 
-                                                <div class="row mx-auto">
 
-                                                    <button type="submit" class="btn-fill size-lg border-radius-5 color-primary gust">
-                                                        Submeter
-                                                    </button>
+                                        <section id="feedback" style=""
+                                            class="elementor-section elementor-top-section elementor-element elementor-element-ff1856f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                            data-id="ff1856f" data-element_type="section">
 
-                                                </div>
-                                            </form>
-                                        </div>
 
-                                    </section>
+
+                                            <div class="col-12 col-md-6 col-lg-7 mb-5 mx-auto">
+                                                <h3 class="py-3 title-bold color-dark title-bar">Deixe a sua opinião sobre
+                                                    o evento</h3>
+                                                @if ($errors->any())
+                                                    <div class="alert alert-danger">
+                                                        <ul>
+                                                            @foreach ($errors->all() as $error)
+                                                                <li>{{ $error }}</li>
+                                                            @endforeach
+                                                        </ul>
+                                                    </div>
+                                                @endif
+                                                <form class="row mx-n2" action="{{ route('site.feedback.store') }}"
+                                                    method="post">
+                                                    @csrf
+                                                    <div class="col-md-6 px-2 mb-3">
+                                                        <input required class="form-control" type="text"
+                                                            name="name" placeholder="Nome" aria-label="Nome">
+                                                    </div>
+
+                                                    <div class="col-md-6 px-2 mb-3">
+                                                        <input required class="form-control" type="email"
+                                                            name="email" placeholder="E-mail"
+                                                            aria-label="Email address">
+                                                    </div>
+                                                    <div class="col-md-12 px-2 mb-3">
+                                                        <input required class="form-control" type="text"
+                                                            name="subject" placeholder="Assunto" aria-label="Assunto">
+                                                    </div>
+
+                                                    <div class="col-12 px-2 mb-3">
+                                                        <textarea required class="form-control" rows=7 placeholder="Mensagem" aria-label="Mensagem" name="msg"></textarea>
+                                                    </div>
+
+                                                    <div
+                                                        class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+                                                        <div class="col-md-12">
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row mx-auto">
+
+                                                        <button type="submit"
+                                                            class="btn-fill size-lg border-radius-5 color-primary gust">
+                                                            Submeter
+                                                        </button>
+
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </section>
 
 
                                     </div>
@@ -245,9 +256,9 @@
             background-color: #fff;
             background-image: none;
             background-clip: padding-box;
-            border: 1px solid rgba(0,0,0,.15);
+            border: 1px solid rgba(0, 0, 0, .15);
             border-radius: 0.25rem;
-            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-            }
-        </style>
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+    </style>
 @endsection
