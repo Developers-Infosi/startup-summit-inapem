@@ -794,7 +794,7 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <h3><b>
-                                                                    -------------- Aqui vai as actividades ----------
+                                                                    {{ $registration['eventday'] }}
                                                                 </b></h3>
 
                                                             </div>
