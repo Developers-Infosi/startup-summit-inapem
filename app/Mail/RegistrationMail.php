@@ -30,6 +30,6 @@ class RegistrationMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Correspondência do startupsummit')->view('mail.registration.index');
+        return $this->subject('Correspondência do Startup Summit 2023')->view('mail.registration.index');
     }
 }
