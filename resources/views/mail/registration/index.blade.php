@@ -817,7 +817,7 @@
                                                                     @foreach ($registration['programs'] as $item)
                                                                         {{ $item->activity }}-
                                                                         {{ date('H:i', strtotime($item->start)) }}
-                                                                        -{{ date('H:i', strtotime($item->end)) }} <br>
+                                                                        -{{ date('H:i', strtotime($item->end)) }} <br> <br>
                                                                     @endforeach
                                                                 </p>
                                                             </div>
