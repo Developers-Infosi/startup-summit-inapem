@@ -46,9 +46,10 @@ class ScheduleController extends Controller
     public function store(Request $request)
     {
 
+
         $request->validate([
-            'activity' => 'required|string',
-            'conference' => 'required|string',
+            'activity' => 'required|string|min:5|max:255',
+            'conference' => 'required|string|min:5|max:255',
 
             'start' => 'required|date',
             'end' => 'required|date',
