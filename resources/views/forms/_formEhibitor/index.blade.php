@@ -19,7 +19,7 @@
 <div class="col-md-12 mb-4">
     <div class="card shadow">
         <div class="card-body">
-            <h5 class="card-title">Descrição</h5>
+            <h5 class="card-title">Sector de Actividade</h5>
             <!-- Create the editor container -->
             <textarea name="description" id="editor1" style="min-height:300px; min-width:100%" >
                 {{ isset($ehibitor->description) ? $ehibitor->description : old('description')}}
