@@ -32,11 +32,11 @@
                                             </td>
 
                                             <td>
-                                                {{$item->product}}
+                                                {!! html_entity_decode($item->description) !!}
                                             </td>
 
                                             <td>
-                                                {!! html_entity_decode($item->description) !!}
+                                                {{$item->product}}
                                             </td>
 
 
