@@ -18,8 +18,9 @@ class CreateProgramRegistraiosTable extends Migration
             $table->unsignedBigInteger('fk_registrations');
             $table->foreign('fk_registrations')->references('id')->on('registrations')->onDelete('CASCADE')->onUpgrade('CASCADE');
 
-            $table->unsignedBigInteger('fk_activity_program');
-            $table->foreign('fk_activity_program')->references('id')->on('activity_programs')->onDelete('CASCADE')->onUpgrade('CASCADE');
+           $table->string('activity');
+           $table->dateTime('start');
+           $table->dateTime('end');
             $table->softDeletes();
             $table->timestamps();
         });

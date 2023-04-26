@@ -758,7 +758,8 @@
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: left; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
-                                                                        style="font-size: 14px; line-height: 19.6px;">  {{ $registration['eventday'] }}
+                                                                        style="font-size: 14px; line-height: 19.6px;">
+                                                                        {{ $registration['eventday'] }}
                                                                     </span>
                                                                 </p>
                                                             </div>
@@ -810,7 +811,11 @@
                                                                         style="font-size: 14px; line-height: 19.6px;">Eventos
                                                                         que irá particiapar</span>
                                                                     <br>
-                                                                    --------- Aqui vai as actividades----------
+                                                                    @foreach ($registration['programs'] as $item)
+                                                                        {{ $item->activity }}-
+                                                                        {{ date('H:i', strtotime($item->start)) }}
+                                                                        -{{ date('H:i', strtotime($item->end)) }}
+                                                                    @endforeach
                                                                 </p>
                                                             </div>
 

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Registration;
 use Illuminate\Http\Request;
 use App\Jobs\RegistrationJob;
+use App\Models\ActivityProgram;
 use App\Models\ProgramRegistraios;
 
 
@@ -30,16 +31,24 @@ class RegistrationController extends Controller
             'eventday' => $request->eventday,
 
         ]);
+
+
         for ($a = 0; $a < count($request->eventSelect); $a++) {
+
+           $response= ActivityProgram::find($request->eventSelect[$a]);
             ProgramRegistraios::create([
                 'fk_registrations' => $data->id,
-                'fk_activity_program' => $request->eventSelect[$a],
+                'activity' => $response['activity'],
+                'start' => $response['start'],
+                'end' => $response['end'],
+
             ]);
+
+
         }
 
-       return $registration = Registration::find($data->id);
+     $registration = Registration::with('programs')->find($data->id);
         RegistrationJob::dispatch($registration)->delay(now()->addSeconds('2'));
-
         return redirect()->back()->with('create', '1');
     }
 }
