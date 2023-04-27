@@ -716,7 +716,7 @@
                                 </div>
                                 <!--[if (mso)|(IE)]></td><![endif]-->
                                 <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px 30px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                                <div class="u-col u-col-50"
+                                <div class="u-col u-col-100"
                                     style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
                                     <div style="width: 100% !important;">
                                         <!--[if (!mso)&(!IE)]><!-->
@@ -802,7 +802,7 @@
                                 </div>
                                 <!--[if (mso)|(IE)]></td><![endif]-->
                                 <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px 30px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                                <div class="u-col u-col-50"
+                                <div class="u-col u-col-100"
                                     style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
                                     <div style="width: 100% !important;">
                                         <!--[if (!mso)&(!IE)]><!-->
