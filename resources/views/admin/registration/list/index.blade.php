@@ -16,13 +16,14 @@
                 <thead class="bg-primary">
                     <tr class="text-center">
                         <th>#</th>
-                        <th>Nome da empresa</th>
+                        <th>Nome</th>
                         <th>Telemóvel</th>
                         <th>email
                         </th>
-                      
+                        {{--
+                            <th>ACÇÕES</th>
+                            --}}
 
-                        <th>ACÇÕES</th>
                     </tr>
                 </thead>
                 <tbody class="bg-white">
@@ -33,7 +34,7 @@
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->tel }}</td>
                             <td>{{ $item->email }} </td>
-
+                            {{--
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-primary btn-sm dropdown-toggle" type="button"
@@ -56,6 +57,7 @@
                                     </div>
                                 </div>
                             </td>
+                        --}}
                         </tr>
                     @endforeach
 
