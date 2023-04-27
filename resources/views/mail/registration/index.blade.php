@@ -719,7 +719,7 @@
                                 <div class="u-col u-col-100"
                                     style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
                                     <div style="width: 100% !important;">
-                                        <!--[if (!mso)&(!IE)]><!-->
+
                                         <div
                                             style="padding: 0px 30px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
                                             <!--<![endif]-->
@@ -730,7 +730,6 @@
                                                     <tr>
                                                         <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Open Sans',sans-serif;"
                                                             align="left">
-
                                                             <div class="v-text-align"
                                                                 style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
