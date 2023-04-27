@@ -1,3 +1,4 @@
+<link rel="icon" type="image/png" sizes="50x50" href="/site/images/icons/favicons/faviconStartupNovo.png">
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
