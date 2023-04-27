@@ -701,7 +701,7 @@
                                                             align="left">
 
                                                             <div class="v-text-align"
-                                                                style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
+                                                                style="color: #615e5e; line-height: 140%; text-align: justify; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
                                                                         style="font-size: 14px; line-height: 19.6px;">{{ $registration['eventday'] }} </span>
                                                                 </p>
@@ -755,7 +755,7 @@
                                                             align="left">
 
                                                             <div class="v-text-align"
-                                                                style="color: #615e5e; line-height: 140%; text-align: right; word-wrap: break-word;">
+                                                                style="color: #615e5e; line-height: 140%; text-align: justify; word-wrap: break-word; te">
                                                                 <p style="font-size: 14px; line-height: 140%;"><span
                                                                         style="font-size: 14px; line-height: 19.6px;">
 
